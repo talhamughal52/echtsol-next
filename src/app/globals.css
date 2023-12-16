@@ -62,6 +62,11 @@ body {
   }
 }
 
+.bUKBFB:hover {
+  border-right: 1.5px solid rgb(0, 0, 0);
+  border-bottom: 7px solid rgb(0, 0, 0);
+}
+
 .bshMkq {
   display: flex;
   -webkit-box-align: center;
@@ -370,6 +375,12 @@ a {
   align-items: center;
   max-width: 300px;
   border-right: 1px solid rgb(143, 142, 147);
+}
+
+.ePuuSX:hover {
+  transition: all 0.3s ease 0s;
+  border-right: 1.5px solid rgb(0, 0, 0) !important;
+  border-bottom: 7px solid rgb(0, 0, 0) !important;
 }
 
 .bshMkq {
