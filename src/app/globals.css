@@ -6,7 +6,7 @@ body {
   overflow: unset;
   font-size: 0.7em;
   background-color: #f1efed;
-  cursor: url(/cursor.svg), auto;
+  cursor: url('/cursor.svg'), auto;
   overflow-y: scroll;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -568,6 +568,12 @@ a {
   cursor: pointer;
   transition: all 300ms ease 0s;
   width: 109px;
+}
+
+.fwshpW:hover {
+  transition: all 0.3s linear 0s;
+  border-right: 1.5px solid rgb(0, 0, 0) !important;
+  border-bottom: 7px solid rgb(0, 0, 0) !important;
 }
 
 .hplPmR {

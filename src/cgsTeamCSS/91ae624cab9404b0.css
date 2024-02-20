@@ -1,0 +1,134 @@
+/* @font-face {
+  font-family: Gilroy;
+  src: url(/GilroyFont/Gilroy-Light.woff2) format("truetype");
+  font-weight: 300;
+  font-style: sans-serif;
+  font-display: swap;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(/GilroyFont/Gilroy-Regular.woff2) format("truetype");
+  font-weight: 400;
+  font-style: sans-serif;
+  font-display: swap;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(/GilroyFont/Gilroy-Medium.woff2) format("truetype");
+  font-weight: 500;
+  font-style: sans-serif;
+  font-display: swap;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(/GilroyFont/Gilroy-Semibold.woff2) format("truetype");
+  font-weight: 600;
+  font-style: sans-serif;
+  font-display: swap;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(/GilroyFont/Gilroy-Bold.woff2) format("truetype");
+  font-weight: 700;
+  font-style: sans-serif;
+  font-display: swap;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(/GilroyFont/Gilroy-ExtraBold.woff2) format("truetype");
+  font-weight: 800;
+  font-style: sans-serif;
+  font-display: swap;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(/GilroyFont/Gilroy-Heavy.woff2) format("truetype");
+  font-weight: 900;
+  font-style: sans-serif;
+  font-display: swap;
+} */
+@font-face {
+  font-family: NAMU;
+  src: url("../NAMUFont/NAMU-PRO.woff2") format("woff2");
+  font-weight: 900;
+  font-style: sans-serif;
+  font-display: block;
+}
+body,
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Gilroy, NAMU, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+body {
+  font-size: 0.7em;
+  background-color: #f1efed;
+  cursor: url('/cursor.svg'), auto;
+  overflow-y: scroll;
+}
+@media (max-width: 767px) {
+  body {
+    font-size: 0.65em;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  body {
+    font-size: 0.75em;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    font-size: 0.85em;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 0.75em;
+  }
+}
+@media (min-width: 1500px) {
+  body {
+    font-size: 0.85em;
+  }
+}
+@media (min-width: 1800px) {
+  body {
+    font-size: 1em;
+  }
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+.disableScrollBar {
+  overflow: hidden;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover {
+  -webkit-transition: background-color 9999s ease-in-out 0s;
+  transition: background-color 9999s ease-in-out 0s;
+}
+.transition-button-enter {
+  opacity: 0;
+  transform: translateX(125px);
+}
+.transition-button-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.2s linear;
+}
+.transition-button-exit {
+  opacity: 1;
+}
+.transition-button-exit-active {
+  opacity: 0;
+  transition: all 0.2s ease-in;
+}

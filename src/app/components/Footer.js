@@ -12,15 +12,15 @@ function Footer() {
                 <Image
                   className="footerImage"
                   srcSet="
-                    https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg 640w,
-                    https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg 750w,
-                    https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg 828w,
-                    https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg 1080w,
-                    https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg 1200w,
-                    https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg 1920w,
-                    https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg 2048w,
-                    https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg 3840w"
-                  src="https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg"
+                    /logo230623.cdc60988.svg 640w,
+                    /logo230623.cdc60988.svg 750w,
+                    /logo230623.cdc60988.svg 828w,
+                    /logo230623.cdc60988.svg 1080w,
+                    /logo230623.cdc60988.svg 1200w,
+                    /logo230623.cdc60988.svg 1920w,
+                    /logo230623.cdc60988.svg 2048w,
+                    /logo230623.cdc60988.svg 3840w"
+                  src="/logo230623.cdc60988.svg"
                   alt="logo"
                   width={150}
                   height={40}
@@ -97,6 +97,92 @@ function Footer() {
             </span>
           </div>
         </a>
+
+
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="sc-4443778d-6 fwshpW"
+        >
+          <div className="sc-4443778d-9 hplPmR">
+            <span className="footerNavIconsSpan">
+              <Image
+                className="footerNavIcons"
+                srcSet="
+                  https://d2qrnmx3qcgrup.cloudfront.net/43ae8c1d-26c8-4025-ad60-40b843583e6f.svg  640w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/43ae8c1d-26c8-4025-ad60-40b843583e6f.svg  750w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/43ae8c1d-26c8-4025-ad60-40b843583e6f.svg  828w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/43ae8c1d-26c8-4025-ad60-40b843583e6f.svg 1080w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/43ae8c1d-26c8-4025-ad60-40b843583e6f.svg 1200w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/43ae8c1d-26c8-4025-ad60-40b843583e6f.svg 1920w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/43ae8c1d-26c8-4025-ad60-40b843583e6f.svg 2048w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/43ae8c1d-26c8-4025-ad60-40b843583e6f.svg 3840w"
+                src="https://d2qrnmx3qcgrup.cloudfront.net/43ae8c1d-26c8-4025-ad60-40b843583e6f.svg"
+                alt="footer icons img"
+                width={45}
+                height={32}
+              />
+            </span>
+          </div>
+        </a>
+
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="sc-4443778d-6 fwshpW"
+        >
+          <div className="sc-4443778d-9 hplPmR">
+            <span className="footerNavIconsSpan">
+              <Image
+                className="footerNavIcons"
+                srcSet="
+                  https://d2qrnmx3qcgrup.cloudfront.net/a650a68f-9512-449c-8aef-44eedd2fd2f5.svg  640w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/a650a68f-9512-449c-8aef-44eedd2fd2f5.svg  750w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/a650a68f-9512-449c-8aef-44eedd2fd2f5.svg  828w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/a650a68f-9512-449c-8aef-44eedd2fd2f5.svg 1080w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/a650a68f-9512-449c-8aef-44eedd2fd2f5.svg 1200w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/a650a68f-9512-449c-8aef-44eedd2fd2f5.svg 1920w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/a650a68f-9512-449c-8aef-44eedd2fd2f5.svg 2048w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/a650a68f-9512-449c-8aef-44eedd2fd2f5.svg 3840w"
+                src="https://d2qrnmx3qcgrup.cloudfront.net/a650a68f-9512-449c-8aef-44eedd2fd2f5.svg"
+                alt="footer icons img"
+                width={45}
+                height={32}
+              />
+            </span>
+          </div>
+        </a>
+
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="sc-4443778d-6 fwshpW"
+        >
+          <div className="sc-4443778d-9 hplPmR">
+            <span className="footerNavIconsSpan">
+              <Image
+                className="footerNavIcons"
+                srcSet="
+                  https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg  640w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg  750w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg  828w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg 1080w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg 1200w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg 1920w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg 2048w,
+                  https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg 3840w"
+                src="https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg"
+                alt="footer icons img"
+                width={45}
+                height={32}
+              />
+            </span>
+          </div>
+        </a>
+
         <a
           href="#"
           target="_blank"

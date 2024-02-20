@@ -29,15 +29,15 @@ function Navbar() {
                   <Image
                     className="navBarImage"
                     srcSet="
-                    https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg 640w,
-                    https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg 750w,
-                    https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg 828w,
-                    https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg 1080w,
-                    https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg 1200w,
-                    https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg 1920w,
-                    https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg 2048w,
-                    https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg 3840w"
-                    src="https://cgsteam.io/_next/static/media/logo230623.cdc60988.svg"
+                    /logo230623.cdc60988.svg 640w,
+                    /logo230623.cdc60988.svg 750w,
+                    /logo230623.cdc60988.svg 828w,
+                    /logo230623.cdc60988.svg 1080w,
+                    /logo230623.cdc60988.svg 1200w,
+                    /logo230623.cdc60988.svg 1920w,
+                    /logo230623.cdc60988.svg 2048w,
+                    /logo230623.cdc60988.svg 3840w"
+                    src="/logo230623.cdc60988.svg"
                     alt="my logo image"
                     width={150}
                     height={40}
@@ -75,7 +75,10 @@ function Navbar() {
                 </a>
               </div>
               <div>
-                <a href="/services/web-development" className="sc-a03cc77c-3 WZsEs">
+                <a
+                  href="/services/web-development"
+                  className="sc-a03cc77c-3 WZsEs"
+                >
                   Web // Desktop Development
                 </a>
               </div>
@@ -88,7 +91,10 @@ function Navbar() {
                 </a>
               </div>
               <div>
-                <a href="/services/cloud-solutions" className="sc-a03cc77c-3 WZsEs">
+                <a
+                  href="/services/cloud-solutions"
+                  className="sc-a03cc77c-3 WZsEs"
+                >
                   Cloud Solutions
                 </a>
               </div>
@@ -111,7 +117,10 @@ function Navbar() {
                 </a>
               </div>
               <div>
-                <a href="/services/ux-ui-design" className="sc-a03cc77c-3 WZsEs">
+                <a
+                  href="/services/ux-ui-design"
+                  className="sc-a03cc77c-3 WZsEs"
+                >
                   UX/UI Design
                 </a>
               </div>
@@ -121,7 +130,10 @@ function Navbar() {
                 </a>
               </div>
               <div>
-                <a href="/services/mobile-audit" className="sc-a03cc77c-3 WZsEs">
+                <a
+                  href="/services/mobile-audit"
+                  className="sc-a03cc77c-3 WZsEs"
+                >
                   Mobile App Audit
                 </a>
               </div>
