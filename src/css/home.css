@@ -1300,3 +1300,247 @@
   margin-bottom: 20px;
   z-index: 10;
 }
+.jxZfBM {
+  font-family: NAMU, sans-serif;
+  font-weight: 900;
+  line-height: 140%;
+  font-size: 3.35em;
+  margin: 0px;
+  text-transform: uppercase;
+}
+.dwymEG {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 50px;
+}
+.UHcUb {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.jRAEdy {
+  text-transform: uppercase;
+  font-size: 5.68em;
+  display: flex;
+  align-items: flex-end;
+}
+.eZzmSi {
+  font-family: NAMU, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 150px;
+  margin: 0px 25px 0px 0px;
+  color: rgb(241, 239, 237);
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+  filter: drop-shadow(rgb(0, 0, 0) 7px 2px 0px);
+}
+.eZzmSi.scrolled {
+  background: linear-gradient(
+      90deg,
+      rgb(137, 163, 209) 20%,
+      rgb(199, 236, 192) 100%
+    )
+    text;
+  filter: drop-shadow(rgb(0, 0, 0) 7px 2px 0px);
+  -webkit-text-fill-color: transparent;
+}
+.hmUFtc {
+  line-height: 110%;
+}
+.bnntbY {
+  line-height: 160%;
+  margin-top: 10px;
+  font-weight: 900;
+  max-width: 595px;
+  font-size: 1.83em;
+  display: inline-block;
+}
+.UHcUb:nth-child(2) {
+  margin-top: -4em;
+}
+.UHcUb:nth-child(2n) {
+  top: -1em;
+  justify-self: flex-end;
+}
+.UHcUb img {
+  position: absolute;
+}
+.UHcUb:nth-child(2) img {
+  top: -80%;
+  right: 60%;
+}
+.UHcUb:nth-child(3) {
+  margin-top: -4em;
+}
+.UHcUb:nth-child(3) img {
+  top: -55%;
+  left: 30%;
+}
+.UHcUb:nth-child(2n) {
+  top: -1em;
+  justify-self: flex-end;
+}
+.UHcUb:nth-child(4) img {
+  top: -105%;
+  right: 40%;
+}
+.UHcUb:nth-child(4) div {
+  margin-top: 10px;
+}
+
+.jPyO {
+  position: relative;
+}
+
+.iNeZeX {
+  text-transform: uppercase;
+  font-size: 5.14vw;
+  letter-spacing: 0.05em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin: 32px 0px 20px;
+}
+
+.iNeZeX.foooter {
+  margin-top: 120px;
+  margin-bottom: 14px;
+}
+.iNeZeX.foooter p {
+  margin: 0px;
+}
+.iNeZeX span.tech {
+  display: inline-block;
+  width: 29.305vw;
+  height: 5.5vw;
+}
+.iNeZeX span.blue {
+  color: rgb(88, 105, 221);
+  height: 5vw;
+  white-space: nowrap;
+}
+.iHkrYW {
+  margin-bottom: 162px;
+}
+.ciDEfd {
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  margin-right: 28px;
+}
+.ciDEfd.btn {
+  margin-top: 2.5rem;
+  margin-left: 0px;
+}
+
+.ceyPTl {
+  font-family: inherit;
+  font-size: 1.5em;
+  padding: 1.11em 1.5em;
+  cursor: pointer;
+  position: relative;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  line-height: 99%;
+  display: inline-block;
+  border: 2px solid rgb(0, 0, 0);
+  transition: all 0.3s ease 0s;
+  width: fit-content;
+  white-space: nowrap;
+}
+
+.ceyPTl.homePage {
+  font-size: 1.835em;
+  padding: 16px 15.4px;
+  font-weight: 400;
+}
+
+.eyTgtD {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: -12px;
+  top: -12px;
+  background-color: rgb(242, 234, 134);
+  border: 1.7px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  overflow: hidden;
+}
+.eyTgtD svg {
+  width: 25px;
+  height: 25px;
+}
+
+.fyjhWJ {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: fit-content;
+  font-family: NAMU, sans-serif;
+  z-index: 10;
+  gap: clamp(14px, 2px + 0.833333vw, 18px);
+}
+
+.fyjhWJ.homePage {
+  gap: clamp(2px, -34px + 2.5vw, 22px);
+  margin-left: 28px;
+}
+
+.krVNqH.homePage,
+.krVNqH.webAudit,
+.krVNqH.mobileDev {
+  font-size: 1.5em;
+}
+.krVNqH {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  column-gap: 0.444em;
+  color: rgb(0, 0, 0);
+  font-size: 1.125em;
+}
+.iWBCGZ {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  width: 22px;
+  height: 22px;
+  transition: filter 0.3s ease 0s;
+  filter: brightness(0);
+}
+.byqtnE.homePage,
+.byqtnE.webAudit,
+.byqtnE.mobileDev {
+  font-size: 1.5em;
+}
+.byqtnE {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  column-gap: 0.444em;
+  color: rgb(0, 0, 0);
+  font-size: 1.125em;
+  transition: color 0.3s ease 0s;
+  margin-left: 0.778em;
+}
+.zRNUR {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  transition: filter 0.3s ease 0s;
+  filter: brightness(0);
+  position: relative;
+  width: 22px;
+  height: 22px;
+}

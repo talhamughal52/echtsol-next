@@ -7435,6 +7435,293 @@ export default function Home() {
               </div>
             </section>
           </div>
+          <h2 className="sc-1465c476-1 jxZfBM">Our Process</h2>
+          <section className="sc-1465c476-2 dwymEG">
+            <article className="sc-1465c476-3 UHcUb">
+              <div className="sc-1465c476-4 jRAEdy">
+                <p className="sc-1465c476-0 eZzmSi scrolled">1</p>
+                <div className="sc-1465c476-5 hmUFtc">
+                  <section>
+                    <span>DISCOVERY</span>
+                  </section>
+                </div>
+              </div>
+              <div className="sc-1465c476-6 bnntbY">
+                <section>
+                  <span>
+                    Our team will create the estimation for your project. Then
+                    the Business Analysts will deeply analyze your requirements
+                    to uncover the best-fitting strategy. <br />
+                  </span>
+                  <span>
+                    CGS-team is your go-to partner, so we'll go into every
+                    market detail to crush-test your idea.
+                  </span>
+                </section>
+              </div>
+            </article>
+            <article className="sc-1465c476-3 UHcUb">
+              <img
+                src="/secondCardImg.4107118b.svg"
+                alt="card img"
+                loading="lazy"
+                className="sc-1465c476-7 gnuron"
+              />
+              <div className="sc-1465c476-4 jRAEdy">
+                <p className="sc-1465c476-0 eZzmSi scrolled">2</p>
+                <div className="sc-1465c476-5 hmUFtc">
+                  <section>
+                    <span>PREPARATION</span>
+                  </section>
+                </div>
+              </div>
+              <div className="sc-1465c476-6 bnntbY">
+                <section>
+                  <span>
+                    Our legal profs will handle the paperwork, while we’ll be
+                    creating a custom team from selected developers. As we
+                    approve the business logic and user flow, our designers will
+                    cover your idea in visuals.
+                  </span>
+                </section>
+              </div>
+            </article>
+            <article className="sc-1465c476-3 UHcUb">
+              <img
+                src="/thirdCardImg.e2950d60.svg"
+                alt="card img"
+                loading="lazy"
+                className="sc-1465c476-7 gnuron"
+              />
+              <div className="sc-1465c476-4 jRAEdy">
+                <p className="sc-1465c476-0 eZzmSi scrolled">3</p>
+                <div className="sc-1465c476-5 hmUFtc">
+                  <section>
+                    <span>DEVELOPMENT</span>
+                  </section>
+                </div>
+              </div>
+              <div className="sc-1465c476-6 bnntbY third">
+                <section>
+                  <span>
+                    Our team is all about customization. The next step is
+                    fitting our development and project management skills to
+                    your specific needs. After everything is developed, tested,
+                    and reviewed by our Tech Heads, we celebrate the successful
+                    launch.
+                  </span>
+                </section>
+              </div>
+            </article>
+            <article className="sc-1465c476-3 UHcUb">
+              <img
+                src="/fourthCardImg.e4cc96d1.svg"
+                alt="card img"
+                loading="lazy"
+                className="sc-1465c476-7 gnuron"
+              />
+              <div className="sc-1465c476-4 jRAEdy last">
+                <p className="sc-1465c476-0 eZzmSi scrolled">4</p>
+                <div className="sc-1465c476-5 hmUFtc">
+                  <section>
+                    <span>SUPPORT</span>
+                  </section>
+                </div>
+              </div>
+              <div className="sc-1465c476-6 bnntbY">
+                <section>
+                  <span>
+                    CGS-team's not just another development company but a
+                    partner for the long haul. Get you back covered with 6
+                    months of free support and maintenance.
+                  </span>
+                </section>
+              </div>
+            </article>
+          </section>
+          <section className="sc-3d333781-22 jPyO">
+            <div className="sc-3d333781-9 iNeZeX foooter">
+              <p>
+                DO YOU WANT TO TURN YOUR IDEAS INTO
+                <span className="blue tech">
+                  <span>TECH SOLUTIONS?</span>
+                </span>
+                <br />
+              </p>
+            </div>
+            <div className="sc-3d333781-13 iHkrYW">
+              <span className="sc-3d333781-12 ciDEfd btn">
+                <a
+                  rel="noopener noreferrer"
+                  className="sc-3d333781-1 ceyPTl homePage homeFooter"
+                  href="/"
+                >
+                  BOOK A CALL
+                  <div className="sc-3d333781-14 eyTgtD">
+                    <svg
+                      viewBox="5 5 25 25"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-label="an arrow"
+                      style={{ pointerEvents: "none" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
+                        fill="black"
+                      ></path>
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
+                        fill="black"
+                      ></path>
+                      <title>an arrow</title>
+                    </svg>
+                  </div>
+                </a>
+                <div className="sc-3d333781-16 fyjhWJ homePage">
+                  <a
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="sc-3d333781-17 CgEtZ"
+                  >
+                    <div className="sc-3d333781-18 krVNqH homePage">
+                      <div className="sc-3d333781-21 iWBCGZ">
+                        <span
+                          style={{
+                            boxSizing: "border-box",
+                            display: "block",
+                            overflow: "hidden",
+                            width: "initial",
+                            height: "initial",
+                            background: "none",
+                            opacity: 1,
+                            border: 0,
+                            margin: 0,
+                            padding: 0,
+                            position: "absolute",
+                            top: 0,
+                            left: 0,
+                            bottom: 0,
+                            right: 0,
+                          }}
+                        >
+                          <img
+                            alt="Icon"
+                            src="/whatsUp.2b815c02.svg"
+                            decoding="async"
+                            data-nimg="fill"
+                            style={{
+                              position: "absolute",
+                              top: 0,
+                              left: 0,
+                              bottom: 0,
+                              right: 0,
+                              boxSizing: "border-box",
+                              padding: 0,
+                              border: "none",
+                              margin: "auto",
+                              display: "block",
+                              width: 0,
+                              height: 0,
+                              minWidth: "100%",
+                              maxWidth: "100%",
+                              minHeight: "100%",
+                              maxHeight: "100%",
+                              objectFit: "contain",
+                            }}
+                            sizes="100vw"
+                            srcSet="
+                        /whatsUp.2b815c02.svg  640w,
+                        /whatsUp.2b815c02.svg  750w,
+                        /whatsUp.2b815c02.svg  828w,
+                        /whatsUp.2b815c02.svg 1080w,
+                        /whatsUp.2b815c02.svg 1200w,
+                        /whatsUp.2b815c02.svg 1920w,
+                        /whatsUp.2b815c02.svg 2048w,
+                        /whatsUp.2b815c02.svg 3840w
+                      "
+                          />
+                        </span>
+                      </div>
+                      WhatsApp
+                    </div>
+                  </a>
+                  <a
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="sc-3d333781-17 CgEtZ"
+                  >
+                    <div className="sc-3d333781-19 byqtnE homePage">
+                      <div className="sc-3d333781-20 zRNUR homePage">
+                        <span
+                          style={{
+                            boxSizing: "border-box",
+                            display: "block",
+                            overflow: "hidden",
+                            width: "initial",
+                            height: "initial",
+                            background: "none",
+                            opacity: 1,
+                            border: 0,
+                            margin: 0,
+                            padding: 0,
+                            position: "absolute",
+                            top: 0,
+                            left: 0,
+                            bottom: 0,
+                            right: 0,
+                          }}
+                        >
+                          <img
+                            alt="Icon"
+                            src="/telegram.3bbd1a2f.svg"
+                            decoding="async"
+                            data-nimg="fill"
+                            style={{
+                              position: "absolute",
+                              top: 0,
+                              left: 0,
+                              bottom: 0,
+                              right: 0,
+                              boxSizing: "border-box",
+                              padding: 0,
+                              border: "none",
+                              margin: "auto",
+                              display: "block",
+                              width: 0,
+                              height: 0,
+                              minWidth: "100%",
+                              maxWidth: "100%",
+                              minHeight: "100%",
+                              maxHeight: "100%",
+                              objectFit: "contain",
+                            }}
+                            sizes="100vw"
+                            srcSet="
+                    /telegram.3bbd1a2f.svg  640w,
+                    /telegram.3bbd1a2f.svg  750w,
+                    /telegram.3bbd1a2f.svg  828w,
+                    /telegram.3bbd1a2f.svg 1080w,
+                    /telegram.3bbd1a2f.svg 1200w,
+                    /telegram.3bbd1a2f.svg 1920w,
+                    /telegram.3bbd1a2f.svg 2048w,
+                    /telegram.3bbd1a2f.svg 3840w
+                  "
+                          />
+                        </span>
+                      </div>
+                      Telegram
+                    </div>
+                  </a>
+                </div>
+              </span>
+            </div>
+          </section>
         </div>
       </article>
     </article>
