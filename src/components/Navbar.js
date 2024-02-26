@@ -1,21 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-
-// function Navbar() {
-//   return (
-//     <div>
-//       <h1>Navbar</h1>
-//       <ul>
-//         <li>
-//           <Link href="/about">About</Link>
-//         </li>
-//         <li>
-//           <Link href="/contact">Contact</Link>
-//         </li>
-//       </ul>
-//     </div>
-//   );
-// }
+import "../css/navbar.css";
 
 function Navbar() {
   return (
