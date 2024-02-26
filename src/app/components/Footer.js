@@ -70,7 +70,7 @@ function Footer() {
         </div>
       </div>
       <nav className="sc-4443778d-7 LcLuF">
-        <a
+        {/* <a
           href="#"
           target="_blank"
           rel="noopener noreferrer"
@@ -153,7 +153,7 @@ function Footer() {
               />
             </span>
           </div>
-        </a>
+        </a> */}
 
         <a
           href="#"
@@ -210,6 +210,7 @@ function Footer() {
             </span>
           </div>
         </a>
+
         <a
           href="#"
           target="_blank"
@@ -237,6 +238,7 @@ function Footer() {
             </span>
           </div>
         </a>
+
         <a
           href="#"
           target="_blank"
@@ -264,6 +266,7 @@ function Footer() {
             </span>
           </div>
         </a>
+
         <a
           href="#"
           target="_blank"
