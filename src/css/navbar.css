@@ -178,6 +178,11 @@ a {
   cursor: pointer;
   transition: all 300ms ease 0s;
 }
+.cENHzE:hover {
+  transition: all 0.3s ease 0s;
+  border-right: 1.5px solid rgb(0, 0, 0);
+  border-bottom: 7px solid rgb(0, 0, 0);
+}
 
 @media (max-width: 1440px) {
   .cENHzE {
@@ -221,6 +226,15 @@ a {
   transition: all 0.3s ease 0s;
   padding: 0px 68px;
   border-left: 1px solid rgb(143, 142, 147) !important;
+}
+.bZbUXS:hover {
+  border-right: 2px solid rgb(0, 0, 0) !important;
+  border-bottom: 7px solid rgb(0, 0, 0) !important;
+}
+
+.bZbUXS.open {
+  border-bottom: 0px !important;
+  border-right: 0px solid rgb(0, 0, 0) !important;
 }
 
 .bZbUXS button,
@@ -283,31 +297,13 @@ a {
   padding: 10px 16px;
 }
 
+.fMRLZf.open {
+  display: block;
+}
+
 .WZsEs {
   display: block;
   width: 100%;
-}
-
-.cENHzE {
-  font-family: NAMU, sans-serif;
-  font-weight: 500;
-  font-size: 1.3em;
-  display: flex;
-  padding: 0px 68px;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  border-left: 1px solid rgb(143, 142, 147);
-  cursor: pointer;
-  transition: all 300ms ease 0s;
-}
-
-@media (max-width: 1440px) {
-  .cENHzE {
-    padding: 0px 50px;
-    font-size: 16px;
-  }
 }
 
 .gNSdKm {

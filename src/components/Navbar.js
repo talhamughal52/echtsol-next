@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import "../css/navbar.css";
+import Company from "./Company";
 
 function Navbar() {
   return (
@@ -132,39 +133,7 @@ function Navbar() {
               </div>
             </div>
           </div>
-          <div className="sc-a03cc77c-2 epToUr" tabIndex="0">
-            <button className="sc-a03cc77c-1 bZbUXS">
-              <span>Company</span>
-              <Image
-                src="https://cgsteam.io/_next/static/media/upArrowSidebar.c4cd097b.svg"
-                alt="Arrow"
-                width={9}
-                height={5}
-              />
-            </button>
-            <div className="sc-a03cc77c-0 fMRLZf">
-              <div>
-                <a href="/about-us" className="sc-a03cc77c-3 WZsEs">
-                  About us
-                </a>
-              </div>
-              <div>
-                <a href="/careers" className="sc-a03cc77c-3 WZsEs">
-                  Careers
-                </a>
-              </div>
-              <div>
-                <a href="/contact" className="sc-a03cc77c-3 WZsEs">
-                  Contact
-                </a>
-              </div>
-              <div>
-                <a href="/faq" className="sc-a03cc77c-3 WZsEs">
-                  FAQ
-                </a>
-              </div>
-            </div>
-          </div>
+          <Company />
           <Link href="/blog" className="sc-360c9b73-4 cENHzE">
             <span className="sc-360c9b73-6 gNSdKm">Blog</span>
           </Link>
