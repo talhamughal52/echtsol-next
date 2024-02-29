@@ -51,7 +51,7 @@ function Company() {
             About us
           </Link>
         </div>
-        <div>
+        {/* <div>
           <Link
             href="/"
             className="sc-a03cc77c-3 WZsEs"
@@ -59,10 +59,10 @@ function Company() {
           >
             Careers
           </Link>
-        </div>
+        </div> */}
         <div>
           <Link
-            href="/"
+            href="/contact"
             className="sc-a03cc77c-3 WZsEs"
             onClick={() => setIsOpen(false)}
           >
