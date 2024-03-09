@@ -195,15 +195,15 @@ function Footer() {
               <Image
                 className="footerNavIcons"
                 srcSet="
-                  https://d2qrnmx3qcgrup.cloudfront.net/03decc94-154c-40f0-b808-0d7075c774ff.svg  640w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/03decc94-154c-40f0-b808-0d7075c774ff.svg  750w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/03decc94-154c-40f0-b808-0d7075c774ff.svg  828w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/03decc94-154c-40f0-b808-0d7075c774ff.svg 1080w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/03decc94-154c-40f0-b808-0d7075c774ff.svg 1200w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/03decc94-154c-40f0-b808-0d7075c774ff.svg 1920w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/03decc94-154c-40f0-b808-0d7075c774ff.svg 2048w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/03decc94-154c-40f0-b808-0d7075c774ff.svg 3840w"
-                src="https://d2qrnmx3qcgrup.cloudfront.net/03decc94-154c-40f0-b808-0d7075c774ff.svg"
+                  /03decc94-154c-40f0-b808-0d7075c774ff.svg  640w,
+                  /03decc94-154c-40f0-b808-0d7075c774ff.svg  750w,
+                  /03decc94-154c-40f0-b808-0d7075c774ff.svg  828w,
+                  /03decc94-154c-40f0-b808-0d7075c774ff.svg 1080w,
+                  /03decc94-154c-40f0-b808-0d7075c774ff.svg 1200w,
+                  /03decc94-154c-40f0-b808-0d7075c774ff.svg 1920w,
+                  /03decc94-154c-40f0-b808-0d7075c774ff.svg 2048w,
+                  /03decc94-154c-40f0-b808-0d7075c774ff.svg 3840w"
+                src="/03decc94-154c-40f0-b808-0d7075c774ff.svg"
                 alt="footer icons img"
                 width={45}
                 height={32}
@@ -223,15 +223,15 @@ function Footer() {
               <Image
                 className="footerNavIcons"
                 srcSet="
-                  https://d2qrnmx3qcgrup.cloudfront.net/02f35bb2-979f-4828-89e1-34fa073f8287.svg  640w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/02f35bb2-979f-4828-89e1-34fa073f8287.svg  750w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/02f35bb2-979f-4828-89e1-34fa073f8287.svg  828w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/02f35bb2-979f-4828-89e1-34fa073f8287.svg 1080w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/02f35bb2-979f-4828-89e1-34fa073f8287.svg 1200w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/02f35bb2-979f-4828-89e1-34fa073f8287.svg 1920w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/02f35bb2-979f-4828-89e1-34fa073f8287.svg 2048w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/02f35bb2-979f-4828-89e1-34fa073f8287.svg 3840w"
-                src="https://d2qrnmx3qcgrup.cloudfront.net/02f35bb2-979f-4828-89e1-34fa073f8287.svg"
+                  /02f35bb2-979f-4828-89e1-34fa073f8287.svg  640w,
+                  /02f35bb2-979f-4828-89e1-34fa073f8287.svg  750w,
+                  /02f35bb2-979f-4828-89e1-34fa073f8287.svg  828w,
+                  /02f35bb2-979f-4828-89e1-34fa073f8287.svg 1080w,
+                  /02f35bb2-979f-4828-89e1-34fa073f8287.svg 1200w,
+                  /02f35bb2-979f-4828-89e1-34fa073f8287.svg 1920w,
+                  /02f35bb2-979f-4828-89e1-34fa073f8287.svg 2048w,
+                  /02f35bb2-979f-4828-89e1-34fa073f8287.svg 3840w"
+                src="/02f35bb2-979f-4828-89e1-34fa073f8287.svg"
                 alt="footer icons img"
                 width={45}
                 height={32}
@@ -251,15 +251,15 @@ function Footer() {
               <Image
                 className="footerNavIcons"
                 srcSet="
-                  https://d2qrnmx3qcgrup.cloudfront.net/4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg  640w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg  750w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg  828w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg 1080w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg 1200w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg 1920w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg 2048w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg 3840w"
-                src="https://d2qrnmx3qcgrup.cloudfront.net/4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg"
+                  /4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg  640w,
+                  /4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg  750w,
+                  /4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg  828w,
+                  /4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg 1080w,
+                  /4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg 1200w,
+                  /4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg 1920w,
+                  /4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg 2048w,
+                  /4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg 3840w"
+                src="/4c2afae2-f926-4abb-8c5f-4813e58d0d36.svg"
                 alt="footer icons img"
                 width={45}
                 height={32}
@@ -279,15 +279,15 @@ function Footer() {
               <Image
                 className="footerNavIcons"
                 srcSet="
-                  https://d2qrnmx3qcgrup.cloudfront.net/dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg  640w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg  750w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg  828w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg 1080w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg 1200w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg 1920w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg 2048w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg 3840w"
-                src="https://d2qrnmx3qcgrup.cloudfront.net/dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg"
+                  /dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg  640w,
+                  /dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg  750w,
+                  /dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg  828w,
+                  /dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg 1080w,
+                  /dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg 1200w,
+                  /dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg 1920w,
+                  /dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg 2048w,
+                  /dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg 3840w"
+                src="/dfe8a98f-5bce-45a6-9c01-4634e5cf1275.svg"
                 alt="footer icons img"
                 width={45}
                 height={32}
