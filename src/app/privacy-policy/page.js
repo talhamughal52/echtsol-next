@@ -1,5 +1,5 @@
 import PrivacyPolicyExpandCollapseSection from "@/components/PrivacyPolicyExpandCollapseSection";
-import "../../css/privacy-policy.css";
+import "@/css/privacy-policy.css";
 
 const page = () => {
   const privacyPolicyExpandCollapseSectionData = [
