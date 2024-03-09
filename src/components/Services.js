@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
 
-function Company() {
+function Services() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -33,7 +33,7 @@ function Company() {
         className={`sc-a03cc77c-1 bZbUXS ${isOpen ? "open" : ""}`}
         onClick={toggleMenu}
       >
-        <span>Company</span>
+        <span>Services</span>
         <Image
           src="https://cgsteam.io/_next/static/media/upArrowSidebar.c4cd097b.svg"
           alt="Arrow"
@@ -44,29 +44,47 @@ function Company() {
       <div className={`sc-a03cc77c-0 fMRLZf ${isOpen ? "open" : ""}`} ref={ref}>
         <div>
           <Link
-            href="/about-us"
+            href="/services/web-development"
             className="sc-a03cc77c-3 WZsEs"
             onClick={() => setIsOpen(false)}
           >
-            About us
+            Web // Desktop Development
           </Link>
         </div>
         <div>
           <Link
-            href="/contact"
+            href="/services/it-support"
             className="sc-a03cc77c-3 WZsEs"
             onClick={() => setIsOpen(false)}
           >
-            Contact
+            IT Support Services
           </Link>
         </div>
         <div>
           <Link
-            href="/faq"
+            href="/services/database-and-server-solutions"
             className="sc-a03cc77c-3 WZsEs"
             onClick={() => setIsOpen(false)}
           >
-            FAQ
+            Server // Databases
+          </Link>
+        </div>
+        <div>
+          <Link
+            href="/services/ux-ui-design"
+            className="sc-a03cc77c-3 WZsEs"
+            onClick={() => setIsOpen(false)}
+          >
+            UX/UI Design
+          </Link>
+        </div>
+        <div>
+          <Link
+            href="/services/web-audit"
+            className="sc-a03cc77c-3 WZsEs"
+            onClick={() => setIsOpen(false)}
+          >
+            Web Audit
           </Link>
         </div>
       </div>
@@ -74,4 +92,4 @@ function Company() {
   );
 }
 
-export default Company;
+export default Services;

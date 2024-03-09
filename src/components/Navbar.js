@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import "../css/navbar.css";
 import Company from "./Company";
+import Services from "./Services";
 
 function Navbar() {
   return (
@@ -44,95 +45,7 @@ function Navbar() {
           <Link href="/portfolio" className="sc-360c9b73-4 cENHzE">
             <span className="sc-360c9b73-6 gNSdKm">Portfolio</span>
           </Link>
-          <div className="sc-a03cc77c-2 epToUr" tabIndex="0">
-            <button className="sc-a03cc77c-1 bZbUXS">
-              <span>Services</span>
-              <Image
-                src="https://cgsteam.io/_next/static/media/upArrowSidebar.c4cd097b.svg"
-                alt="Arrow"
-                width={9}
-                height={5}
-              />
-            </button>
-            <div className="sc-a03cc77c-0 fMRLZf">
-              <div>
-                <a href="/services/blockchain" className="sc-a03cc77c-3 WZsEs">
-                  Crypto // Blockchain Development
-                </a>
-              </div>
-              <div>
-                <a
-                  href="/services/web-development"
-                  className="sc-a03cc77c-3 WZsEs"
-                >
-                  Web // Desktop Development
-                </a>
-              </div>
-              <div>
-                <a
-                  href="/services/mobile-app-development"
-                  className="sc-a03cc77c-3 WZsEs"
-                >
-                  Mobile Development
-                </a>
-              </div>
-              <div>
-                <a
-                  href="/services/cloud-solutions"
-                  className="sc-a03cc77c-3 WZsEs"
-                >
-                  Cloud Solutions
-                </a>
-              </div>
-              <div>
-                <a href="/services/ai" className="sc-a03cc77c-3 WZsEs">
-                  AI Solutions
-                </a>
-              </div>
-              <div>
-                <a href="/services/it-support" className="sc-a03cc77c-3 WZsEs">
-                  IT Support Services
-                </a>
-              </div>
-              <div>
-                <a
-                  href="/services/database-and-server-solutions"
-                  className="sc-a03cc77c-3 WZsEs"
-                >
-                  Server // Databases
-                </a>
-              </div>
-              <div>
-                <a
-                  href="/services/ux-ui-design"
-                  className="sc-a03cc77c-3 WZsEs"
-                >
-                  UX/UI Design
-                </a>
-              </div>
-              <div>
-                <a href="/services/web-audit" className="sc-a03cc77c-3 WZsEs">
-                  Web Audit
-                </a>
-              </div>
-              <div>
-                <a
-                  href="/services/mobile-audit"
-                  className="sc-a03cc77c-3 WZsEs"
-                >
-                  Mobile App Audit
-                </a>
-              </div>
-              <div>
-                <a
-                  href="/services/smart-contract-audit"
-                  className="sc-a03cc77c-3 WZsEs"
-                >
-                  Dapp Audit // Tokenomic Planning
-                </a>
-              </div>
-            </div>
-          </div>
+          <Services />
           <Company />
           <Link href="/blog" className="sc-360c9b73-4 cENHzE">
             <span className="sc-360c9b73-6 gNSdKm">Blog</span>
