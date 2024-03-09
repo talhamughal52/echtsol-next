@@ -5,6 +5,10 @@
   position: relative;
   height: 100%;
 }
+.gKGfyV a {
+  color: rgb(88, 105, 221);
+  text-decoration: none;
+}
 @media (max-width: 1440px) {
   .gKGfyV {
     padding-top: 77px;
@@ -54,6 +58,15 @@
   left: 50%;
   transform: translateX(-50%);
   background-color: rgb(181, 181, 181);
+}
+
+.fQvmTM::after {
+  top: 100%;
+  display: none;
+}
+
+.fQvmTM:last-of-type::after {
+  display: block;
 }
 
 .ibcYua {
@@ -182,4 +195,25 @@
   width: 100%;
   position: relative;
   margin-left: 3px;
+}
+
+.gAhaoV::before,
+.gAhaoV::after {
+  content: "";
+  top: 0px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(181, 181, 181);
+}
+
+.gAhaoV::after {
+  top: 100%;
+  display: none;
+}
+.gAhaoV:last-of-type::after {
+  display: block;
 }
