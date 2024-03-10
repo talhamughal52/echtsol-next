@@ -55,12 +55,11 @@ const page = () => {
                       }}
                     ><img
                         alt="Icon"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        src="/whatsUp.2b815c02.svg"
                         decoding="async" data-nimg="fill"
                         style={{ position: 'absolute', top: '0', left: '0', bottom: '0', right: '0', boxSizing: 'border-box', padding: '0', border: 'none', margin: 'auto', display: 'block', width: '0', height: '0', minWidth: '100%', maxWidth: '100%', minHeight: '100%', maxHeight: '100%', objectFit: 'contain', }} /><noscript><img
                           alt="Icon" sizes="100vw"
-                          srcSet="/_next/static/media/whatsUp.2b815c02.svg 640w, /_next/static/media/whatsUp.2b815c02.svg 750w, /_next/static/media/whatsUp.2b815c02.svg 828w, /_next/static/media/whatsUp.2b815c02.svg 1080w, /_next/static/media/whatsUp.2b815c02.svg 1200w, /_next/static/media/whatsUp.2b815c02.svg 1920w, /_next/static/media/whatsUp.2b815c02.svg 2048w, /_next/static/media/whatsUp.2b815c02.svg 3840w"
-                          src="/_next/static/media/whatsUp.2b815c02.svg" decoding="async" data-nimg="fill"
+                          src="/whatsUp.2b815c02.svg" decoding="async" data-nimg="fill"
                           style={{ position: 'absolute', top: '0', left: '0', bottom: '0', right: '0', boxSizing: 'border-box', padding: '0', border: 'none', margin: 'auto', display: 'block', width: '0', height: '0', minWidth: '100%', maxWidth: '100%', minHeight: '100%', maxHeight: '100%', objectFit: 'contain', }}
                           loading="lazy" /></noscript></span></div>WhatsApp
                   </div>
@@ -74,8 +73,7 @@ const page = () => {
                           decoding="async" data-nimg="fill"
                           style={{ position: 'absolute', top: '0', left: '0', bottom: '0', right: '0', boxSizing: 'border-box', padding: '0', border: 'none', margin: 'auto', display: 'block', width: '0', height: '0', minWidth: '100%', maxWidth: '100%', minHeight: '100%', maxHeight: '100%', objectFit: 'contain', }} /><noscript><img
                             alt="Icon" sizes="100vw"
-                            srcSet="/_next/static/media/telegram.3bbd1a2f.svg 640w, /_next/static/media/telegram.3bbd1a2f.svg 750w, /_next/static/media/telegram.3bbd1a2f.svg 828w, /_next/static/media/telegram.3bbd1a2f.svg 1080w, /_next/static/media/telegram.3bbd1a2f.svg 1200w, /_next/static/media/telegram.3bbd1a2f.svg 1920w, /_next/static/media/telegram.3bbd1a2f.svg 2048w, /_next/static/media/telegram.3bbd1a2f.svg 3840w"
-                            src="/_next/static/media/telegram.3bbd1a2f.svg" decoding="async" data-nimg="fill"
+                            src="/telegram.3bbd1a2f.svg" decoding="async" data-nimg="fill"
                             style={{ position: 'absolute', top: '0', left: '0', bottom: '0', right: '0', boxSizing: 'border-box', padding: '0', border: 'none', margin: 'auto', display: 'block', width: '0', height: '0', minWidth: '100%', maxWidth: '100%', minHeight: '100%', maxHeight: '100%', objectFit: 'contain', }}
                             loading="lazy" /></noscript></span></div>Telegram
                     </div>
@@ -89,19 +87,19 @@ const page = () => {
             <div class="sc-c8f2fdbc-0 hqeQTU undefined undefined"></div>
             <div class="sc-894cd513-2 jqnbpD">
               <div class="sc-894cd513-6 cABPjI">
-                <p class="sc-894cd513-3 gRrwkH"><img src="/_next/static/media/cd.02c3282f.svg" alt="Old Disk"
+                <p class="sc-894cd513-3 gRrwkH"><img src="/cd.02c3282f.svg" alt="Old Disk"
                   class="sc-894cd513-5 iPWWia" />Maintenance</p>
                 <p class="sc-894cd513-4 gyfTJM">CGS-team works with all upgrades, antivirus, control of your product
                   work, and security.</p>
               </div>
               <div class="sc-894cd513-6 INJSK">
-                <p class="sc-894cd513-3 gRrwkH"><img src="/_next/static/media/tree.a83eac78.svg" alt="Blue Tree"
+                <p class="sc-894cd513-3 gRrwkH"><img src="/tree.a83eac78.svg" alt="Blue Tree"
                   class="sc-894cd513-5 iPWWia" />Support</p>
                 <p class="sc-894cd513-4 gyfTJM">We provide fast, quality tech support to ensure all processes work
                   effectively.</p>
               </div>
               <div class="sc-894cd513-6 kIwcdg">
-                <p class="sc-894cd513-3 gRrwkH"><img src="/_next/static/media/window.f58ef68b.svg" alt="The Sky"
+                <p class="sc-894cd513-3 gRrwkH"><img src="/window.f58ef68b.svg" alt="The Sky"
                   class="sc-894cd513-5 iPWWia" />Data Security</p>
                 <p class="sc-894cd513-4 gyfTJM">We check all the workflows and verify whether the product is healthy.
                 </p>
@@ -117,14 +115,14 @@ const page = () => {
                   <div class="sc-58d9d2ec-6 idHabQ">
                     <p class="sc-58d9d2ec-4 gDRvnN">Code-based investigation</p>
                     <p class="sc-58d9d2ec-5 bVLNsN">Effective analysis drives fast problem-solution.</p>
-                  </div><img src="/_next/static/media/topBlock-1.916290c8.svg" alt="Steel Plate"
+                  </div><img src="/topBlock-1.916290c8.svg" alt="Steel Plate"
                     class="sc-58d9d2ec-9 hkoULY" />
                 </div>
                 <div>
                   <div class="sc-58d9d2ec-6 idHabQ">
                     <p class="sc-58d9d2ec-4 gDRvnN">Optimization</p>
                     <p class="sc-58d9d2ec-5 bVLNsN">We have some keys to mobilizing your product&#x27;s efficiency.</p>
-                  </div><img src="/_next/static/media/middleBlock.2493428e.svg" alt="Stone Wall"
+                  </div><img src="/middleBlock.2493428e.svg" alt="Stone Wall"
                     class="sc-58d9d2ec-9 hkoULY" />
                 </div>
                 <div>
@@ -132,7 +130,7 @@ const page = () => {
                     <p class="sc-58d9d2ec-4 gDRvnN">Fixing bugs</p>
                     <p class="sc-58d9d2ec-5 bVLNsN">Big Tech companies aren&#x27;t resistant to mistakes. We fix them
                       fast.</p>
-                  </div><img src="/_next/static/media/topBlock-2.e1593549.svg" alt="A Part of a Wall"
+                  </div><img src="/topBlock-2.e1593549.svg" alt="A Part of a Wall"
                     class="sc-58d9d2ec-9 hkoULY" />
                 </div>
                 <div>
@@ -140,7 +138,7 @@ const page = () => {
                     <p class="sc-58d9d2ec-4 gDRvnN">Rebuilding architecture</p>
                     <p class="sc-58d9d2ec-5 bVLNsN">Serious errors aren&#x27;t crucial when you have prof dev support.
                     </p>
-                  </div><img src="/_next/static/media/bottomBlock-1.c9953766.svg" alt="Brick Wall"
+                  </div><img src="/bottomBlock-1.c9953766.svg" alt="Brick Wall"
                     class="sc-58d9d2ec-9 hkoULY" />
                 </div>
                 <div>
@@ -148,41 +146,41 @@ const page = () => {
                     <p class="sc-58d9d2ec-4 gDRvnN">Rebuilding the app</p>
                     <p class="sc-58d9d2ec-5 bVLNsN">Sometimes we have to make notable changes to upgrade the product.
                     </p>
-                  </div><img src="/_next/static/media/bottomBlock-2.66992bdc.svg" alt="Obstacle"
+                  </div><img src="/bottomBlock-2.66992bdc.svg" alt="Obstacle"
                     class="sc-58d9d2ec-9 hkoULY" />
                 </div>
               </div>
-              <div class="sc-58d9d2ec-12 ecFUqs"><img src="/_next/static/media/marioStop.deb88bff.svg" alt="Mario"
+              <div class="sc-58d9d2ec-12 ecFUqs"><img src="/marioStop.deb88bff.svg" alt="Mario"
                 class="sc-58d9d2ec-2 cgTnmJ" />
                 <div class="sc-58d9d2ec-16 bSHMvH"> {/*<!-- -->*/} </div>
                 <div class="sc-58d9d2ec-8 dIbbne">
                   <div class="sc-58d9d2ec-10 dOeEyj">
                     <div class="sc-58d9d2ec-13 hOlrOY">
-                      <div class="sc-58d9d2ec-14 fQVfGX"><img src="/_next/static/media/mushroom-1.ae64700a.svg"
+                      <div class="sc-58d9d2ec-14 fQVfGX"><img src="/mushroom-1.ae64700a.svg"
                         alt="Mario Mushroom" class="sc-58d9d2ec-15 eITauC" /><img
-                          src="/_next/static/media/mushroom-2.a2e4d54d.svg" alt="Mushroom"
-                          class="sc-58d9d2ec-15 eITauC" /></div><img src="/_next/static/media/road.fddf828e.svg"
+                          src="/mushroom-2.a2e4d54d.svg" alt="Mushroom"
+                          class="sc-58d9d2ec-15 eITauC" /></div><img src="/road.fddf828e.svg"
                             alt="Mario Game" class="sc-58d9d2ec-11 PQMiB" />
                     </div>
                     <div class="sc-58d9d2ec-13 hOlrOY">
-                      <div class="sc-58d9d2ec-14 fQVfGX"><img src="/_next/static/media/mushroom-1.ae64700a.svg"
+                      <div class="sc-58d9d2ec-14 fQVfGX"><img src="/mushroom-1.ae64700a.svg"
                         alt="Mario Mushroom" class="sc-58d9d2ec-15 eITauC" /><img
-                          src="/_next/static/media/mushroom-2.a2e4d54d.svg" alt="Mushroom"
-                          class="sc-58d9d2ec-15 eITauC" /></div><img src="/_next/static/media/road.fddf828e.svg"
+                          src="/mushroom-2.a2e4d54d.svg" alt="Mushroom"
+                          class="sc-58d9d2ec-15 eITauC" /></div><img src="/road.fddf828e.svg"
                             alt="Mario Game" class="sc-58d9d2ec-11 PQMiB" />
                     </div>
                     <div class="sc-58d9d2ec-13 hOlrOY">
-                      <div class="sc-58d9d2ec-14 fQVfGX"><img src="/_next/static/media/mushroom-1.ae64700a.svg"
+                      <div class="sc-58d9d2ec-14 fQVfGX"><img src="/mushroom-1.ae64700a.svg"
                         alt="Mario Mushroom" class="sc-58d9d2ec-15 eITauC" /><img
-                          src="/_next/static/media/mushroom-2.a2e4d54d.svg" alt="Mushroom"
-                          class="sc-58d9d2ec-15 eITauC" /></div><img src="/_next/static/media/road.fddf828e.svg"
+                          src="/mushroom-2.a2e4d54d.svg" alt="Mushroom"
+                          class="sc-58d9d2ec-15 eITauC" /></div><img src="/road.fddf828e.svg"
                             alt="Mario Game" class="sc-58d9d2ec-11 PQMiB" />
                     </div>
                     <div class="sc-58d9d2ec-13 hOlrOY">
-                      <div class="sc-58d9d2ec-14 fQVfGX"><img src="/_next/static/media/mushroom-1.ae64700a.svg"
+                      <div class="sc-58d9d2ec-14 fQVfGX"><img src="/mushroom-1.ae64700a.svg"
                         alt="Mario Mushroom" class="sc-58d9d2ec-15 eITauC" /><img
-                          src="/_next/static/media/mushroom-2.a2e4d54d.svg" alt="Mushroom"
-                          class="sc-58d9d2ec-15 eITauC" /></div><img src="/_next/static/media/road.fddf828e.svg"
+                          src="/mushroom-2.a2e4d54d.svg" alt="Mushroom"
+                          class="sc-58d9d2ec-15 eITauC" /></div><img src="/road.fddf828e.svg"
                             alt="Mario Game" class="sc-58d9d2ec-11 PQMiB" />
                     </div>
                   </div>
@@ -743,12 +741,11 @@ const page = () => {
                   <div class="sc-3d333781-21 iWBCGZ"><span
                     style={{ boxSizing: 'border-box', display: 'block', overflow: 'hidden', width: 'initial', height: 'initial', background: 'none', opacity: '1', border: '0', margin: '0', padding: '0', position: 'absolute', top: '0', left: '0', bottom: '0', right: '0' }}><img
                       alt="Icon"
-                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      src="/whatsUp.2b815c02.svg"
                       decoding="async" data-nimg="fill"
                       style={{ position: 'absolute', top: '0', left: '0', bottom: '0', right: '0', boxSizing: 'border-box', padding: '0', border: 'none', margin: 'auto', display: 'block', width: '0', height: '0', minWidth: '100%', maxWidth: '100%', minHeight: '100%', maxHeight: '100%', objectFit: 'contain', }} /><noscript><img
                         alt="Icon" sizes="100vw"
-                        srcSet="/_next/static/media/whatsUp.2b815c02.svg 640w, /_next/static/media/whatsUp.2b815c02.svg 750w, /_next/static/media/whatsUp.2b815c02.svg 828w, /_next/static/media/whatsUp.2b815c02.svg 1080w, /_next/static/media/whatsUp.2b815c02.svg 1200w, /_next/static/media/whatsUp.2b815c02.svg 1920w, /_next/static/media/whatsUp.2b815c02.svg 2048w, /_next/static/media/whatsUp.2b815c02.svg 3840w"
-                        src="/_next/static/media/whatsUp.2b815c02.svg" decoding="async" data-nimg="fill"
+                        src="/whatsUp.2b815c02.svg" decoding="async" data-nimg="fill"
                         style={{ position: 'absolute', top: '0', left: '0', bottom: '0', right: '0', boxSizing: 'border-box', padding: '0', border: 'none', margin: 'auto', display: 'block', width: '0', height: '0', minWidth: '100%', maxWidth: '100%', minHeight: '100%', maxHeight: '100%', objectFit: 'contain', }}
                         loading="lazy" /></noscript></span></div>WhatsApp
                 </div>
@@ -758,12 +755,11 @@ const page = () => {
                     <div class="sc-3d333781-20 zRNUR services"><span
                       style={{ boxSizing: 'border-box', display: 'block', overflow: 'hidden', width: 'initial', height: 'initial', background: 'none', opacity: '1', border: '0', margin: '0', padding: '0', position: 'absolute', top: '0', left: '0', bottom: '0', right: '0' }}><img
                         alt="Icon"
-                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                        src="/telegram.3bbd1a2f.svg"
                         decoding="async" data-nimg="fill"
                         style={{ position: 'absolute', top: '0', left: '0', bottom: '0', right: '0', boxSizing: 'border-box', padding: '0', border: 'none', margin: 'auto', display: 'block', width: '0', height: '0', minWidth: '100%', maxWidth: '100%', minHeight: '100%', maxHeight: '100%', objectFit: 'contain', }} /><noscript><img
                           alt="Icon" sizes="100vw"
-                          srcSet="/_next/static/media/telegram.3bbd1a2f.svg 640w, /_next/static/media/telegram.3bbd1a2f.svg 750w, /_next/static/media/telegram.3bbd1a2f.svg 828w, /_next/static/media/telegram.3bbd1a2f.svg 1080w, /_next/static/media/telegram.3bbd1a2f.svg 1200w, /_next/static/media/telegram.3bbd1a2f.svg 1920w, /_next/static/media/telegram.3bbd1a2f.svg 2048w, /_next/static/media/telegram.3bbd1a2f.svg 3840w"
-                          src="/_next/static/media/telegram.3bbd1a2f.svg" decoding="async" data-nimg="fill"
+                          src="/telegram.3bbd1a2f.svg" decoding="async" data-nimg="fill"
                           style={{ position: 'absolute', top: '0', left: '0', bottom: '0', right: '0', boxSizing: 'border-box', padding: '0', border: 'none', margin: 'auto', display: 'block', width: '0', height: '0', minWidth: '100%', maxWidth: '100%', minHeight: '100%', maxHeight: '100%', objectFit: 'contain', }}
                           loading="lazy" /></noscript></span></div>Telegram
                   </div>

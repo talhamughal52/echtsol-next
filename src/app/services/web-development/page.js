@@ -70,7 +70,7 @@ function page() {
                         >
                           <img
                             alt="Icon"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            src="/whatsUp.2b815c02.svg"
                             decoding="async"
                             data-nimg="fill"
                             style={{
@@ -97,17 +97,7 @@ function page() {
                             <img
                               alt="Icon"
                               sizes="100vw"
-                              srcset="
-                                                    /_next/static/media/whatsUp.2b815c02.svg  640w,
-                                                    /_next/static/media/whatsUp.2b815c02.svg  750w,
-                                                    /_next/static/media/whatsUp.2b815c02.svg  828w,
-                                                    /_next/static/media/whatsUp.2b815c02.svg 1080w,
-                                                    /_next/static/media/whatsUp.2b815c02.svg 1200w,
-                                                    /_next/static/media/whatsUp.2b815c02.svg 1920w,
-                                                    /_next/static/media/whatsUp.2b815c02.svg 2048w,
-                                                    /_next/static/media/whatsUp.2b815c02.svg 3840w
-                                                "
-                              src="/_next/static/media/whatsUp.2b815c02.svg"
+                              src="/whatsUp.2b815c02.svg"
                               decoding="async"
                               data-nimg="fill"
                               style={{
@@ -161,7 +151,7 @@ function page() {
                         >
                           <img
                             alt="Icon"
-                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                            src="/telegram.3bbd1a2f.svg"
                             decoding="async"
                             data-nimg="fill"
                             style={{
@@ -188,17 +178,7 @@ function page() {
                             <img
                               alt="Icon"
                               sizes="100vw"
-                              srcset="
-                                                    /_next/static/media/telegram.3bbd1a2f.svg  640w,
-                                                    /_next/static/media/telegram.3bbd1a2f.svg  750w,
-                                                    /_next/static/media/telegram.3bbd1a2f.svg  828w,
-                                                    /_next/static/media/telegram.3bbd1a2f.svg 1080w,
-                                                    /_next/static/media/telegram.3bbd1a2f.svg 1200w,
-                                                    /_next/static/media/telegram.3bbd1a2f.svg 1920w,
-                                                    /_next/static/media/telegram.3bbd1a2f.svg 2048w,
-                                                    /_next/static/media/telegram.3bbd1a2f.svg 3840w
-                                                "
-                              src="/_next/static/media/telegram.3bbd1a2f.svg"
+                              src="/telegram.3bbd1a2f.svg"
                               decoding="async"
                               data-nimg="fill"
                               style={{
@@ -254,17 +234,7 @@ function page() {
                 <img
                   alt="main image"
                   sizes="100vw"
-                  srcset="
-                            /_next/image?url=https%3A%2F%2Fd2qrnmx3qcgrup.cloudfront.net%2Fd889b15b-3022-44ad-ac48-2096f4550032.png&amp;w=640&amp;q=75   640w,
-                            /_next/image?url=https%3A%2F%2Fd2qrnmx3qcgrup.cloudfront.net%2Fd889b15b-3022-44ad-ac48-2096f4550032.png&amp;w=750&amp;q=75   750w,
-                            /_next/image?url=https%3A%2F%2Fd2qrnmx3qcgrup.cloudfront.net%2Fd889b15b-3022-44ad-ac48-2096f4550032.png&amp;w=828&amp;q=75   828w,
-                            /_next/image?url=https%3A%2F%2Fd2qrnmx3qcgrup.cloudfront.net%2Fd889b15b-3022-44ad-ac48-2096f4550032.png&amp;w=1080&amp;q=75 1080w,
-                            /_next/image?url=https%3A%2F%2Fd2qrnmx3qcgrup.cloudfront.net%2Fd889b15b-3022-44ad-ac48-2096f4550032.png&amp;w=1200&amp;q=75 1200w,
-                            /_next/image?url=https%3A%2F%2Fd2qrnmx3qcgrup.cloudfront.net%2Fd889b15b-3022-44ad-ac48-2096f4550032.png&amp;w=1920&amp;q=75 1920w,
-                            /_next/image?url=https%3A%2F%2Fd2qrnmx3qcgrup.cloudfront.net%2Fd889b15b-3022-44ad-ac48-2096f4550032.png&amp;w=2048&amp;q=75 2048w,
-                            /_next/image?url=https%3A%2F%2Fd2qrnmx3qcgrup.cloudfront.net%2Fd889b15b-3022-44ad-ac48-2096f4550032.png&amp;w=3840&amp;q=75 3840w
-                        "
-                  src="/_next/image?url=https%3A%2F%2Fd2qrnmx3qcgrup.cloudfront.net%2Fd889b15b-3022-44ad-ac48-2096f4550032.png&amp;w=3840&amp;q=75"
+                  src="/banner-web-development.webp"
                   decoding="async"
                   data-nimg="fill"
                   style={{
@@ -293,7 +263,7 @@ function page() {
           <section class="sc-7df3f3df-0 jsxNgA">
             <div class="sc-7df3f3df-5 fwboNn">
               <div>
-                <img src="/_next/static/media/web-development-mobile.034bd5a5.svg" alt="mobile image" class="sc-7df3f3df-2 idBBDq" />
+                <img src="/web-development-mobile.034bd5a5.svg" alt="mobile image" class="sc-7df3f3df-2 idBBDq" />
                 <h3 class="sc-7df3f3df-3 jwzvcA">DESKTOP</h3>
                 <div class="sc-c8f2fdbc-0 hqeQTU undefined webDev"></div>
                 <p class="sc-7df3f3df-4 gfVOlO 0-item">Needs computer installation</p>
@@ -304,7 +274,7 @@ function page() {
                 <p class="sc-7df3f3df-4 gPrTlv 5-item">Works without the Internet</p>
               </div>
               <div>
-                <img src="/_next/static/media/web-development-mobile.034bd5a5.svg" alt="mobile image" class="sc-7df3f3df-2 idBBDq" />
+                <img src="/web-development-mobile.034bd5a5.svg" alt="mobile image" class="sc-7df3f3df-2 idBBDq" />
                 <h3 class="sc-7df3f3df-3 jwzvcA">WEB</h3>
                 <div class="sc-c8f2fdbc-0 hqeQTU undefined webDev"></div>
                 <p class="sc-7df3f3df-4 gfVOlO 0-item">Opens in browser</p>
@@ -315,11 +285,11 @@ function page() {
                 <p class="sc-7df3f3df-4 gPrTlv 5-item">Depends on the Internet</p>
               </div>
             </div>
-            <img src="/_next/static/media/secondBlockBg.53aae27f.svg" alt="second block image" class="sc-7df3f3df-1 jLNJpR" />
+            <img src="/secondBlockBg.53aae27f.svg" alt="second block image" class="sc-7df3f3df-1 jLNJpR" />
           </section>
           <section class="sc-e111411e-0 deVhcH">
-            <div class="sc-e111411e-3 bBTts"></div>
-            <img src="/_next/static/media/first-mobile.1bba4d8d.svg" alt="The Best Solution for Your Idea" class="sc-e111411e-1 cFGWjX" />
+            <div class="sc-e111411e-3 bBTts"><div class="sc-c2cfcf9c-0 hkKpYq"><div class="sc-c2cfcf9c-2 IQSPQ"><span>WE`LL CHOOSE </span><br /><span> THE BEST SOLUTION </span><br /><span class="sc-c2cfcf9c-4 fryvio last-part"><span> FOR YOUR IDEA FROM:</span><div class="sc-c2cfcf9c-1 ddwjOL"></div></span></div><div class="sc-c2cfcf9c-3 kHxiKR"><span class="sc-c2cfcf9c-4 fryvio last-part"><span></span></span></div></div></div>
+            <img src="/first-mobile.1bba4d8d.svg" alt="The Best Solution for Your Idea" class="sc-e111411e-1 cFGWjX" />
             <div class="sc-e111411e-4 izZqRo">
               <div class="sc-e111411e-5 kiuJbh">
                 <p>
@@ -329,7 +299,7 @@ function page() {
                 <p>Our team likes flowing into the latest tech and can strengthen your product with Artificial intelligence.<br /></p>
               </div>
             </div>
-            <img src="/_next/static/media/second-mobile.fd778bb3.svg" alt="Camping" class="sc-e111411e-2 kpRyTc" />
+            <img src="/second-mobile.fd778bb3.svg" alt="Camping" class="sc-e111411e-2 kpRyTc" />
           </section>
         </div>
       </article>
@@ -503,16 +473,16 @@ function page() {
                                 alt="Icon"
                                 sizes="100vw"
                                 srcset="
-                                                        /_next/static/media/whatsUp.2b815c02.svg  640w,
-                                                        /_next/static/media/whatsUp.2b815c02.svg  750w,
-                                                        /_next/static/media/whatsUp.2b815c02.svg  828w,
-                                                        /_next/static/media/whatsUp.2b815c02.svg 1080w,
-                                                        /_next/static/media/whatsUp.2b815c02.svg 1200w,
-                                                        /_next/static/media/whatsUp.2b815c02.svg 1920w,
-                                                        /_next/static/media/whatsUp.2b815c02.svg 2048w,
-                                                        /_next/static/media/whatsUp.2b815c02.svg 3840w
+                                                        /whatsUp.2b815c02.svg  640w,
+                                                        /whatsUp.2b815c02.svg  750w,
+                                                        /whatsUp.2b815c02.svg  828w,
+                                                        /whatsUp.2b815c02.svg 1080w,
+                                                        /whatsUp.2b815c02.svg 1200w,
+                                                        /whatsUp.2b815c02.svg 1920w,
+                                                        /whatsUp.2b815c02.svg 2048w,
+                                                        /whatsUp.2b815c02.svg 3840w
                                                     "
-                                src="/_next/static/media/whatsUp.2b815c02.svg"
+                                src="/whatsUp.2b815c02.svg"
                                 decoding="async"
                                 data-nimg="fill"
                                 style={{
@@ -594,16 +564,16 @@ function page() {
                                 alt="Icon"
                                 sizes="100vw"
                                 srcset="
-                                                        /_next/static/media/telegram.3bbd1a2f.svg  640w,
-                                                        /_next/static/media/telegram.3bbd1a2f.svg  750w,
-                                                        /_next/static/media/telegram.3bbd1a2f.svg  828w,
-                                                        /_next/static/media/telegram.3bbd1a2f.svg 1080w,
-                                                        /_next/static/media/telegram.3bbd1a2f.svg 1200w,
-                                                        /_next/static/media/telegram.3bbd1a2f.svg 1920w,
-                                                        /_next/static/media/telegram.3bbd1a2f.svg 2048w,
-                                                        /_next/static/media/telegram.3bbd1a2f.svg 3840w
+                                                        /telegram.3bbd1a2f.svg  640w,
+                                                        /telegram.3bbd1a2f.svg  750w,
+                                                        /telegram.3bbd1a2f.svg  828w,
+                                                        /telegram.3bbd1a2f.svg 1080w,
+                                                        /telegram.3bbd1a2f.svg 1200w,
+                                                        /telegram.3bbd1a2f.svg 1920w,
+                                                        /telegram.3bbd1a2f.svg 2048w,
+                                                        /telegram.3bbd1a2f.svg 3840w
                                                     "
-                                src="/_next/static/media/telegram.3bbd1a2f.svg"
+                                src="/telegram.3bbd1a2f.svg"
                                 decoding="async"
                                 data-nimg="fill"
                                 style={{

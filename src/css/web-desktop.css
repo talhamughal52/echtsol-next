@@ -1885,7 +1885,7 @@ data-styled.g52[id="sc-8b7b98aa-13"] {
 
 /*!sc*/
 .ceyPTl.scrolled {
-    background: #000 url(/_next/static/media/buttonHoverBg.eb606bc4.png);
+    background: #000 url('/buttonHoverBg.eb606bc4.png');
     color: #fff;
     -webkit-transition-delay: 0.8s;
     transition-delay: 0.8s;
@@ -5923,7 +5923,7 @@ data-styled.g846[id="sc-7df3f3df-5"] {
     position: relative;
     margin-top: 8.75em;
     padding-bottom: 13%;
-    background-image: url(/_next/static/media/solutionBg.b00ffd44.svg);
+    background-image: url('/solutionBg.b00ffd44.svg');
     background-size: 100% 102%;
     background-repeat: no-repeat;
     margin-bottom: 6.5em;
