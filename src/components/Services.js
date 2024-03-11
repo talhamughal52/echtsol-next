@@ -35,7 +35,7 @@ function Services() {
       >
         <span>Services</span>
         <Image
-          src="https://cgsteam.io/_next/static/media/upArrowSidebar.c4cd097b.svg"
+          src="/upArrowSidebar.c4cd097b.svg"
           alt="Arrow"
           width={9}
           height={5}
