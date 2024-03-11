@@ -167,15 +167,15 @@ function Footer() {
               <Image
                 className="footerNavIcons"
                 srcSet="
-                  https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg  640w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg  750w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg  828w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg 1080w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg 1200w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg 1920w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg 2048w,
-                  https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg 3840w"
-                src="https://d2qrnmx3qcgrup.cloudfront.net/15137608-2f3a-4749-b7da-a092c7e9c55c.svg"
+                  /d4dc5240-ac91-461b-9ddd-ef9ffeb93c1a.svg  640w,
+                  /d4dc5240-ac91-461b-9ddd-ef9ffeb93c1a.svg  750w,
+                  /d4dc5240-ac91-461b-9ddd-ef9ffeb93c1a.svg  828w,
+                  /d4dc5240-ac91-461b-9ddd-ef9ffeb93c1a.svg 1080w,
+                  /d4dc5240-ac91-461b-9ddd-ef9ffeb93c1a.svg 1200w,
+                  /d4dc5240-ac91-461b-9ddd-ef9ffeb93c1a.svg 1920w,
+                  /d4dc5240-ac91-461b-9ddd-ef9ffeb93c1a.svg 2048w,
+                  /d4dc5240-ac91-461b-9ddd-ef9ffeb93c1a.svg 3840w"
+                src="/d4dc5240-ac91-461b-9ddd-ef9ffeb93c1a.svg"
                 alt="footer icons img"
                 width={45}
                 height={32}
