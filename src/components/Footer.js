@@ -1,8 +1,14 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import "../css/footer.css";
+import { useSelector } from "react-redux";
 
 function Footer() {
+  const showFooter = useSelector((state) => state.footer.value);
+  if (!showFooter) {
+    return;
+  }
   return (
     <footer className="sc-4443778d-0 jOCBEB mobileDissapear">
       <div className="sc-4443778d-1 bOAiWr">

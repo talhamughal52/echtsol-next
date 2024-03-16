@@ -50,14 +50,14 @@ const page = () => {
                       style={{ pointerEvents: "none" }}
                     >
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
                         fill="black"
                       ></path>
                       <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
                         d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
                         fill="black"
                       ></path>
@@ -447,7 +447,7 @@ const page = () => {
                       aria-expanded="false"
                       type="button"
                       role="button"
-                      tabindex="0"
+                      tabIndex="0"
                       className="sc-4ce44efc-2 jezTAc"
                     >
                       <p className="sc-4ce44efc-3 eAYeUm">Everything covered</p>
@@ -460,13 +460,13 @@ const page = () => {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
+                            fillRule="evenodd"
+                            clipRule="evenodd"
                             d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
                           ></path>
                           <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
+                            fillRule="evenodd"
+                            clipRule="evenodd"
                             d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
                           ></path>
                         </svg>
@@ -504,7 +504,7 @@ const page = () => {
                       aria-expanded="false"
                       type="button"
                       role="button"
-                      tabindex="0"
+                      tabIndex="0"
                       className="sc-4ce44efc-2 jezTAc"
                     >
                       <p className="sc-4ce44efc-3 eAYeUm">
@@ -519,13 +519,13 @@ const page = () => {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
+                            fillRule="evenodd"
+                            clipRule="evenodd"
                             d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
                           ></path>
                           <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
+                            fillRule="evenodd"
+                            clipRule="evenodd"
                             d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
                           ></path>
                         </svg>
@@ -565,7 +565,7 @@ const page = () => {
                       aria-expanded="false"
                       type="button"
                       role="button"
-                      tabindex="0"
+                      tabIndex="0"
                       className="sc-4ce44efc-2 jezTAc"
                     >
                       <p className="sc-4ce44efc-3 eAYeUm">
@@ -580,13 +580,13 @@ const page = () => {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
+                            fillRule="evenodd"
+                            clipRule="evenodd"
                             d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
                           ></path>
                           <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
+                            fillRule="evenodd"
+                            clipRule="evenodd"
                             d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
                           ></path>
                         </svg>
@@ -621,7 +621,7 @@ const page = () => {
           </div>
         </div>
       </article>
-      
+
       <article className="sc-35eecbae-0 ePlPpE">
         <div className="sc-414beb2f-3 kuXCgN supportTeam">
           <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined"></div>
@@ -688,14 +688,14 @@ const page = () => {
                     style={{ pointerEvents: "none" }}
                   >
                     <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
                       fill="black"
                     ></path>
                     <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
                       fill="black"
                     ></path>

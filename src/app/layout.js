@@ -3,6 +3,7 @@ import "./globals.css";
 import "../cgsTeamCSS/index.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import StoreProvider from "@/store/StoreProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,12 +15,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
-    </html>
+    <StoreProvider>
+      <html lang="en">
+        <body>
+          <Navbar />
+          {children}
+          <Footer />
+        </body>
+      </html>
+    </StoreProvider>
   );
 }
