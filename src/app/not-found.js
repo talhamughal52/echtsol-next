@@ -1,11 +1,18 @@
 "use client";
 import "@/css/not-found.css";
 import { useDispatch } from "react-redux";
-import { hideFooter } from "../store/footerSlice";
+import { hideFooter, showFooter } from "../store/footerSlice";
+import { useEffect } from "react";
 
 const notFound = () => {
   const dispatch = useDispatch();
-  dispatch(hideFooter());
+  useEffect(() => {
+    dispatch(hideFooter());
+
+    return () => {
+      dispatch(showFooter());
+    };
+  }, []);
   return (
     <article className="sc-cf2e28af-0 kvYjMb">
       <div className="sc-cf2e28af-1 jhJaFM">
