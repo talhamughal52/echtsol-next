@@ -4,8 +4,7 @@ import "../cgsTeamCSS/index.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import StoreProvider from "@/store/StoreProvider";
-
-const inter = Inter({ subsets: ["latin"] });
+import PortfolioLayout from "@/components/PortfolioLayout";
 
 export const metadata = {
   title: "Custom Software Development | CGS-team",
@@ -18,9 +17,11 @@ export default function RootLayout({ children }) {
     <StoreProvider>
       <html lang="en">
         <body>
-          <Navbar />
-          {children}
-          <Footer />
+          <PortfolioLayout>
+            <Navbar />
+            {children}
+            <Footer />
+          </PortfolioLayout>
         </body>
       </html>
     </StoreProvider>
