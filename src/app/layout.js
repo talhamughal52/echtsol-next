@@ -1,10 +1,9 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
 import "../cgsTeamCSS/index.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import StoreProvider from "@/store/StoreProvider";
-import PortfolioLayout from "@/components/PortfolioLayout";
+import CustomLayout from "@/components/CustomLayout";
 
 export const metadata = {
   title: "Custom Software Development | CGS-team",
@@ -17,11 +16,11 @@ export default function RootLayout({ children }) {
     <StoreProvider>
       <html lang="en">
         <body>
-          <PortfolioLayout>
+          <CustomLayout>
             <Navbar />
             {children}
             <Footer />
-          </PortfolioLayout>
+          </CustomLayout>
         </body>
       </html>
     </StoreProvider>
