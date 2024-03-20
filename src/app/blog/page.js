@@ -4,7 +4,7 @@ const page = () => {
   return (
     <article className="sc-ce405cb6-5 bPxHDk">
       <img src="/leftLine.4e261f6b.webp" className="sc-ce405cb6-40 eXSfpr" />
-      {/* <img src="/rightLine.7ff2aaed.webp" className="sc-ce405cb6-41 dQmGIV" /> */}
+      <img src="/rightLine.7ff2aaed.webp" className="sc-ce405cb6-41 dQmGIV" />
       <header className="sc-ce405cb6-65 hnAOLu">
         <div className="sc-ce405cb6-67 hJCloj">
           <div className="sc-f2d6ffad-0 eTNtpA">
@@ -530,11 +530,11 @@ const page = () => {
           </p>
         </div>
       </section>
-      {/* <div className="sc-ce405cb6-64 kItBog">
+      <div className="sc-ce405cb6-64 kItBog">
         <section id="articles-container" className="sc-ce405cb6-7 jBhWcm">
-          <div className="sc-3d333781-28 lkPYHM blog">
-            <div className="sc-3d333781-25 ejfnkH">
-              <button className="sc-3d333781-26 jsJCoY blog" type="button">
+          <div className="sc-c8e937f7-28 dmWafU blog">
+            <div className="sc-c8e937f7-25 iCemjD">
+              <button className="sc-c8e937f7-26 EDWnE blog" type="button">
                 <span>#TAGS</span>
                 <span
                   style={{
@@ -607,7 +607,7 @@ const page = () => {
                   />
                 </span>
               </button>
-              <div className="sc-3d333781-27 lkiHmQ">
+              <div className="sc-c8e937f7-27 hpbBJw">
                 <div className="">#AI</div>
                 <div className="">#App Development</div>
                 <div className="">#Blockchain</div>
@@ -1050,7 +1050,7 @@ const page = () => {
             </div>
           </div>
         </section>
-      </div> */}
+      </div>
     </article>
   );
 };
