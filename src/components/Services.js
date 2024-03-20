@@ -1,8 +1,6 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
-import { useRouter } from "next/router";
 import Link from "next/link";
-import Image from "next/image";
 
 function Services() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,24 +26,24 @@ function Services() {
     setIsOpen(false);
   };
   return (
-    <div className="sc-a03cc77c-2 epToUr" tabIndex="0">
+    <div className="sc-16b52c14-2 hHvuce" tabIndex="0">
       <button
-        className={`sc-a03cc77c-1 bZbUXS ${isOpen ? "open" : ""}`}
+        className={`sc-16b52c14-1 irvpsA ${isOpen ? "open" : ""}`}
         onClick={toggleMenu}
       >
         <span>Services</span>
-        <Image
+        <img
+          width="9"
+          height="5"
           src="/upArrowSidebar.c4cd097b.svg"
           alt="Arrow"
-          width={9}
-          height={5}
         />
       </button>
-      <div className={`sc-a03cc77c-0 fMRLZf ${isOpen ? "open" : ""}`} ref={ref}>
+      <div className={`sc-16b52c14-0 kgiRzq ${isOpen ? "open" : ""}`} ref={ref}>
         <div>
           <Link
             href="/services/web-development"
-            className="sc-a03cc77c-3 WZsEs"
+            className="sc-16b52c14-3 iejRVt"
             onClick={() => setIsOpen(false)}
           >
             Web // Desktop Development
@@ -54,7 +52,7 @@ function Services() {
         <div>
           <Link
             href="/services/it-support"
-            className="sc-a03cc77c-3 WZsEs"
+            className="sc-16b52c14-3 iejRVt"
             onClick={() => setIsOpen(false)}
           >
             IT Support Services
@@ -63,7 +61,7 @@ function Services() {
         <div>
           <Link
             href="/services/database-and-server-solutions"
-            className="sc-a03cc77c-3 WZsEs"
+            className="sc-16b52c14-3 iejRVt"
             onClick={() => setIsOpen(false)}
           >
             Server // Databases
@@ -72,7 +70,7 @@ function Services() {
         <div>
           <Link
             href="/services/ux-ui-design"
-            className="sc-a03cc77c-3 WZsEs"
+            className="sc-16b52c14-3 iejRVt"
             onClick={() => setIsOpen(false)}
           >
             UX/UI Design
@@ -81,7 +79,7 @@ function Services() {
         <div>
           <Link
             href="/services/web-audit"
-            className="sc-a03cc77c-3 WZsEs"
+            className="sc-16b52c14-3 iejRVt"
             onClick={() => setIsOpen(false)}
           >
             Web Audit

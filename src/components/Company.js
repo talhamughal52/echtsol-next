@@ -27,24 +27,24 @@ function Company() {
     setIsOpen(false);
   };
   return (
-    <div className="sc-a03cc77c-2 epToUr" tabIndex="0">
+    <div className="sc-16b52c14-2 hHvuce" tabIndex="0">
       <button
-        className={`sc-a03cc77c-1 bZbUXS ${isOpen ? "open" : ""}`}
+        className={`sc-16b52c14-1 irvpsA ${isOpen ? "open" : ""}`}
         onClick={toggleMenu}
       >
         <span>Company</span>
-        <Image
+        <img
+          width="9"
+          height="5"
           src="/upArrowSidebar.c4cd097b.svg"
           alt="Arrow"
-          width={9}
-          height={5}
         />
       </button>
-      <div className={`sc-a03cc77c-0 fMRLZf ${isOpen ? "open" : ""}`} ref={ref}>
+      <div className={`sc-16b52c14-0 kgiRzq ${isOpen ? "open" : ""}`} ref={ref}>
         <div>
           <Link
             href="/about-us"
-            className="sc-a03cc77c-3 WZsEs"
+            className="sc-16b52c14-3 iejRVt"
             onClick={() => setIsOpen(false)}
           >
             About us
@@ -53,7 +53,7 @@ function Company() {
         <div>
           <Link
             href="/contact"
-            className="sc-a03cc77c-3 WZsEs"
+            className="sc-16b52c14-3 iejRVt"
             onClick={() => setIsOpen(false)}
           >
             Contact
@@ -62,7 +62,7 @@ function Company() {
         <div>
           <Link
             href="/faq"
-            className="sc-a03cc77c-3 WZsEs"
+            className="sc-16b52c14-3 iejRVt"
             onClick={() => setIsOpen(false)}
           >
             FAQ

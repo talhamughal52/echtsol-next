@@ -3,7 +3,7 @@ import "../css/home.css";
 export default function Home() {
   return (
     <article className="sc-35eecbae-1 idkLAj">
-      <div className="sc-c16e55b1-21 bnlwsS">
+      {/* <div className="sc-c16e55b1-21 bnlwsS">
         <div className="sc-27f5251e-1 biEFTT">
           <div className="sc-27f5251e-0 dKtcsR">
             <div className="sc-27f5251e-2 fCmRMF">calculator</div>
@@ -135,7 +135,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <article className="sc-35eecbae-0 ePlPpE">
         <div className="sc-c16e55b1-0 glbRts">
           <section className="sc-c16e55b1-8 drIKdP">
