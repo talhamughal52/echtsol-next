@@ -1,9 +1,16 @@
+"use client";
 import Link from "next/link";
 import "../css/navbar.css";
 import Company from "./Company";
 import Services from "./Services";
+import MobileNavbar from "./MobileNavbar";
+import { useState } from "react";
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMobileMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <nav className="sc-1c6e7200-0 hYEXCu navbar">
       <div className="sc-1c6e7200-1 ccyimB">
@@ -72,13 +79,18 @@ function Navbar() {
             </div>
           </Link>
           <div className="sc-942ab72b-3 dnuOfe">
-            <button aria-label="burger-btn" className="sc-942ab72b-4 cXoWrt">
+            <button
+              aria-label="burger-btn"
+              className={`sc-942ab72b-4 ${isOpen ? "cAXqOE" : "cXoWrt"}`}
+              onClick={toggleMobileMenu}
+            >
               <div></div>
               <div></div>
               <div></div>
             </button>
           </div>
         </div>
+        <MobileNavbar open={isOpen} />
         <menu className="sc-1c6e7200-5 fXeVZC">
           <Link href="/portfolio" className="sc-1c6e7200-4 IziRp">
             <span className="sc-1c6e7200-6 eGMqUE">Portfolio</span>
