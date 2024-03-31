@@ -1,6 +1,23 @@
+"use client";
+import DatabaseServerListExpandCollapseSection from "@/components/DatabaseServerListExpandCollapseSection";
 import "@/css/database.css";
+import { useState, useEffect } from "react";
 
 const page = () => {
+  const [render, setRender] = useState(false);
+  const checkWindowSize = () => {
+    setRender(Math.random());
+  };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      checkWindowSize();
+      window.addEventListener("resize", checkWindowSize);
+      return () => {
+        window.removeEventListener("resize", checkWindowSize);
+      };
+    }
+  }, []);
   return (
     <>
       <article className="sc-35eecbae-1 idkLAj">
@@ -359,7 +376,152 @@ const page = () => {
         <article className="sc-35eecbae-0 ePlPpE">
           <div className="sc-dfbf74eb-2 hfMseJ">
             <div className="sc-5a7692cf-5 cCxVsS">
-              <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined"></div>
+              <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined">
+                <div
+                  className="rfm-marquee-container"
+                  style={{
+                    "--pause-on-hover": "running",
+                    "--pause-on-click": "running",
+                    "--width": "100%",
+                    "--transform": "none",
+                  }}
+                >
+                  <div
+                    className="rfm-marquee"
+                    style={{
+                      "--play": "running",
+                      "--direction": "reverse",
+                      "--duration": "195.88875s",
+                      "--delay": "0s",
+                      "--iteration-count": "infinite",
+                      "--min-width": "100%",
+                    }}
+                  >
+                    <div className="rfm-initial-child-container">
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                          Ongoing support &amp; maintenance
+                          bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                          maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing support
+                          &amp; maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing
+                          support &amp; maintenance
+                          bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                          maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing support
+                          &amp; maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing
+                          support &amp; maintenance
+                          bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                          maintenance bonuses:&nbsp;&nbsp;&nbsp;
+                        </span>
+                      </div>
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                          Ongoing support &amp; maintenance
+                          bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                          maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing support
+                          &amp; maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing
+                          support &amp; maintenance
+                          bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                          maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing support
+                          &amp; maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing
+                          support &amp; maintenance
+                          bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                          maintenance bonuses:&nbsp;&nbsp;&nbsp;
+                        </span>
+                      </div>
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                          Ongoing support &amp; maintenance
+                          bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                          maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing support
+                          &amp; maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing
+                          support &amp; maintenance
+                          bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                          maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing support
+                          &amp; maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing
+                          support &amp; maintenance
+                          bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                          maintenance bonuses:&nbsp;&nbsp;&nbsp;
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="rfm-marquee"
+                    style={{
+                      "--play": "running",
+                      "--direction": "reverse",
+                      "--duration": "195.88875s",
+                      "--delay": "0s",
+                      "--iteration-count": "infinite",
+                      "--min-width": "100%",
+                    }}
+                  >
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        Ongoing support &amp; maintenance
+                        bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                        maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing support
+                        &amp; maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing
+                        support &amp; maintenance
+                        bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                        maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing support
+                        &amp; maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing
+                        support &amp; maintenance
+                        bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                        maintenance bonuses:&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        Ongoing support &amp; maintenance
+                        bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                        maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing support
+                        &amp; maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing
+                        support &amp; maintenance
+                        bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                        maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing support
+                        &amp; maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing
+                        support &amp; maintenance
+                        bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                        maintenance bonuses:&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        Ongoing support &amp; maintenance
+                        bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                        maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing support
+                        &amp; maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing
+                        support &amp; maintenance
+                        bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                        maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing support
+                        &amp; maintenance bonuses:&nbsp;&nbsp;&nbsp;Ongoing
+                        support &amp; maintenance
+                        bonuses:&nbsp;&nbsp;&nbsp;Ongoing support &amp;
+                        maintenance bonuses:&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="sc-5a7692cf-0 vhnOC">
               <h2 className="sc-5a7692cf-1 gIbzGb">
@@ -367,237 +529,78 @@ const page = () => {
               </h2>
               <div className="sc-5a7692cf-2 kuREUo">
                 <div className="sc-5a7692cf-3 lcvwtP">
-                  <ul className="sc-5a7692cf-4 gvLImH">
-                    <li className="sc-4ce44efc-0 ZgUaG">
-                      <div className="sc-4ce44efc-1 hQfXWC card-content">
-                        <div
-                          id="react-collapsed-toggle-"
-                          aria-controls="react-collapsed-panel-"
-                          aria-expanded="false"
-                          type="button"
-                          role="button"
-                          tabIndex="0"
-                          className="sc-4ce44efc-2 jezTAc"
-                        >
-                          <p className="sc-4ce44efc-3 eAYeUm">
-                            Data management
-                          </p>
-                          <div className="sc-4ce44efc-4 jbyEwf arrowContainer">
-                            <svg
-                              width="36"
-                              height="36"
-                              viewBox="0 0 36 36"
-                              fill="currentColor"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fillRule="evenodd"
-                                clipRule="evenodd"
-                                d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
-                              ></path>
-                              <path
-                                fillRule="evenodd"
-                                clipRule="evenodd"
-                                d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
-                              ></path>
-                            </svg>
-                          </div>
-                        </div>
-                        <div
-                          id="react-collapsed-panel-"
-                          aria-hidden="true"
-                          role="region"
-                          style={{
-                            boxSizing: "border-box",
-                            display: "none",
-                            height: "0px",
-                            overflow: "hidden",
-                          }}
-                        >
-                          <p className="sc-4ce44efc-5 iQHYYZ">
-                            <section>
-                              <span>
-                                For easy access, servers and databases store all
-                                your business data about sales, customers, etc.
-                                No more paperwork or spreadsheets.
-                              </span>
-                            </section>
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li className="sc-4ce44efc-0 ZgUaG">
-                      <div className="sc-4ce44efc-1 hQfXWC card-content">
-                        <div
-                          id="react-collapsed-toggle-"
-                          aria-controls="react-collapsed-panel-"
-                          aria-expanded="false"
-                          type="button"
-                          role="button"
-                          tabIndex="0"
-                          className="sc-4ce44efc-2 jezTAc"
-                        >
-                          <p className="sc-4ce44efc-3 eAYeUm">Security</p>
-                          <div className="sc-4ce44efc-4 jbyEwf arrowContainer">
-                            <svg
-                              width="36"
-                              height="36"
-                              viewBox="0 0 36 36"
-                              fill="currentColor"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fillRule="evenodd"
-                                clipRule="evenodd"
-                                d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
-                              ></path>
-                              <path
-                                fillRule="evenodd"
-                                clipRule="evenodd"
-                                d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
-                              ></path>
-                            </svg>
-                          </div>
-                        </div>
-                        <div
-                          id="react-collapsed-panel-"
-                          aria-hidden="true"
-                          role="region"
-                          style={{
-                            boxSizing: "border-box",
-                            display: "none",
-                            height: "0px",
-                            overflow: "hidden",
-                          }}
-                        >
-                          <p className="sc-4ce44efc-5 iQHYYZ">
-                            <section>
-                              <span>
-                                Dealing with all your data can be a real pain,
-                                but databases and servers make it easier. Only
-                                the right people can get into it, and it&#x27;s
-                                all encrypted for extra protection.
-                              </span>
-                            </section>
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                  <ul className="sc-5a7692cf-4 gvLImH">
-                    <li className="sc-4ce44efc-0 ZgUaG">
-                      <div className="sc-4ce44efc-1 hQfXWC card-content">
-                        <div
-                          id="react-collapsed-toggle-"
-                          aria-controls="react-collapsed-panel-"
-                          aria-expanded="false"
-                          type="button"
-                          role="button"
-                          tabIndex="0"
-                          className="sc-4ce44efc-2 jezTAc"
-                        >
-                          <p className="sc-4ce44efc-3 eAYeUm">No redundancy</p>
-                          <div className="sc-4ce44efc-4 jbyEwf arrowContainer">
-                            <svg
-                              width="36"
-                              height="36"
-                              viewBox="0 0 36 36"
-                              fill="currentColor"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fillRule="evenodd"
-                                clipRule="evenodd"
-                                d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
-                              ></path>
-                              <path
-                                fillRule="evenodd"
-                                clipRule="evenodd"
-                                d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
-                              ></path>
-                            </svg>
-                          </div>
-                        </div>
-                        <div
-                          id="react-collapsed-panel-"
-                          aria-hidden="true"
-                          role="region"
-                          style={{
-                            boxSizing: "border-box",
-                            display: "none",
-                            height: "0px",
-                            overflow: "hidden",
-                          }}
-                        >
-                          <p className="sc-4ce44efc-5 iQHYYZ">
-                            <section>
-                              <span>
-                                A database and server help to avoid repeating
-                                information and duplicate data, saving storage
-                                space and improving access speed.
-                              </span>
-                            </section>
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li className="sc-4ce44efc-0 ZgUaG">
-                      <div className="sc-4ce44efc-1 hQfXWC card-content">
-                        <div
-                          id="react-collapsed-toggle-"
-                          aria-controls="react-collapsed-panel-"
-                          aria-expanded="false"
-                          type="button"
-                          role="button"
-                          tabIndex="0"
-                          className="sc-4ce44efc-2 jezTAc"
-                        >
-                          <p className="sc-4ce44efc-3 eAYeUm">Recovery</p>
-                          <div className="sc-4ce44efc-4 jbyEwf arrowContainer">
-                            <svg
-                              width="36"
-                              height="36"
-                              viewBox="0 0 36 36"
-                              fill="currentColor"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fillRule="evenodd"
-                                clipRule="evenodd"
-                                d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
-                              ></path>
-                              <path
-                                fillRule="evenodd"
-                                clipRule="evenodd"
-                                d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
-                              ></path>
-                            </svg>
-                          </div>
-                        </div>
-                        <div
-                          id="react-collapsed-panel-"
-                          aria-hidden="true"
-                          role="region"
-                          style={{
-                            boxSizing: "border-box",
-                            display: "none",
-                            height: "0px",
-                            overflow: "hidden",
-                          }}
-                        >
-                          <p className="sc-4ce44efc-5 iQHYYZ">
-                            <section>
-                              <span>
-                                Companies can lose valuable data, so it&#x27;s
-                                crucial to have excellent secure databases and
-                                servers.
-                              </span>
-                            </section>
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
+                  {typeof window !== "undefined" && window.innerWidth > 768 ? (
+                    <>
+                      <ul className="sc-5a7692cf-4 gvLImH">
+                        <DatabaseServerListExpandCollapseSection
+                          heading="Data management"
+                          description="For easy access, servers and databases store
+                                    all your business data about sales,
+                                    customers, etc. No more paperwork or
+                                    spreadsheets."
+                        />
+                        <DatabaseServerListExpandCollapseSection
+                          heading="Security"
+                          description="Dealing with all your data can be a real
+                          pain, but databases and servers make it
+                          easier. Only the right people can get into
+                          it, and it&#x27;s all encrypted for extra
+                          protection."
+                        />
+                      </ul>
+                      <ul className="sc-5a7692cf-4 gvLImH">
+                        <DatabaseServerListExpandCollapseSection
+                          heading="No redundancy"
+                          description="A database and server help to avoid
+                          repeating information and duplicate data,
+                          saving storage space and improving access
+                          speed."
+                        />
+                        <DatabaseServerListExpandCollapseSection
+                          heading="Recovery"
+                          description="Companies can lose valuable data, so
+                          it&#x27;s crucial to have excellent secure
+                          databases and servers."
+                        />
+                      </ul>
+                    </>
+                  ) : (
+                    <>
+                      <ul className="sc-5a7692cf-4 gvLImH">
+                        <DatabaseServerListExpandCollapseSection
+                          heading="Data management"
+                          description="For easy access, servers and databases store
+                                    all your business data about sales,
+                                    customers, etc. No more paperwork or
+                                    spreadsheets."
+                        />
+
+                        <DatabaseServerListExpandCollapseSection
+                          heading="No redundancy"
+                          description="A database and server help to avoid
+                          repeating information and duplicate data,
+                          saving storage space and improving access
+                          speed."
+                        />
+
+                        <DatabaseServerListExpandCollapseSection
+                          heading="Security"
+                          description="Dealing with all your data can be a real
+                          pain, but databases and servers make it
+                          easier. Only the right people can get into
+                          it, and it&#x27;s all encrypted for extra
+                          protection."
+                        />
+
+                        <DatabaseServerListExpandCollapseSection
+                          heading="Recovery"
+                          description="Companies can lose valuable data, so
+                          it&#x27;s crucial to have excellent secure
+                          databases and servers."
+                        />
+                      </ul>
+                    </>
+                  )}
                 </div>
               </div>
             </div>
