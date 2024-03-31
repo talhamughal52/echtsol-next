@@ -1,6 +1,22 @@
+"use client";
 import "@/css/web-audit.css";
+import { useState, useEffect } from "react";
 
 const page = () => {
+  const [isMobile, setIsMobile] = useState(false);
+  const [render, setRender] = useState(false);
+  const checkWindowSize = () => {
+    setIsMobile(window.innerWidth < 993);
+    setRender(Math.random());
+  };
+
+  useEffect(() => {
+    checkWindowSize();
+    window.addEventListener("resize", checkWindowSize);
+    return () => {
+      window.removeEventListener("resize", checkWindowSize);
+    };
+  }, []);
   return (
     <article className="sc-35eecbae-1 idkLAj">
       <article className="sc-35eecbae-0 ePlPpE">
@@ -216,7 +232,6 @@ const page = () => {
           </section>
         </div>
         <section className="sc-48e027ef-0 dHoOus">
-          <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined"></div>
           <div className="sc-48e027ef-2 bsZvLe">
             <img
               src="https://d2qrnmx3qcgrup.cloudfront.net/70f96d32-5000-4f45-98c4-a62864c74988.png"
@@ -368,7 +383,7 @@ const page = () => {
                 style={{
                   "--play": "running",
                   "--direction": "reverse",
-                  "--duration": "0s",
+                  "--duration": "195.88875s",
                   "--delay": "0s",
                   "--iteration-count": "infinite",
                   "--min-width": "100%",
@@ -415,7 +430,7 @@ const page = () => {
                 style={{
                   "--play": "running",
                   "--direction": "reverse",
-                  "--duration": "0s",
+                  "--duration": "195.88875s",
                   "--delay": "0s",
                   "--iteration-count": "infinite",
                   "--min-width": "100%",
@@ -452,47 +467,49 @@ const page = () => {
             </div>
           </div>
           <div className="sc-80c04815-2 bpMHzC">
-            <div className="sc-3b9736cb-0 ilRsbc">
-              <div className="sc-3b9736cb-1 bGLcc">
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: "1",
-                    border: "0px",
-                    margin: "0px",
-                    padding: "0px",
-                    position: "absolute",
-                    inset: "0px",
-                  }}
-                >
-                  <img
-                    alt="types of grid image"
-                    src="/security.69ca0cf3.svg"
-                    decoding="async"
-                    data-nimg="fill"
-                    style={{
-                      position: "absolute",
-                      inset: "0px",
-                      boxSizing: "border-box",
-                      padding: "0px",
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: "0px",
-                      height: "0px",
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "contain",
-                    }}
-                    sizes="100vw"
-                    srcSet="
+            {!isMobile ? (
+              <>
+                <div className={`sc-3b9736cb-0 ilRsbc`}>
+                  <div className="sc-3b9736cb-1 bGLcc">
+                    <span
+                      style={{
+                        boxSizing: "border-box",
+                        display: "block",
+                        overflow: "hidden",
+                        width: "initial",
+                        height: "initial",
+                        background: "none",
+                        opacity: "1",
+                        border: "0px",
+                        margin: "0px",
+                        padding: "0px",
+                        position: "absolute",
+                        inset: "0px",
+                      }}
+                    >
+                      <img
+                        alt="types of grid image"
+                        src="/security.69ca0cf3.svg"
+                        decoding="async"
+                        data-nimg="fill"
+                        style={{
+                          position: "absolute",
+                          inset: "0px",
+                          boxSizing: "border-box",
+                          padding: "0px",
+                          border: "none",
+                          margin: "auto",
+                          display: "block",
+                          width: "0px",
+                          height: "0px",
+                          minWidth: "100%",
+                          maxWidth: "100%",
+                          minHeight: "100%",
+                          maxHeight: "100%",
+                          objectFit: "contain",
+                        }}
+                        sizes="100vw"
+                        srcSet="
             /security.69ca0cf3.svg  640w,
             /security.69ca0cf3.svg  750w,
             /security.69ca0cf3.svg  828w,
@@ -502,85 +519,86 @@ const page = () => {
             /security.69ca0cf3.svg 2048w,
             /security.69ca0cf3.svg 3840w
           "
-                  />
-                  <noscript></noscript>
-                </span>
-              </div>
-              <div className="sc-3b9736cb-2 yRrQb">
-                <section>
-                  <span>Security audit</span>
-                </section>
-              </div>
-              <div className="sc-84dd20d9-0 dMGygq upper">
-                <div className="sc-84dd20d9-1 kXxXVX">
-                  <div className="sc-84dd20d9-3 exlFAP">
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="min"></span>
-                    </div>
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="max"></span>
-                    </div>
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="close"></span>
-                    </div>
+                      />
+                      <noscript></noscript>
+                    </span>
                   </div>
-                </div>
-                <div className="sc-84dd20d9-4 gRDMjq">
-                  <div className="sc-84dd20d9-5 kwsa-di title">
+                  <div className="sc-3b9736cb-2 yRrQb">
                     <section>
                       <span>Security audit</span>
                     </section>
                   </div>
-                  <div className="sc-84dd20d9-5 kwsa-di">
-                    The team uses security audit tools to analyze all aspects
-                    attentively. While providing the audit, points like website
-                    clones detection, robots.txt file optimization, HTTPS
-                    certificate, and CAPTCHA check are done.
+                  <div className="sc-84dd20d9-0 dMGygq upper">
+                    <div className="sc-84dd20d9-1 kXxXVX">
+                      <div className="sc-84dd20d9-3 exlFAP">
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="min"></span>
+                        </div>
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="max"></span>
+                        </div>
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="close"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="sc-84dd20d9-4 gRDMjq">
+                      <div className="sc-84dd20d9-5 kwsa-di title">
+                        <section>
+                          <span>Security audit</span>
+                        </section>
+                      </div>
+                      <div className="sc-84dd20d9-5 kwsa-di">
+                        The team uses security audit tools to analyze all
+                        aspects attentively. While providing the audit, points
+                        like website clones detection, robots.txt file
+                        optimization, HTTPS certificate, and CAPTCHA check are
+                        done.
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="sc-3b9736cb-0 ilRsbc">
-              <div className="sc-3b9736cb-1 bGLcc">
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: "1",
-                    border: "0px",
-                    margin: "0px",
-                    padding: "0px",
-                    position: "absolute",
-                    inset: "0px",
-                  }}
-                >
-                  <img
-                    alt="types of grid image"
-                    src="/seo.db2293e6.svg"
-                    decoding="async"
-                    data-nimg="fill"
-                    style={{
-                      position: "absolute",
-                      inset: "0px",
-                      boxSizing: "border-box",
-                      padding: "0px",
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: "0px",
-                      height: "0px",
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "contain",
-                    }}
-                    sizes="100vw"
-                    srcSet="
+                <div className="sc-3b9736cb-0 ilRsbc">
+                  <div className="sc-3b9736cb-1 bGLcc">
+                    <span
+                      style={{
+                        boxSizing: "border-box",
+                        display: "block",
+                        overflow: "hidden",
+                        width: "initial",
+                        height: "initial",
+                        background: "none",
+                        opacity: "1",
+                        border: "0px",
+                        margin: "0px",
+                        padding: "0px",
+                        position: "absolute",
+                        inset: "0px",
+                      }}
+                    >
+                      <img
+                        alt="types of grid image"
+                        src="/seo.db2293e6.svg"
+                        decoding="async"
+                        data-nimg="fill"
+                        style={{
+                          position: "absolute",
+                          inset: "0px",
+                          boxSizing: "border-box",
+                          padding: "0px",
+                          border: "none",
+                          margin: "auto",
+                          display: "block",
+                          width: "0px",
+                          height: "0px",
+                          minWidth: "100%",
+                          maxWidth: "100%",
+                          minHeight: "100%",
+                          maxHeight: "100%",
+                          objectFit: "contain",
+                        }}
+                        sizes="100vw"
+                        srcSet="
             /seo.db2293e6.svg  640w,
             /seo.db2293e6.svg  750w,
             /seo.db2293e6.svg  828w,
@@ -590,85 +608,85 @@ const page = () => {
             /seo.db2293e6.svg 2048w,
             /seo.db2293e6.svg 3840w
           "
-                  />
-                  <noscript></noscript>
-                </span>
-              </div>
-              <div className="sc-3b9736cb-2 yRrQb">
-                <section>
-                  <span>SEO audit</span>
-                </section>
-              </div>
-              <div className="sc-84dd20d9-0 dMGygq upper">
-                <div className="sc-84dd20d9-1 kXxXVX">
-                  <div className="sc-84dd20d9-3 exlFAP">
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="min"></span>
-                    </div>
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="max"></span>
-                    </div>
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="close"></span>
-                    </div>
+                      />
+                      <noscript></noscript>
+                    </span>
                   </div>
-                </div>
-                <div className="sc-84dd20d9-4 gRDMjq">
-                  <div className="sc-84dd20d9-5 kwsa-di title">
+                  <div className="sc-3b9736cb-2 yRrQb">
                     <section>
                       <span>SEO audit</span>
                     </section>
                   </div>
-                  <div className="sc-84dd20d9-5 kwsa-di">
-                    There are many ways to make your site work faster and more
-                    effectively. For example, fixing issues related to image
-                    optimization, JS/CSS aggregation, the use of caching, and
-                    much more.
+                  <div className="sc-84dd20d9-0 dMGygq upper">
+                    <div className="sc-84dd20d9-1 kXxXVX">
+                      <div className="sc-84dd20d9-3 exlFAP">
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="min"></span>
+                        </div>
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="max"></span>
+                        </div>
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="close"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="sc-84dd20d9-4 gRDMjq">
+                      <div className="sc-84dd20d9-5 kwsa-di title">
+                        <section>
+                          <span>SEO audit</span>
+                        </section>
+                      </div>
+                      <div className="sc-84dd20d9-5 kwsa-di">
+                        There are many ways to make your site work faster and
+                        more effectively. For example, fixing issues related to
+                        image optimization, JS/CSS aggregation, the use of
+                        caching, and much more.
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="sc-3b9736cb-0 ilRsbc">
-              <div className="sc-3b9736cb-1 bGLcc">
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: "1",
-                    border: "0px",
-                    margin: "0px",
-                    padding: "0px",
-                    position: "absolute",
-                    inset: "0px",
-                  }}
-                >
-                  <img
-                    alt="types of grid image"
-                    src="/review.30a7be66.svg"
-                    decoding="async"
-                    data-nimg="fill"
-                    style={{
-                      position: "absolute",
-                      inset: "0px",
-                      boxSizing: "border-box",
-                      padding: "0px",
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: "0px",
-                      height: "0px",
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "contain",
-                    }}
-                    sizes="100vw"
-                    srcSet="
+                <div className="sc-3b9736cb-0 ilRsbc">
+                  <div className="sc-3b9736cb-1 bGLcc">
+                    <span
+                      style={{
+                        boxSizing: "border-box",
+                        display: "block",
+                        overflow: "hidden",
+                        width: "initial",
+                        height: "initial",
+                        background: "none",
+                        opacity: "1",
+                        border: "0px",
+                        margin: "0px",
+                        padding: "0px",
+                        position: "absolute",
+                        inset: "0px",
+                      }}
+                    >
+                      <img
+                        alt="types of grid image"
+                        src="/review.30a7be66.svg"
+                        decoding="async"
+                        data-nimg="fill"
+                        style={{
+                          position: "absolute",
+                          inset: "0px",
+                          boxSizing: "border-box",
+                          padding: "0px",
+                          border: "none",
+                          margin: "auto",
+                          display: "block",
+                          width: "0px",
+                          height: "0px",
+                          minWidth: "100%",
+                          maxWidth: "100%",
+                          minHeight: "100%",
+                          maxHeight: "100%",
+                          objectFit: "contain",
+                        }}
+                        sizes="100vw"
+                        srcSet="
             /review.30a7be66.svg  640w,
             /review.30a7be66.svg  750w,
             /review.30a7be66.svg  828w,
@@ -678,86 +696,86 @@ const page = () => {
             /review.30a7be66.svg 2048w,
             /review.30a7be66.svg 3840w
           "
-                  />
-                  <noscript></noscript>
-                </span>
-              </div>
-              <div className="sc-3b9736cb-2 yRrQb">
-                <section>
-                  <span>Code review</span>
-                </section>
-              </div>
-              <div className="sc-84dd20d9-0 dMGygq upper">
-                <div className="sc-84dd20d9-1 kXxXVX">
-                  <div className="sc-84dd20d9-3 exlFAP">
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="min"></span>
-                    </div>
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="max"></span>
-                    </div>
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="close"></span>
-                    </div>
+                      />
+                      <noscript></noscript>
+                    </span>
                   </div>
-                </div>
-                <div className="sc-84dd20d9-4 gRDMjq">
-                  <div className="sc-84dd20d9-5 kwsa-di title">
+                  <div className="sc-3b9736cb-2 yRrQb">
                     <section>
                       <span>Code review</span>
                     </section>
                   </div>
-                  <div className="sc-84dd20d9-5 kwsa-di">
-                    It covers internal linking, keyword optimization,
-                    user-friendly URLs, unique and relevant meta tags, ALT text
-                    for images, and more. Checking sitemap, robots.txt, Google
-                    Tag Manager, Google Analytics, and Google Search Console are
-                    also included.
+                  <div className="sc-84dd20d9-0 dMGygq upper">
+                    <div className="sc-84dd20d9-1 kXxXVX">
+                      <div className="sc-84dd20d9-3 exlFAP">
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="min"></span>
+                        </div>
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="max"></span>
+                        </div>
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="close"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="sc-84dd20d9-4 gRDMjq">
+                      <div className="sc-84dd20d9-5 kwsa-di title">
+                        <section>
+                          <span>Code review</span>
+                        </section>
+                      </div>
+                      <div className="sc-84dd20d9-5 kwsa-di">
+                        It covers internal linking, keyword optimization,
+                        user-friendly URLs, unique and relevant meta tags, ALT
+                        text for images, and more. Checking sitemap, robots.txt,
+                        Google Tag Manager, Google Analytics, and Google Search
+                        Console are also included.
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="sc-3b9736cb-0 ilRsbc">
-              <div className="sc-3b9736cb-1 bGLcc">
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: "1",
-                    border: "0px",
-                    margin: "0px",
-                    padding: "0px",
-                    position: "absolute",
-                    inset: "0px",
-                  }}
-                >
-                  <img
-                    alt="types of grid image"
-                    src="/ux-ui.e308ed14.svg"
-                    decoding="async"
-                    data-nimg="fill"
-                    style={{
-                      position: "absolute",
-                      inset: "0px",
-                      boxSizing: "border-box",
-                      padding: "0px",
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: "0px",
-                      height: "0px",
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "contain",
-                    }}
-                    sizes="100vw"
-                    srcSet="
+                <div className="sc-3b9736cb-0 ilRsbc">
+                  <div className="sc-3b9736cb-1 bGLcc">
+                    <span
+                      style={{
+                        boxSizing: "border-box",
+                        display: "block",
+                        overflow: "hidden",
+                        width: "initial",
+                        height: "initial",
+                        background: "none",
+                        opacity: "1",
+                        border: "0px",
+                        margin: "0px",
+                        padding: "0px",
+                        position: "absolute",
+                        inset: "0px",
+                      }}
+                    >
+                      <img
+                        alt="types of grid image"
+                        src="/ux-ui.e308ed14.svg"
+                        decoding="async"
+                        data-nimg="fill"
+                        style={{
+                          position: "absolute",
+                          inset: "0px",
+                          boxSizing: "border-box",
+                          padding: "0px",
+                          border: "none",
+                          margin: "auto",
+                          display: "block",
+                          width: "0px",
+                          height: "0px",
+                          minWidth: "100%",
+                          maxWidth: "100%",
+                          minHeight: "100%",
+                          maxHeight: "100%",
+                          objectFit: "contain",
+                        }}
+                        sizes="100vw"
+                        srcSet="
             /ux-ui.e308ed14.svg  640w,
             /ux-ui.e308ed14.svg  750w,
             /ux-ui.e308ed14.svg  828w,
@@ -767,85 +785,86 @@ const page = () => {
             /ux-ui.e308ed14.svg 2048w,
             /ux-ui.e308ed14.svg 3840w
           "
-                  />
-                  <noscript></noscript>
-                </span>
-              </div>
-              <div className="sc-3b9736cb-2 yRrQb">
-                <section>
-                  <span>UX/UI audit</span>
-                </section>
-              </div>
-              <div className="sc-84dd20d9-0 dMGygq">
-                <div className="sc-84dd20d9-1 kXxXVX">
-                  <div className="sc-84dd20d9-3 exlFAP">
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="min"></span>
-                    </div>
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="max"></span>
-                    </div>
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="close"></span>
-                    </div>
+                      />
+                      <noscript></noscript>
+                    </span>
                   </div>
-                </div>
-                <div className="sc-84dd20d9-4 gRDMjq">
-                  <div className="sc-84dd20d9-5 kwsa-di title">
+                  <div className="sc-3b9736cb-2 yRrQb">
                     <section>
                       <span>UX/UI audit</span>
                     </section>
                   </div>
-                  <div className="sc-84dd20d9-5 kwsa-di">
-                    Bring your customers' digital experiences to a new level
-                    with perfect UX/UI. Comprehensive UX/UI audit checks if it’s
-                    convenient for your customers to use your site. Also, a
-                    website accessibility audit can be included in this phase.
+                  <div className="sc-84dd20d9-0 dMGygq">
+                    <div className="sc-84dd20d9-1 kXxXVX">
+                      <div className="sc-84dd20d9-3 exlFAP">
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="min"></span>
+                        </div>
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="max"></span>
+                        </div>
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="close"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="sc-84dd20d9-4 gRDMjq">
+                      <div className="sc-84dd20d9-5 kwsa-di title">
+                        <section>
+                          <span>UX/UI audit</span>
+                        </section>
+                      </div>
+                      <div className="sc-84dd20d9-5 kwsa-di">
+                        Bring your customers' digital experiences to a new level
+                        with perfect UX/UI. Comprehensive UX/UI audit checks if
+                        it’s convenient for your customers to use your site.
+                        Also, a website accessibility audit can be included in
+                        this phase.
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="sc-3b9736cb-0 ilRsbc">
-              <div className="sc-3b9736cb-1 bGLcc">
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: "1",
-                    border: "0px",
-                    margin: "0px",
-                    padding: "0px",
-                    position: "absolute",
-                    inset: "0px",
-                  }}
-                >
-                  <img
-                    alt="types of grid image"
-                    src="/pagespeed.9171961f.svg"
-                    decoding="async"
-                    data-nimg="fill"
-                    style={{
-                      position: "absolute",
-                      inset: "0px",
-                      boxSizing: "border-box",
-                      padding: "0px",
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: "0px",
-                      height: "0px",
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "contain",
-                    }}
-                    sizes="100vw"
-                    srcSet="
+                <div className="sc-3b9736cb-0 ilRsbc">
+                  <div className="sc-3b9736cb-1 bGLcc">
+                    <span
+                      style={{
+                        boxSizing: "border-box",
+                        display: "block",
+                        overflow: "hidden",
+                        width: "initial",
+                        height: "initial",
+                        background: "none",
+                        opacity: "1",
+                        border: "0px",
+                        margin: "0px",
+                        padding: "0px",
+                        position: "absolute",
+                        inset: "0px",
+                      }}
+                    >
+                      <img
+                        alt="types of grid image"
+                        src="/pagespeed.9171961f.svg"
+                        decoding="async"
+                        data-nimg="fill"
+                        style={{
+                          position: "absolute",
+                          inset: "0px",
+                          boxSizing: "border-box",
+                          padding: "0px",
+                          border: "none",
+                          margin: "auto",
+                          display: "block",
+                          width: "0px",
+                          height: "0px",
+                          minWidth: "100%",
+                          maxWidth: "100%",
+                          minHeight: "100%",
+                          maxHeight: "100%",
+                          objectFit: "contain",
+                        }}
+                        sizes="100vw"
+                        srcSet="
             /pagespeed.9171961f.svg  640w,
             /pagespeed.9171961f.svg  750w,
             /pagespeed.9171961f.svg  828w,
@@ -855,34 +874,11 @@ const page = () => {
             /pagespeed.9171961f.svg 2048w,
             /pagespeed.9171961f.svg 3840w
           "
-                  />
-                  <noscript></noscript>
-                </span>
-              </div>
-              <div className="sc-3b9736cb-2 yRrQb">
-                <section>
-                  <span>
-                    Page speed <br />
-                  </span>
-                  <span> optimization</span>
-                </section>
-              </div>
-              <div className="sc-84dd20d9-0 dMGygq">
-                <div className="sc-84dd20d9-1 kXxXVX">
-                  <div className="sc-84dd20d9-3 exlFAP">
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="min"></span>
-                    </div>
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="max"></span>
-                    </div>
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="close"></span>
-                    </div>
+                      />
+                      <noscript></noscript>
+                    </span>
                   </div>
-                </div>
-                <div className="sc-84dd20d9-4 gRDMjq">
-                  <div className="sc-84dd20d9-5 kwsa-di title">
+                  <div className="sc-3b9736cb-2 yRrQb">
                     <section>
                       <span>
                         Page speed <br />
@@ -890,56 +886,79 @@ const page = () => {
                       <span> optimization</span>
                     </section>
                   </div>
-                  <div className="sc-84dd20d9-5 kwsa-di">
-                    Clean code makes your website more maintainable, easier to
-                    edit, and open to future modifications. An essential part of
-                    the code review is console error fixing — resolving
-                    JavaScript errors reported in the Console.
+                  <div className="sc-84dd20d9-0 dMGygq">
+                    <div className="sc-84dd20d9-1 kXxXVX">
+                      <div className="sc-84dd20d9-3 exlFAP">
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="min"></span>
+                        </div>
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="max"></span>
+                        </div>
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="close"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="sc-84dd20d9-4 gRDMjq">
+                      <div className="sc-84dd20d9-5 kwsa-di title">
+                        <section>
+                          <span>
+                            Page speed <br />
+                          </span>
+                          <span> optimization</span>
+                        </section>
+                      </div>
+                      <div className="sc-84dd20d9-5 kwsa-di">
+                        Clean code makes your website more maintainable, easier
+                        to edit, and open to future modifications. An essential
+                        part of the code review is console error fixing —
+                        resolving JavaScript errors reported in the Console.
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="sc-3b9736cb-0 ilRsbc">
-              <div className="sc-3b9736cb-1 bGLcc">
-                <span
-                  style={{
-                    boxSizing: "border-box",
-                    display: "block",
-                    overflow: "hidden",
-                    width: "initial",
-                    height: "initial",
-                    background: "none",
-                    opacity: "1",
-                    border: "0px",
-                    margin: "0px",
-                    padding: "0px",
-                    position: "absolute",
-                    inset: "0px",
-                  }}
-                >
-                  <img
-                    alt="types of grid image"
-                    src="/competitor.3b1a4973.svg"
-                    decoding="async"
-                    data-nimg="fill"
-                    style={{
-                      position: "absolute",
-                      inset: "0px",
-                      boxSizing: "border-box",
-                      padding: "0px",
-                      border: "none",
-                      margin: "auto",
-                      display: "block",
-                      width: "0px",
-                      height: "0px",
-                      minWidth: "100%",
-                      maxWidth: "100%",
-                      minHeight: "100%",
-                      maxHeight: "100%",
-                      objectFit: "contain",
-                    }}
-                    sizes="100vw"
-                    srcSet="
+                <div className="sc-3b9736cb-0 ilRsbc">
+                  <div className="sc-3b9736cb-1 bGLcc">
+                    <span
+                      style={{
+                        boxSizing: "border-box",
+                        display: "block",
+                        overflow: "hidden",
+                        width: "initial",
+                        height: "initial",
+                        background: "none",
+                        opacity: "1",
+                        border: "0px",
+                        margin: "0px",
+                        padding: "0px",
+                        position: "absolute",
+                        inset: "0px",
+                      }}
+                    >
+                      <img
+                        alt="types of grid image"
+                        src="/competitor.3b1a4973.svg"
+                        decoding="async"
+                        data-nimg="fill"
+                        style={{
+                          position: "absolute",
+                          inset: "0px",
+                          boxSizing: "border-box",
+                          padding: "0px",
+                          border: "none",
+                          margin: "auto",
+                          display: "block",
+                          width: "0px",
+                          height: "0px",
+                          minWidth: "100%",
+                          maxWidth: "100%",
+                          minHeight: "100%",
+                          maxHeight: "100%",
+                          objectFit: "contain",
+                        }}
+                        sizes="100vw"
+                        srcSet="
             /competitor.3b1a4973.svg  640w,
             /competitor.3b1a4973.svg  750w,
             /competitor.3b1a4973.svg  828w,
@@ -949,48 +968,541 @@ const page = () => {
             /competitor.3b1a4973.svg 2048w,
             /competitor.3b1a4973.svg 3840w
           "
-                  />
-                  <noscript></noscript>
-                </span>
-              </div>
-              <div className="sc-3b9736cb-2 yRrQb">
-                <section>
-                  <span>Competitor audit</span>
-                </section>
-              </div>
-              <div className="sc-84dd20d9-0 dMGygq">
-                <div className="sc-84dd20d9-1 kXxXVX">
-                  <div className="sc-84dd20d9-3 exlFAP">
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="min"></span>
-                    </div>
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="max"></span>
-                    </div>
-                    <div className="sc-84dd20d9-2 bJWMzB">
-                      <span className="close"></span>
-                    </div>
+                      />
+                      <noscript></noscript>
+                    </span>
                   </div>
-                </div>
-                <div className="sc-84dd20d9-4 gRDMjq">
-                  <div className="sc-84dd20d9-5 kwsa-di title">
+                  <div className="sc-3b9736cb-2 yRrQb">
                     <section>
                       <span>Competitor audit</span>
                     </section>
                   </div>
-                  <div className="sc-84dd20d9-5 kwsa-di">
+                  <div className="sc-84dd20d9-0 dMGygq">
+                    <div className="sc-84dd20d9-1 kXxXVX">
+                      <div className="sc-84dd20d9-3 exlFAP">
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="min"></span>
+                        </div>
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="max"></span>
+                        </div>
+                        <div className="sc-84dd20d9-2 bJWMzB">
+                          <span className="close"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="sc-84dd20d9-4 gRDMjq">
+                      <div className="sc-84dd20d9-5 kwsa-di title">
+                        <section>
+                          <span>Competitor audit</span>
+                        </section>
+                      </div>
+                      <div className="sc-84dd20d9-5 kwsa-di">
+                        An insight-provoking competitors analysis can become
+                        valuable for helping you improve your website. Here
+                        competitors’ backlink profiles, ranking, and content are
+                        analyzed.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="sc-7d4cc652-0 eorgnZ">
+                  <div className="sc-7d4cc652-2 ckcBtj">
+                    <div className="sc-7d4cc652-3 gfFXIT">
+                      <span
+                        style={{
+                          boxSizing: "border-box",
+                          display: "block",
+                          overflow: "hidden",
+                          width: "initial",
+                          height: "initial",
+                          background: "none",
+                          opacity: "1",
+                          border: "0px",
+                          margin: "0px",
+                          padding: "0px",
+                          position: "absolute",
+                          inset: "0px",
+                        }}
+                      >
+                        <img
+                          alt="types of grid image"
+                          sizes="100vw"
+                          srcSet="
+              /security.69ca0cf3.svg  640w,
+              /security.69ca0cf3.svg  750w,
+              /security.69ca0cf3.svg  828w,
+              /security.69ca0cf3.svg 1080w,
+              /security.69ca0cf3.svg 1200w,
+              /security.69ca0cf3.svg 1920w,
+              /security.69ca0cf3.svg 2048w,
+              /security.69ca0cf3.svg 3840w
+            "
+                          src="/security.69ca0cf3.svg"
+                          decoding="async"
+                          data-nimg="fill"
+                          style={{
+                            position: "absolute",
+                            inset: "0px",
+                            boxSizing: "border-box",
+                            padding: "0px",
+                            border: "none",
+                            margin: "auto",
+                            display: "block",
+                            width: "0px",
+                            height: "0px",
+                            minWidth: "100%",
+                            maxWidth: "100%",
+                            minHeight: "100%",
+                            maxHeight: "100%",
+                            objectFit: "contain",
+                          }}
+                        />
+                      </span>
+                    </div>
+                    <div className="sc-7d4cc652-1 cXbaCd">
+                      <span>Security audit</span>
+                    </div>
+                  </div>
+                  <p className="sc-7d4cc652-4 WouEO">
+                    The team uses security audit tools to analyze all aspects
+                    attentively. While providing the audit, points like website
+                    clones detection, robots.txt file optimization, HTTPS
+                    certificate, and CAPTCHA check are done.
+                  </p>
+                </div>
+                <div className="sc-7d4cc652-0 eorgnZ">
+                  <div className="sc-7d4cc652-2 ckcBtj">
+                    <div className="sc-7d4cc652-3 gfFXIT">
+                      <span
+                        style={{
+                          boxSizing: "border-box",
+                          display: "block",
+                          overflow: "hidden",
+                          width: "initial",
+                          height: "initial",
+                          background: "none",
+                          opacity: "1",
+                          border: "0px",
+                          margin: "0px",
+                          padding: "0px",
+                          position: "absolute",
+                          inset: "0px",
+                        }}
+                      >
+                        <img
+                          alt="types of grid image"
+                          sizes="100vw"
+                          srcSet="
+              /seo.db2293e6.svg  640w,
+              /seo.db2293e6.svg  750w,
+              /seo.db2293e6.svg  828w,
+              /seo.db2293e6.svg 1080w,
+              /seo.db2293e6.svg 1200w,
+              /seo.db2293e6.svg 1920w,
+              /seo.db2293e6.svg 2048w,
+              /seo.db2293e6.svg 3840w
+            "
+                          src="/seo.db2293e6.svg"
+                          decoding="async"
+                          data-nimg="fill"
+                          style={{
+                            position: "absolute",
+                            inset: "0px",
+                            boxSizing: "border-box",
+                            padding: "0px",
+                            border: "none",
+                            margin: "auto",
+                            display: "block",
+                            width: "0px",
+                            height: "0px",
+                            minWidth: "100%",
+                            maxWidth: "100%",
+                            minHeight: "100%",
+                            maxHeight: "100%",
+                            objectFit: "contain",
+                          }}
+                        />
+                      </span>
+                    </div>
+                    <div className="sc-7d4cc652-1 cXbaCd">
+                      <span>SEO audit</span>
+                    </div>
+                  </div>
+                  <p className="sc-7d4cc652-4 WouEO">
+                    There are many ways to make your site work faster and more
+                    effectively. For example, fixing issues related to image
+                    optimization, JS/CSS aggregation, the use of caching, and
+                    much more.
+                  </p>
+                </div>
+                <div className="sc-7d4cc652-0 eorgnZ">
+                  <div className="sc-7d4cc652-2 ckcBtj">
+                    <div className="sc-7d4cc652-3 gfFXIT">
+                      <span
+                        style={{
+                          boxSizing: "border-box",
+                          display: "block",
+                          overflow: "hidden",
+                          width: "initial",
+                          height: "initial",
+                          background: "none",
+                          opacity: "1",
+                          border: "0px",
+                          margin: "0px",
+                          padding: "0px",
+                          position: "absolute",
+                          inset: "0px",
+                        }}
+                      >
+                        <img
+                          alt="types of grid image"
+                          sizes="100vw"
+                          srcSet="
+              /review.30a7be66.svg  640w,
+              /review.30a7be66.svg  750w,
+              /review.30a7be66.svg  828w,
+              /review.30a7be66.svg 1080w,
+              /review.30a7be66.svg 1200w,
+              /review.30a7be66.svg 1920w,
+              /review.30a7be66.svg 2048w,
+              /review.30a7be66.svg 3840w
+            "
+                          src="/review.30a7be66.svg"
+                          decoding="async"
+                          data-nimg="fill"
+                          style={{
+                            position: "absolute",
+                            inset: "0px",
+                            boxSizing: "border-box",
+                            padding: "0px",
+                            border: "none",
+                            margin: "auto",
+                            display: "block",
+                            width: "0px",
+                            height: "0px",
+                            minWidth: "100%",
+                            maxWidth: "100%",
+                            minHeight: "100%",
+                            maxHeight: "100%",
+                            objectFit: "contain",
+                          }}
+                        />
+                      </span>
+                    </div>
+                    <div className="sc-7d4cc652-1 cXbaCd">
+                      <span>Code review</span>
+                    </div>
+                  </div>
+                  <p className="sc-7d4cc652-4 WouEO">
+                    It covers internal linking, keyword optimization,
+                    user-friendly URLs, unique and relevant meta tags, ALT text
+                    for images, and more. Checking sitemap, robots.txt, Google
+                    Tag Manager, Google Analytics, and Google Search Console are
+                    also included.
+                  </p>
+                </div>
+                <div className="sc-7d4cc652-0 eorgnZ">
+                  <div className="sc-7d4cc652-2 ckcBtj">
+                    <div className="sc-7d4cc652-3 gfFXIT">
+                      <span
+                        style={{
+                          boxSizing: "border-box",
+                          display: "block",
+                          overflow: "hidden",
+                          width: "initial",
+                          height: "initial",
+                          background: "none",
+                          opacity: "1",
+                          border: "0px",
+                          margin: "0px",
+                          padding: "0px",
+                          position: "absolute",
+                          inset: "0px",
+                        }}
+                      >
+                        <img
+                          alt="types of grid image"
+                          sizes="100vw"
+                          srcSet="
+              /ux-ui.e308ed14.svg  640w,
+              /ux-ui.e308ed14.svg  750w,
+              /ux-ui.e308ed14.svg  828w,
+              /ux-ui.e308ed14.svg 1080w,
+              /ux-ui.e308ed14.svg 1200w,
+              /ux-ui.e308ed14.svg 1920w,
+              /ux-ui.e308ed14.svg 2048w,
+              /ux-ui.e308ed14.svg 3840w
+            "
+                          src="/ux-ui.e308ed14.svg"
+                          decoding="async"
+                          data-nimg="fill"
+                          style={{
+                            position: "absolute",
+                            inset: "0px",
+                            boxSizing: "border-box",
+                            padding: "0px",
+                            border: "none",
+                            margin: "auto",
+                            display: "block",
+                            width: "0px",
+                            height: "0px",
+                            minWidth: "100%",
+                            maxWidth: "100%",
+                            minHeight: "100%",
+                            maxHeight: "100%",
+                            objectFit: "contain",
+                          }}
+                        />
+                      </span>
+                    </div>
+                    <div className="sc-7d4cc652-1 cXbaCd">
+                      <span>UX/UI audit</span>
+                    </div>
+                  </div>
+                  <p className="sc-7d4cc652-4 WouEO">
+                    Bring your customers' digital experiences to a new level
+                    with perfect UX/UI. Comprehensive UX/UI audit checks if it’s
+                    convenient for your customers to use your site. Also, a
+                    website accessibility audit can be included in this phase.
+                  </p>
+                </div>
+                <div className="sc-7d4cc652-0 eorgnZ">
+                  <div className="sc-7d4cc652-2 ckcBtj">
+                    <div className="sc-7d4cc652-3 gfFXIT">
+                      <span
+                        style={{
+                          boxSizing: "border-box",
+                          display: "block",
+                          overflow: "hidden",
+                          width: "initial",
+                          height: "initial",
+                          background: "none",
+                          opacity: "1",
+                          border: "0px",
+                          margin: "0px",
+                          padding: "0px",
+                          position: "absolute",
+                          inset: "0px",
+                        }}
+                      >
+                        <img
+                          alt="types of grid image"
+                          sizes="100vw"
+                          srcSet="
+              /pagespeed.9171961f.svg  640w,
+              /pagespeed.9171961f.svg  750w,
+              /pagespeed.9171961f.svg  828w,
+              /pagespeed.9171961f.svg 1080w,
+              /pagespeed.9171961f.svg 1200w,
+              /pagespeed.9171961f.svg 1920w,
+              /pagespeed.9171961f.svg 2048w,
+              /pagespeed.9171961f.svg 3840w
+            "
+                          src="/pagespeed.9171961f.svg"
+                          decoding="async"
+                          data-nimg="fill"
+                          style={{
+                            position: "absolute",
+                            inset: "0px",
+                            boxSizing: "border-box",
+                            padding: "0px",
+                            border: "none",
+                            margin: "auto",
+                            display: "block",
+                            width: "0px",
+                            height: "0px",
+                            minWidth: "100%",
+                            maxWidth: "100%",
+                            minHeight: "100%",
+                            maxHeight: "100%",
+                            objectFit: "contain",
+                          }}
+                        />
+                      </span>
+                    </div>
+                    <div className="sc-7d4cc652-1 cXbaCd">
+                      <span>
+                        Page speed <br />
+                      </span>
+                      <span> optimization</span>
+                    </div>
+                  </div>
+                  <p className="sc-7d4cc652-4 WouEO">
+                    Clean code makes your website more maintainable, easier to
+                    edit, and open to future modifications. An essential part of
+                    the code review is console error fixing — resolving
+                    JavaScript errors reported in the Console.
+                  </p>
+                </div>
+                <div className="sc-7d4cc652-0 eorgnZ">
+                  <div className="sc-7d4cc652-2 ckcBtj">
+                    <div className="sc-7d4cc652-3 gfFXIT">
+                      <span
+                        style={{
+                          boxSizing: "border-box",
+                          display: "block",
+                          overflow: "hidden",
+                          width: "initial",
+                          height: "initial",
+                          background: "none",
+                          opacity: "1",
+                          border: "0px",
+                          margin: "0px",
+                          padding: "0px",
+                          position: "absolute",
+                          inset: "0px",
+                        }}
+                      >
+                        <img
+                          alt="types of grid image"
+                          sizes="100vw"
+                          srcSet="
+              /competitor.3b1a4973.svg   640w,
+              /competitor.3b1a4973.svg   750w,
+              /competitor.3b1a4973.svg   828w,
+              /competitor.3b1a4973.svg  1080w,
+              /competitor.3b1a4973.svg  1200w,
+              /competitor.3b1a4973.svg  1920w,
+              /competitor.3b1a4973.svg  2048w,
+              /competitor.3b1a4973.svg  3840w
+            "
+                          src="/competitor.3b1a4973.svg "
+                          decoding="async"
+                          data-nimg="fill"
+                          style={{
+                            position: "absolute",
+                            inset: "0px",
+                            boxSizing: "border-box",
+                            padding: "0px",
+                            border: "none",
+                            margin: "auto",
+                            display: "block",
+                            width: "0px",
+                            height: "0px",
+                            minWidth: "100%",
+                            maxWidth: "100%",
+                            minHeight: "100%",
+                            maxHeight: "100%",
+                            objectFit: "contain",
+                          }}
+                        />
+                      </span>
+                    </div>
+                    <div className="sc-7d4cc652-1 cXbaCd">
+                      <span>Competitor audit</span>
+                    </div>
+                  </div>
+                  <p className="sc-7d4cc652-4 WouEO">
                     An insight-provoking competitors analysis can become
                     valuable for helping you improve your website. Here
                     competitors’ backlink profiles, ranking, and content are
                     analyzed.
+                  </p>
+                </div>
+              </>
+            )}
+          </div>
+        </section>
+        <div className="sc-414beb2f-3 kuXCgN webAudit">
+          <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined">
+            <div
+              className="rfm-marquee-container"
+              style={{
+                "--pause-on-hover": "running",
+                "--pause-on-click": "running",
+                "--width": "100%",
+                "--transform": "none",
+              }}
+            >
+              <div
+                className="rfm-marquee"
+                style={{
+                  "--play": "running",
+                  "--direction": "reverse",
+                  "--duration": "195.88875s",
+                  "--delay": "0s",
+                  "--iteration-count": "infinite",
+                  "--min-width": "100%",
+                }}
+              >
+                <div className="rfm-initial-child-container">
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      Meet your team&nbsp;&nbsp;&nbsp;Meet your
+                      team&nbsp;&nbsp;&nbsp;Meet your team&nbsp;&nbsp;&nbsp;Meet
+                      your team&nbsp;&nbsp;&nbsp;Meet your
+                      team&nbsp;&nbsp;&nbsp;Meet your team&nbsp;&nbsp;&nbsp;Meet
+                      your team&nbsp;&nbsp;&nbsp;Meet your
+                      team&nbsp;&nbsp;&nbsp;
+                    </span>
                   </div>
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      Meet your team&nbsp;&nbsp;&nbsp;Meet your
+                      team&nbsp;&nbsp;&nbsp;Meet your team&nbsp;&nbsp;&nbsp;Meet
+                      your team&nbsp;&nbsp;&nbsp;Meet your
+                      team&nbsp;&nbsp;&nbsp;Meet your team&nbsp;&nbsp;&nbsp;Meet
+                      your team&nbsp;&nbsp;&nbsp;Meet your
+                      team&nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      Meet your team&nbsp;&nbsp;&nbsp;Meet your
+                      team&nbsp;&nbsp;&nbsp;Meet your team&nbsp;&nbsp;&nbsp;Meet
+                      your team&nbsp;&nbsp;&nbsp;Meet your
+                      team&nbsp;&nbsp;&nbsp;Meet your team&nbsp;&nbsp;&nbsp;Meet
+                      your team&nbsp;&nbsp;&nbsp;Meet your
+                      team&nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="rfm-marquee"
+                style={{
+                  "--play": "running",
+                  "--direction": "reverse",
+                  "--duration": "195.88875s",
+                  "--delay": "0s",
+                  "--iteration-count": "infinite",
+                  "--min-width": "100%",
+                }}
+              >
+                <div className="rfm-child" style={{ "--transform": "none" }}>
+                  <span>
+                    Meet your team&nbsp;&nbsp;&nbsp;Meet your
+                    team&nbsp;&nbsp;&nbsp;Meet your team&nbsp;&nbsp;&nbsp;Meet
+                    your team&nbsp;&nbsp;&nbsp;Meet your
+                    team&nbsp;&nbsp;&nbsp;Meet your team&nbsp;&nbsp;&nbsp;Meet
+                    your team&nbsp;&nbsp;&nbsp;Meet your team&nbsp;&nbsp;&nbsp;
+                  </span>
+                </div>
+                <div className="rfm-child" style={{ "--transform": "none" }}>
+                  <span>
+                    Meet your team&nbsp;&nbsp;&nbsp;Meet your
+                    team&nbsp;&nbsp;&nbsp;Meet your team&nbsp;&nbsp;&nbsp;Meet
+                    your team&nbsp;&nbsp;&nbsp;Meet your
+                    team&nbsp;&nbsp;&nbsp;Meet your team&nbsp;&nbsp;&nbsp;Meet
+                    your team&nbsp;&nbsp;&nbsp;Meet your team&nbsp;&nbsp;&nbsp;
+                  </span>
+                </div>
+                <div className="rfm-child" style={{ "--transform": "none" }}>
+                  <span>
+                    Meet your team&nbsp;&nbsp;&nbsp;Meet your
+                    team&nbsp;&nbsp;&nbsp;Meet your team&nbsp;&nbsp;&nbsp;Meet
+                    your team&nbsp;&nbsp;&nbsp;Meet your
+                    team&nbsp;&nbsp;&nbsp;Meet your team&nbsp;&nbsp;&nbsp;Meet
+                    your team&nbsp;&nbsp;&nbsp;Meet your team&nbsp;&nbsp;&nbsp;
+                  </span>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        <div className="sc-414beb2f-3 kuXCgN webAudit">
-          <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined"></div>
         </div>
         <div className="sc-414beb2f-0 bKutcs webAudit">
           <div className="sc-414beb2f-1 lfXoCJ">
@@ -1035,50 +1547,52 @@ const page = () => {
             </section>
           </h3>
           <div className="sc-35277c1c-2 lgcONT">
-            <div className="sc-71d3aadb-0 ddTMLI">
-              <div className="sc-71d3aadb-1 inzsTJ">
-                <div className="sc-1ad76750-0 kjPFxN">
-                  <div className="sc-1ad76750-2 dkklsk">
-                    <div className="sc-1ad76750-1 jxJaAQ">
-                      <span
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          overflow: "hidden",
-                          width: "initial",
-                          height: "initial",
-                          background: "none",
-                          opacity: "1",
-                          border: "0px",
-                          margin: "0px",
-                          padding: "0px",
-                          position: "absolute",
-                          inset: "0px",
-                        }}
-                      >
-                        <img
-                          alt="list check icon img"
-                          src="/HowToDoAuditImg.f69b04af.svg"
-                          decoding="async"
-                          data-nimg="fill"
-                          style={{
-                            position: "absolute",
-                            inset: "0px",
-                            boxSizing: "border-box",
-                            padding: "0px",
-                            border: "none",
-                            margin: "auto",
-                            display: "block",
-                            width: "0px",
-                            height: "0px",
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
-                            objectFit: "contain",
-                          }}
-                          sizes="100vw"
-                          srcSet="
+            {window.innerWidth > 768 ? (
+              <>
+                <div className="sc-71d3aadb-0 ddTMLI">
+                  <div className="sc-71d3aadb-1 inzsTJ">
+                    <div className="sc-1ad76750-0 kjPFxN">
+                      <div className="sc-1ad76750-2 dkklsk">
+                        <div className="sc-1ad76750-1 jxJaAQ">
+                          <span
+                            style={{
+                              boxSizing: "border-box",
+                              display: "block",
+                              overflow: "hidden",
+                              width: "initial",
+                              height: "initial",
+                              background: "none",
+                              opacity: "1",
+                              border: "0px",
+                              margin: "0px",
+                              padding: "0px",
+                              position: "absolute",
+                              inset: "0px",
+                            }}
+                          >
+                            <img
+                              alt="list check icon img"
+                              src="/HowToDoAuditImg.f69b04af.svg"
+                              decoding="async"
+                              data-nimg="fill"
+                              style={{
+                                position: "absolute",
+                                inset: "0px",
+                                boxSizing: "border-box",
+                                padding: "0px",
+                                border: "none",
+                                margin: "auto",
+                                display: "block",
+                                width: "0px",
+                                height: "0px",
+                                minWidth: "100%",
+                                maxWidth: "100%",
+                                minHeight: "100%",
+                                maxHeight: "100%",
+                                objectFit: "contain",
+                              }}
+                              sizes="100vw"
+                              srcSet="
                   /HowToDoAuditImg.f69b04af.svg  640w,
                   /HowToDoAuditImg.f69b04af.svg  750w,
                   /HowToDoAuditImg.f69b04af.svg  828w,
@@ -1088,58 +1602,58 @@ const page = () => {
                   /HowToDoAuditImg.f69b04af.svg 2048w,
                   /HowToDoAuditImg.f69b04af.svg 3840w
                 "
-                        />
-                        <noscript></noscript>
-                      </span>
+                            />
+                            <noscript></noscript>
+                          </span>
+                        </div>
+                        <div className="sc-1ad76750-3 jOiVHM">
+                          Launching the app
+                        </div>
+                      </div>
+                      <div className="sc-1ad76750-4 gnHNxW"></div>
                     </div>
-                    <div className="sc-1ad76750-3 jOiVHM">
-                      Launching the app
-                    </div>
-                  </div>
-                  <div className="sc-1ad76750-4 gnHNxW"></div>
-                </div>
-                <div className="sc-1ad76750-0 kjPFxN">
-                  <div className="sc-1ad76750-2 dkklsk">
-                    <div className="sc-1ad76750-1 jxJaAQ">
-                      <span
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          overflow: "hidden",
-                          width: "initial",
-                          height: "initial",
-                          background: "none",
-                          opacity: "1",
-                          border: "0px",
-                          margin: "0px",
-                          padding: "0px",
-                          position: "absolute",
-                          inset: "0px",
-                        }}
-                      >
-                        <img
-                          alt="list check icon img"
-                          src="/HowToDoAuditImg.f69b04af.svg"
-                          decoding="async"
-                          data-nimg="fill"
-                          style={{
-                            position: "absolute",
-                            inset: "0px",
-                            boxSizing: "border-box",
-                            padding: "0px",
-                            border: "none",
-                            margin: "auto",
-                            display: "block",
-                            width: "0px",
-                            height: "0px",
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
-                            objectFit: "contain",
-                          }}
-                          sizes="100vw"
-                          srcSet="
+                    <div className="sc-1ad76750-0 kjPFxN">
+                      <div className="sc-1ad76750-2 dkklsk">
+                        <div className="sc-1ad76750-1 jxJaAQ">
+                          <span
+                            style={{
+                              boxSizing: "border-box",
+                              display: "block",
+                              overflow: "hidden",
+                              width: "initial",
+                              height: "initial",
+                              background: "none",
+                              opacity: "1",
+                              border: "0px",
+                              margin: "0px",
+                              padding: "0px",
+                              position: "absolute",
+                              inset: "0px",
+                            }}
+                          >
+                            <img
+                              alt="list check icon img"
+                              src="/HowToDoAuditImg.f69b04af.svg"
+                              decoding="async"
+                              data-nimg="fill"
+                              style={{
+                                position: "absolute",
+                                inset: "0px",
+                                boxSizing: "border-box",
+                                padding: "0px",
+                                border: "none",
+                                margin: "auto",
+                                display: "block",
+                                width: "0px",
+                                height: "0px",
+                                minWidth: "100%",
+                                maxWidth: "100%",
+                                minHeight: "100%",
+                                maxHeight: "100%",
+                                objectFit: "contain",
+                              }}
+                              sizes="100vw"
+                              srcSet="
                   /HowToDoAuditImg.f69b04af.svg  640w,
                   /HowToDoAuditImg.f69b04af.svg  750w,
                   /HowToDoAuditImg.f69b04af.svg  828w,
@@ -1149,57 +1663,57 @@ const page = () => {
                   /HowToDoAuditImg.f69b04af.svg 2048w,
                   /HowToDoAuditImg.f69b04af.svg 3840w
                 "
-                        />
-                      </span>
+                            />
+                          </span>
+                        </div>
+                        <div className="sc-1ad76750-3 jOiVHM">
+                          Website architecture analysis
+                        </div>
+                      </div>
+                      <div className="sc-1ad76750-4 gnHNxW"></div>
                     </div>
-                    <div className="sc-1ad76750-3 jOiVHM">
-                      Website architecture analysis
-                    </div>
-                  </div>
-                  <div className="sc-1ad76750-4 gnHNxW"></div>
-                </div>
-                <div className="sc-1ad76750-0 kjPFxN">
-                  <div className="sc-1ad76750-2 dkklsk">
-                    <div className="sc-1ad76750-1 jxJaAQ">
-                      <span
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          overflow: "hidden",
-                          width: "initial",
-                          height: "initial",
-                          background: "none",
-                          opacity: "1",
-                          border: "0px",
-                          margin: "0px",
-                          padding: "0px",
-                          position: "absolute",
-                          inset: "0px",
-                        }}
-                      >
-                        <img
-                          alt="list check icon img"
-                          src="/HowToDoAuditImg.f69b04af.svg"
-                          decoding="async"
-                          data-nimg="fill"
-                          style={{
-                            position: "absolute",
-                            inset: "0px",
-                            boxSizing: "border-box",
-                            padding: "0px",
-                            border: "none",
-                            margin: "auto",
-                            display: "block",
-                            width: "0px",
-                            height: "0px",
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
-                            objectFit: "contain",
-                          }}
-                          sizes="100vw"
-                          srcSet="
+                    <div className="sc-1ad76750-0 kjPFxN">
+                      <div className="sc-1ad76750-2 dkklsk">
+                        <div className="sc-1ad76750-1 jxJaAQ">
+                          <span
+                            style={{
+                              boxSizing: "border-box",
+                              display: "block",
+                              overflow: "hidden",
+                              width: "initial",
+                              height: "initial",
+                              background: "none",
+                              opacity: "1",
+                              border: "0px",
+                              margin: "0px",
+                              padding: "0px",
+                              position: "absolute",
+                              inset: "0px",
+                            }}
+                          >
+                            <img
+                              alt="list check icon img"
+                              src="/HowToDoAuditImg.f69b04af.svg"
+                              decoding="async"
+                              data-nimg="fill"
+                              style={{
+                                position: "absolute",
+                                inset: "0px",
+                                boxSizing: "border-box",
+                                padding: "0px",
+                                border: "none",
+                                margin: "auto",
+                                display: "block",
+                                width: "0px",
+                                height: "0px",
+                                minWidth: "100%",
+                                maxWidth: "100%",
+                                minHeight: "100%",
+                                maxHeight: "100%",
+                                objectFit: "contain",
+                              }}
+                              sizes="100vw"
+                              srcSet="
                   /HowToDoAuditImg.f69b04af.svg  640w,
                   /HowToDoAuditImg.f69b04af.svg  750w,
                   /HowToDoAuditImg.f69b04af.svg  828w,
@@ -1209,55 +1723,57 @@ const page = () => {
                   /HowToDoAuditImg.f69b04af.svg 2048w,
                   /HowToDoAuditImg.f69b04af.svg 3840w
                 "
-                        />
-                      </span>
+                            />
+                          </span>
+                        </div>
+                        <div className="sc-1ad76750-3 jOiVHM">
+                          Technical check
+                        </div>
+                      </div>
+                      <div className="sc-1ad76750-4 gnHNxW"></div>
                     </div>
-                    <div className="sc-1ad76750-3 jOiVHM">Technical check</div>
-                  </div>
-                  <div className="sc-1ad76750-4 gnHNxW"></div>
-                </div>
-                <div className="sc-1ad76750-0 kjPFxN">
-                  <div className="sc-1ad76750-2 dkklsk">
-                    <div className="sc-1ad76750-1 jxJaAQ">
-                      <span
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          overflow: "hidden",
-                          width: "initial",
-                          height: "initial",
-                          background: "none",
-                          opacity: "1",
-                          border: "0px",
-                          margin: "0px",
-                          padding: "0px",
-                          position: "absolute",
-                          inset: "0px",
-                        }}
-                      >
-                        <img
-                          alt="list check icon img"
-                          src="/HowToDoAuditImg.f69b04af.svg"
-                          decoding="async"
-                          data-nimg="fill"
-                          style={{
-                            position: "absolute",
-                            inset: "0px",
-                            boxSizing: "border-box",
-                            padding: "0px",
-                            border: "none",
-                            margin: "auto",
-                            display: "block",
-                            width: "0px",
-                            height: "0px",
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
-                            objectFit: "contain",
-                          }}
-                          sizes="100vw"
-                          srcSet="
+                    <div className="sc-1ad76750-0 kjPFxN">
+                      <div className="sc-1ad76750-2 dkklsk">
+                        <div className="sc-1ad76750-1 jxJaAQ">
+                          <span
+                            style={{
+                              boxSizing: "border-box",
+                              display: "block",
+                              overflow: "hidden",
+                              width: "initial",
+                              height: "initial",
+                              background: "none",
+                              opacity: "1",
+                              border: "0px",
+                              margin: "0px",
+                              padding: "0px",
+                              position: "absolute",
+                              inset: "0px",
+                            }}
+                          >
+                            <img
+                              alt="list check icon img"
+                              src="/HowToDoAuditImg.f69b04af.svg"
+                              decoding="async"
+                              data-nimg="fill"
+                              style={{
+                                position: "absolute",
+                                inset: "0px",
+                                boxSizing: "border-box",
+                                padding: "0px",
+                                border: "none",
+                                margin: "auto",
+                                display: "block",
+                                width: "0px",
+                                height: "0px",
+                                minWidth: "100%",
+                                maxWidth: "100%",
+                                minHeight: "100%",
+                                maxHeight: "100%",
+                                objectFit: "contain",
+                              }}
+                              sizes="100vw"
+                              srcSet="
                   /HowToDoAuditImg.f69b04af.svg  640w,
                   /HowToDoAuditImg.f69b04af.svg  750w,
                   /HowToDoAuditImg.f69b04af.svg  828w,
@@ -1267,55 +1783,55 @@ const page = () => {
                   /HowToDoAuditImg.f69b04af.svg 2048w,
                   /HowToDoAuditImg.f69b04af.svg 3840w
                 "
-                        />
-                      </span>
+                            />
+                          </span>
+                        </div>
+                        <div className="sc-1ad76750-3 jOiVHM">Code review</div>
+                      </div>
+                      <div className="sc-1ad76750-4 gnHNxW"></div>
                     </div>
-                    <div className="sc-1ad76750-3 jOiVHM">Code review</div>
-                  </div>
-                  <div className="sc-1ad76750-4 gnHNxW"></div>
-                </div>
-                <div className="sc-1ad76750-0 kjPFxN">
-                  <div className="sc-1ad76750-2 dkklsk">
-                    <div className="sc-1ad76750-1 jxJaAQ">
-                      <span
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          overflow: "hidden",
-                          width: "initial",
-                          height: "initial",
-                          background: "none",
-                          opacity: "1",
-                          border: "0px",
-                          margin: "0px",
-                          padding: "0px",
-                          position: "absolute",
-                          inset: "0px",
-                        }}
-                      >
-                        <img
-                          alt="list check icon img"
-                          src="/HowToDoAuditImg.f69b04af.svg"
-                          decoding="async"
-                          data-nimg="fill"
-                          style={{
-                            position: "absolute",
-                            inset: "0px",
-                            boxSizing: "border-box",
-                            padding: "0px",
-                            border: "none",
-                            margin: "auto",
-                            display: "block",
-                            width: "0px",
-                            height: "0px",
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
-                            objectFit: "contain",
-                          }}
-                          sizes="100vw"
-                          srcSet="
+                    <div className="sc-1ad76750-0 kjPFxN">
+                      <div className="sc-1ad76750-2 dkklsk">
+                        <div className="sc-1ad76750-1 jxJaAQ">
+                          <span
+                            style={{
+                              boxSizing: "border-box",
+                              display: "block",
+                              overflow: "hidden",
+                              width: "initial",
+                              height: "initial",
+                              background: "none",
+                              opacity: "1",
+                              border: "0px",
+                              margin: "0px",
+                              padding: "0px",
+                              position: "absolute",
+                              inset: "0px",
+                            }}
+                          >
+                            <img
+                              alt="list check icon img"
+                              src="/HowToDoAuditImg.f69b04af.svg"
+                              decoding="async"
+                              data-nimg="fill"
+                              style={{
+                                position: "absolute",
+                                inset: "0px",
+                                boxSizing: "border-box",
+                                padding: "0px",
+                                border: "none",
+                                margin: "auto",
+                                display: "block",
+                                width: "0px",
+                                height: "0px",
+                                minWidth: "100%",
+                                maxWidth: "100%",
+                                minHeight: "100%",
+                                maxHeight: "100%",
+                                objectFit: "contain",
+                              }}
+                              sizes="100vw"
+                              srcSet="
                   /HowToDoAuditImg.f69b04af.svg  640w,
                   /HowToDoAuditImg.f69b04af.svg  750w,
                   /HowToDoAuditImg.f69b04af.svg  828w,
@@ -1325,58 +1841,58 @@ const page = () => {
                   /HowToDoAuditImg.f69b04af.svg 2048w,
                   /HowToDoAuditImg.f69b04af.svg 3840w
                 "
-                        />
-                        <noscript></noscript>
-                      </span>
+                            />
+                            <noscript></noscript>
+                          </span>
+                        </div>
+                        <div className="sc-1ad76750-3 jOiVHM">
+                          Performance audit
+                        </div>
+                      </div>
+                      <div className="sc-1ad76750-4 gnHNxW"></div>
                     </div>
-                    <div className="sc-1ad76750-3 jOiVHM">
-                      Performance audit
-                    </div>
-                  </div>
-                  <div className="sc-1ad76750-4 gnHNxW"></div>
-                </div>
-                <div className="sc-1ad76750-0 kjPFxN">
-                  <div className="sc-1ad76750-2 dkklsk">
-                    <div className="sc-1ad76750-1 jxJaAQ">
-                      <span
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          overflow: "hidden",
-                          width: "initial",
-                          height: "initial",
-                          background: "none",
-                          opacity: "1",
-                          border: "0px",
-                          margin: "0px",
-                          padding: "0px",
-                          position: "absolute",
-                          inset: "0px",
-                        }}
-                      >
-                        <img
-                          alt="list check icon img"
-                          src="/HowToDoAuditImg.f69b04af.svg"
-                          decoding="async"
-                          data-nimg="fill"
-                          style={{
-                            position: "absolute",
-                            inset: "0px",
-                            boxSizing: "border-box",
-                            padding: "0px",
-                            border: "none",
-                            margin: "auto",
-                            display: "block",
-                            width: "0px",
-                            height: "0px",
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
-                            objectFit: "contain",
-                          }}
-                          sizes="100vw"
-                          srcSet="
+                    <div className="sc-1ad76750-0 kjPFxN">
+                      <div className="sc-1ad76750-2 dkklsk">
+                        <div className="sc-1ad76750-1 jxJaAQ">
+                          <span
+                            style={{
+                              boxSizing: "border-box",
+                              display: "block",
+                              overflow: "hidden",
+                              width: "initial",
+                              height: "initial",
+                              background: "none",
+                              opacity: "1",
+                              border: "0px",
+                              margin: "0px",
+                              padding: "0px",
+                              position: "absolute",
+                              inset: "0px",
+                            }}
+                          >
+                            <img
+                              alt="list check icon img"
+                              src="/HowToDoAuditImg.f69b04af.svg"
+                              decoding="async"
+                              data-nimg="fill"
+                              style={{
+                                position: "absolute",
+                                inset: "0px",
+                                boxSizing: "border-box",
+                                padding: "0px",
+                                border: "none",
+                                margin: "auto",
+                                display: "block",
+                                width: "0px",
+                                height: "0px",
+                                minWidth: "100%",
+                                maxWidth: "100%",
+                                minHeight: "100%",
+                                maxHeight: "100%",
+                                objectFit: "contain",
+                              }}
+                              sizes="100vw"
+                              srcSet="
                   /HowToDoAuditImg.f69b04af.svg  640w,
                   /HowToDoAuditImg.f69b04af.svg  750w,
                   /HowToDoAuditImg.f69b04af.svg  828w,
@@ -1386,65 +1902,65 @@ const page = () => {
                   /HowToDoAuditImg.f69b04af.svg 2048w,
                   /HowToDoAuditImg.f69b04af.svg 3840w
                 "
-                        />
-                        <noscript></noscript>
-                      </span>
-                    </div>
-                    <div className="sc-1ad76750-3 jOiVHM">
-                      Setting testing tools
+                            />
+                            <noscript></noscript>
+                          </span>
+                        </div>
+                        <div className="sc-1ad76750-3 jOiVHM">
+                          Setting testing tools
+                        </div>
+                      </div>
                     </div>
                   </div>
+                  <div className="sc-71d3aadb-2 eqXTjd">
+                    <div className="sc-71d3aadb-3 jAgAbQ"></div>
+                    <div className="sc-71d3aadb-4 sNJIo"></div>
+                  </div>
                 </div>
-              </div>
-              <div className="sc-71d3aadb-2 eqXTjd">
-                <div className="sc-71d3aadb-3 jAgAbQ"></div>
-                <div className="sc-71d3aadb-4 sNJIo"></div>
-              </div>
-            </div>
-            <div className="sc-71d3aadb-0 ddTMLI">
-              <div className="sc-71d3aadb-1 inzsTJ">
-                <div className="sc-1ad76750-0 kjPFxN">
-                  <div className="sc-1ad76750-2 dkklsk">
-                    <div className="sc-1ad76750-1 jxJaAQ">
-                      <span
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          overflow: "hidden",
-                          width: "initial",
-                          height: "initial",
-                          background: "none",
-                          opacity: "1",
-                          border: "0px",
-                          margin: "0px",
-                          padding: "0px",
-                          position: "absolute",
-                          inset: "0px",
-                        }}
-                      >
-                        <img
-                          alt="list check icon img"
-                          src="/HowToDoAuditImg.f69b04af.svg"
-                          decoding="async"
-                          data-nimg="fill"
-                          style={{
-                            position: "absolute",
-                            inset: "0px",
-                            boxSizing: "border-box",
-                            padding: "0px",
-                            border: "none",
-                            margin: "auto",
-                            display: "block",
-                            width: "0px",
-                            height: "0px",
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
-                            objectFit: "contain",
-                          }}
-                          sizes="100vw"
-                          srcSet="
+                <div className="sc-71d3aadb-0 ddTMLI">
+                  <div className="sc-71d3aadb-1 inzsTJ">
+                    <div className="sc-1ad76750-0 kjPFxN">
+                      <div className="sc-1ad76750-2 dkklsk">
+                        <div className="sc-1ad76750-1 jxJaAQ">
+                          <span
+                            style={{
+                              boxSizing: "border-box",
+                              display: "block",
+                              overflow: "hidden",
+                              width: "initial",
+                              height: "initial",
+                              background: "none",
+                              opacity: "1",
+                              border: "0px",
+                              margin: "0px",
+                              padding: "0px",
+                              position: "absolute",
+                              inset: "0px",
+                            }}
+                          >
+                            <img
+                              alt="list check icon img"
+                              src="/HowToDoAuditImg.f69b04af.svg"
+                              decoding="async"
+                              data-nimg="fill"
+                              style={{
+                                position: "absolute",
+                                inset: "0px",
+                                boxSizing: "border-box",
+                                padding: "0px",
+                                border: "none",
+                                margin: "auto",
+                                display: "block",
+                                width: "0px",
+                                height: "0px",
+                                minWidth: "100%",
+                                maxWidth: "100%",
+                                minHeight: "100%",
+                                maxHeight: "100%",
+                                objectFit: "contain",
+                              }}
+                              sizes="100vw"
+                              srcSet="
                   /HowToDoAuditImg.f69b04af.svg  640w,
                   /HowToDoAuditImg.f69b04af.svg  750w,
                   /HowToDoAuditImg.f69b04af.svg  828w,
@@ -1454,56 +1970,58 @@ const page = () => {
                   /HowToDoAuditImg.f69b04af.svg 2048w,
                   /HowToDoAuditImg.f69b04af.svg 3840w
                 "
-                        />
-                        <noscript></noscript>
-                      </span>
+                            />
+                            <noscript></noscript>
+                          </span>
+                        </div>
+                        <div className="sc-1ad76750-3 jOiVHM">
+                          Analytics audit
+                        </div>
+                      </div>
+                      <div className="sc-1ad76750-4 gnHNxW"></div>
                     </div>
-                    <div className="sc-1ad76750-3 jOiVHM">Analytics audit</div>
-                  </div>
-                  <div className="sc-1ad76750-4 gnHNxW"></div>
-                </div>
-                <div className="sc-1ad76750-0 kjPFxN">
-                  <div className="sc-1ad76750-2 dkklsk">
-                    <div className="sc-1ad76750-1 jxJaAQ">
-                      <span
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          overflow: "hidden",
-                          width: "initial",
-                          height: "initial",
-                          background: "none",
-                          opacity: "1",
-                          border: "0px",
-                          margin: "0px",
-                          padding: "0px",
-                          position: "absolute",
-                          inset: "0px",
-                        }}
-                      >
-                        <img
-                          alt="list check icon img"
-                          src="/HowToDoAuditImg.f69b04af.svg"
-                          decoding="async"
-                          data-nimg="fill"
-                          style={{
-                            position: "absolute",
-                            inset: "0px",
-                            boxSizing: "border-box",
-                            padding: "0px",
-                            border: "none",
-                            margin: "auto",
-                            display: "block",
-                            width: "0px",
-                            height: "0px",
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
-                            objectFit: "contain",
-                          }}
-                          sizes="100vw"
-                          srcSet="
+                    <div className="sc-1ad76750-0 kjPFxN">
+                      <div className="sc-1ad76750-2 dkklsk">
+                        <div className="sc-1ad76750-1 jxJaAQ">
+                          <span
+                            style={{
+                              boxSizing: "border-box",
+                              display: "block",
+                              overflow: "hidden",
+                              width: "initial",
+                              height: "initial",
+                              background: "none",
+                              opacity: "1",
+                              border: "0px",
+                              margin: "0px",
+                              padding: "0px",
+                              position: "absolute",
+                              inset: "0px",
+                            }}
+                          >
+                            <img
+                              alt="list check icon img"
+                              src="/HowToDoAuditImg.f69b04af.svg"
+                              decoding="async"
+                              data-nimg="fill"
+                              style={{
+                                position: "absolute",
+                                inset: "0px",
+                                boxSizing: "border-box",
+                                padding: "0px",
+                                border: "none",
+                                margin: "auto",
+                                display: "block",
+                                width: "0px",
+                                height: "0px",
+                                minWidth: "100%",
+                                maxWidth: "100%",
+                                minHeight: "100%",
+                                maxHeight: "100%",
+                                objectFit: "contain",
+                              }}
+                              sizes="100vw"
+                              srcSet="
                   /HowToDoAuditImg.f69b04af.svg  640w,
                   /HowToDoAuditImg.f69b04af.svg  750w,
                   /HowToDoAuditImg.f69b04af.svg  828w,
@@ -1513,55 +2031,55 @@ const page = () => {
                   /HowToDoAuditImg.f69b04af.svg 2048w,
                   /HowToDoAuditImg.f69b04af.svg 3840w
                 "
-                        />
-                      </span>
+                            />
+                          </span>
+                        </div>
+                        <div className="sc-1ad76750-3 jOiVHM">UI/UX audit</div>
+                      </div>
+                      <div className="sc-1ad76750-4 gnHNxW"></div>
                     </div>
-                    <div className="sc-1ad76750-3 jOiVHM">UI/UX audit</div>
-                  </div>
-                  <div className="sc-1ad76750-4 gnHNxW"></div>
-                </div>
-                <div className="sc-1ad76750-0 kjPFxN">
-                  <div className="sc-1ad76750-2 dkklsk">
-                    <div className="sc-1ad76750-1 jxJaAQ">
-                      <span
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          overflow: "hidden",
-                          width: "initial",
-                          height: "initial",
-                          background: "none",
-                          opacity: "1",
-                          border: "0px",
-                          margin: "0px",
-                          padding: "0px",
-                          position: "absolute",
-                          inset: "0px",
-                        }}
-                      >
-                        <img
-                          alt="list check icon img"
-                          src="/HowToDoAuditImg.f69b04af.svg"
-                          decoding="async"
-                          data-nimg="fill"
-                          style={{
-                            position: "absolute",
-                            inset: "0px",
-                            boxSizing: "border-box",
-                            padding: "0px",
-                            border: "none",
-                            margin: "auto",
-                            display: "block",
-                            width: "0px",
-                            height: "0px",
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
-                            objectFit: "contain",
-                          }}
-                          sizes="100vw"
-                          srcSet="
+                    <div className="sc-1ad76750-0 kjPFxN">
+                      <div className="sc-1ad76750-2 dkklsk">
+                        <div className="sc-1ad76750-1 jxJaAQ">
+                          <span
+                            style={{
+                              boxSizing: "border-box",
+                              display: "block",
+                              overflow: "hidden",
+                              width: "initial",
+                              height: "initial",
+                              background: "none",
+                              opacity: "1",
+                              border: "0px",
+                              margin: "0px",
+                              padding: "0px",
+                              position: "absolute",
+                              inset: "0px",
+                            }}
+                          >
+                            <img
+                              alt="list check icon img"
+                              src="/HowToDoAuditImg.f69b04af.svg"
+                              decoding="async"
+                              data-nimg="fill"
+                              style={{
+                                position: "absolute",
+                                inset: "0px",
+                                boxSizing: "border-box",
+                                padding: "0px",
+                                border: "none",
+                                margin: "auto",
+                                display: "block",
+                                width: "0px",
+                                height: "0px",
+                                minWidth: "100%",
+                                maxWidth: "100%",
+                                minHeight: "100%",
+                                maxHeight: "100%",
+                                objectFit: "contain",
+                              }}
+                              sizes="100vw"
+                              srcSet="
                   /HowToDoAuditImg.f69b04af.svg  640w,
                   /HowToDoAuditImg.f69b04af.svg  750w,
                   /HowToDoAuditImg.f69b04af.svg  828w,
@@ -1571,57 +2089,57 @@ const page = () => {
                   /HowToDoAuditImg.f69b04af.svg 2048w,
                   /HowToDoAuditImg.f69b04af.svg 3840w
                 "
-                        />
-                      </span>
+                            />
+                          </span>
+                        </div>
+                        <div className="sc-1ad76750-3 jOiVHM">
+                          SEO optimization audit
+                        </div>
+                      </div>
+                      <div className="sc-1ad76750-4 gnHNxW"></div>
                     </div>
-                    <div className="sc-1ad76750-3 jOiVHM">
-                      SEO optimization audit
-                    </div>
-                  </div>
-                  <div className="sc-1ad76750-4 gnHNxW"></div>
-                </div>
-                <div className="sc-1ad76750-0 kjPFxN">
-                  <div className="sc-1ad76750-2 dkklsk">
-                    <div className="sc-1ad76750-1 jxJaAQ">
-                      <span
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          overflow: "hidden",
-                          width: "initial",
-                          height: "initial",
-                          background: "none",
-                          opacity: "1",
-                          border: "0px",
-                          margin: "0px",
-                          padding: "0px",
-                          position: "absolute",
-                          inset: "0px",
-                        }}
-                      >
-                        <img
-                          alt="list check icon img"
-                          src="/HowToDoAuditImg.f69b04af.svg"
-                          decoding="async"
-                          data-nimg="fill"
-                          style={{
-                            position: "absolute",
-                            inset: "0px",
-                            boxSizing: "border-box",
-                            padding: "0px",
-                            border: "none",
-                            margin: "auto",
-                            display: "block",
-                            width: "0px",
-                            height: "0px",
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
-                            objectFit: "contain",
-                          }}
-                          sizes="100vw"
-                          srcSet="
+                    <div className="sc-1ad76750-0 kjPFxN">
+                      <div className="sc-1ad76750-2 dkklsk">
+                        <div className="sc-1ad76750-1 jxJaAQ">
+                          <span
+                            style={{
+                              boxSizing: "border-box",
+                              display: "block",
+                              overflow: "hidden",
+                              width: "initial",
+                              height: "initial",
+                              background: "none",
+                              opacity: "1",
+                              border: "0px",
+                              margin: "0px",
+                              padding: "0px",
+                              position: "absolute",
+                              inset: "0px",
+                            }}
+                          >
+                            <img
+                              alt="list check icon img"
+                              src="/HowToDoAuditImg.f69b04af.svg"
+                              decoding="async"
+                              data-nimg="fill"
+                              style={{
+                                position: "absolute",
+                                inset: "0px",
+                                boxSizing: "border-box",
+                                padding: "0px",
+                                border: "none",
+                                margin: "auto",
+                                display: "block",
+                                width: "0px",
+                                height: "0px",
+                                minWidth: "100%",
+                                maxWidth: "100%",
+                                minHeight: "100%",
+                                maxHeight: "100%",
+                                objectFit: "contain",
+                              }}
+                              sizes="100vw"
+                              srcSet="
                   /HowToDoAuditImg.f69b04af.svg  640w,
                   /HowToDoAuditImg.f69b04af.svg  750w,
                   /HowToDoAuditImg.f69b04af.svg  828w,
@@ -1631,57 +2149,57 @@ const page = () => {
                   /HowToDoAuditImg.f69b04af.svg 2048w,
                   /HowToDoAuditImg.f69b04af.svg 3840w
                 "
-                        />
-                      </span>
+                            />
+                          </span>
+                        </div>
+                        <div className="sc-1ad76750-3 jOiVHM">
+                          Analyzing competitors
+                        </div>
+                      </div>
+                      <div className="sc-1ad76750-4 gnHNxW"></div>
                     </div>
-                    <div className="sc-1ad76750-3 jOiVHM">
-                      Analyzing competitors
-                    </div>
-                  </div>
-                  <div className="sc-1ad76750-4 gnHNxW"></div>
-                </div>
-                <div className="sc-1ad76750-0 kjPFxN">
-                  <div className="sc-1ad76750-2 dkklsk">
-                    <div className="sc-1ad76750-1 jxJaAQ">
-                      <span
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          overflow: "hidden",
-                          width: "initial",
-                          height: "initial",
-                          background: "none",
-                          opacity: "1",
-                          border: "0px",
-                          margin: "0px",
-                          padding: "0px",
-                          position: "absolute",
-                          inset: "0px",
-                        }}
-                      >
-                        <img
-                          alt="list check icon img"
-                          src="/HowToDoAuditImg.f69b04af.svg"
-                          decoding="async"
-                          data-nimg="fill"
-                          style={{
-                            position: "absolute",
-                            inset: "0px",
-                            boxSizing: "border-box",
-                            padding: "0px",
-                            border: "none",
-                            margin: "auto",
-                            display: "block",
-                            width: "0px",
-                            height: "0px",
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
-                            objectFit: "contain",
-                          }}
-                          sizes="100vw"
-                          srcSet="
+                    <div className="sc-1ad76750-0 kjPFxN">
+                      <div className="sc-1ad76750-2 dkklsk">
+                        <div className="sc-1ad76750-1 jxJaAQ">
+                          <span
+                            style={{
+                              boxSizing: "border-box",
+                              display: "block",
+                              overflow: "hidden",
+                              width: "initial",
+                              height: "initial",
+                              background: "none",
+                              opacity: "1",
+                              border: "0px",
+                              margin: "0px",
+                              padding: "0px",
+                              position: "absolute",
+                              inset: "0px",
+                            }}
+                          >
+                            <img
+                              alt="list check icon img"
+                              src="/HowToDoAuditImg.f69b04af.svg"
+                              decoding="async"
+                              data-nimg="fill"
+                              style={{
+                                position: "absolute",
+                                inset: "0px",
+                                boxSizing: "border-box",
+                                padding: "0px",
+                                border: "none",
+                                margin: "auto",
+                                display: "block",
+                                width: "0px",
+                                height: "0px",
+                                minWidth: "100%",
+                                maxWidth: "100%",
+                                minHeight: "100%",
+                                maxHeight: "100%",
+                                objectFit: "contain",
+                              }}
+                              sizes="100vw"
+                              srcSet="
                   /HowToDoAuditImg.f69b04af.svg  640w,
                   /HowToDoAuditImg.f69b04af.svg  750w,
                   /HowToDoAuditImg.f69b04af.svg  828w,
@@ -1691,58 +2209,58 @@ const page = () => {
                   /HowToDoAuditImg.f69b04af.svg 2048w,
                   /HowToDoAuditImg.f69b04af.svg 3840w
                 "
-                        />
-                        <noscript></noscript>
-                      </span>
+                            />
+                            <noscript></noscript>
+                          </span>
+                        </div>
+                        <div className="sc-1ad76750-3 jOiVHM">
+                          Business logic test
+                        </div>
+                      </div>
+                      <div className="sc-1ad76750-4 gnHNxW"></div>
                     </div>
-                    <div className="sc-1ad76750-3 jOiVHM">
-                      Business logic test
-                    </div>
-                  </div>
-                  <div className="sc-1ad76750-4 gnHNxW"></div>
-                </div>
-                <div className="sc-1ad76750-0 kjPFxN">
-                  <div className="sc-1ad76750-2 dkklsk">
-                    <div className="sc-1ad76750-1 jxJaAQ">
-                      <span
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          overflow: "hidden",
-                          width: "initial",
-                          height: "initial",
-                          background: "none",
-                          opacity: "1",
-                          border: "0px",
-                          margin: "0px",
-                          padding: "0px",
-                          position: "absolute",
-                          inset: "0px",
-                        }}
-                      >
-                        <img
-                          alt="list check icon img"
-                          src="/HowToDoAuditImg.f69b04af.svg"
-                          decoding="async"
-                          data-nimg="fill"
-                          style={{
-                            position: "absolute",
-                            inset: "0px",
-                            boxSizing: "border-box",
-                            padding: "0px",
-                            border: "none",
-                            margin: "auto",
-                            display: "block",
-                            width: "0px",
-                            height: "0px",
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
-                            objectFit: "contain",
-                          }}
-                          sizes="100vw"
-                          srcSet="
+                    <div className="sc-1ad76750-0 kjPFxN">
+                      <div className="sc-1ad76750-2 dkklsk">
+                        <div className="sc-1ad76750-1 jxJaAQ">
+                          <span
+                            style={{
+                              boxSizing: "border-box",
+                              display: "block",
+                              overflow: "hidden",
+                              width: "initial",
+                              height: "initial",
+                              background: "none",
+                              opacity: "1",
+                              border: "0px",
+                              margin: "0px",
+                              padding: "0px",
+                              position: "absolute",
+                              inset: "0px",
+                            }}
+                          >
+                            <img
+                              alt="list check icon img"
+                              src="/HowToDoAuditImg.f69b04af.svg"
+                              decoding="async"
+                              data-nimg="fill"
+                              style={{
+                                position: "absolute",
+                                inset: "0px",
+                                boxSizing: "border-box",
+                                padding: "0px",
+                                border: "none",
+                                margin: "auto",
+                                display: "block",
+                                width: "0px",
+                                height: "0px",
+                                minWidth: "100%",
+                                maxWidth: "100%",
+                                minHeight: "100%",
+                                maxHeight: "100%",
+                                objectFit: "contain",
+                              }}
+                              sizes="100vw"
+                              srcSet="
                   /HowToDoAuditImg.f69b04af.svg  640w,
                   /HowToDoAuditImg.f69b04af.svg  750w,
                   /HowToDoAuditImg.f69b04af.svg  828w,
@@ -1752,21 +2270,726 @@ const page = () => {
                   /HowToDoAuditImg.f69b04af.svg 2048w,
                   /HowToDoAuditImg.f69b04af.svg 3840w
                 "
-                        />
-                        <noscript></noscript>
-                      </span>
-                    </div>
-                    <div className="sc-1ad76750-3 jOiVHM">
-                      Creating a fixes checklist
+                            />
+                            <noscript></noscript>
+                          </span>
+                        </div>
+                        <div className="sc-1ad76750-3 jOiVHM">
+                          Creating a fixes checklist
+                        </div>
+                      </div>
                     </div>
                   </div>
+                  <div className="sc-71d3aadb-2 eqXTjd">
+                    <div className="sc-71d3aadb-3 jAgAbQ"></div>
+                    <div className="sc-71d3aadb-4 sNJIo"></div>
+                  </div>
                 </div>
-              </div>
-              <div className="sc-71d3aadb-2 eqXTjd">
-                <div className="sc-71d3aadb-3 jAgAbQ"></div>
-                <div className="sc-71d3aadb-4 sNJIo"></div>
-              </div>
-            </div>
+              </>
+            ) : (
+              <>
+                <div className="sc-33c3e01-4 cgPdSG">
+                  <div className="sc-33c3e01-5 bMfHpD">
+                    <div className="sc-33c3e01-6 VCKAC mobileAudit">
+                      <div className="sc-33c3e01-7 iBSbdI">
+                        <span
+                          style={{
+                            boxSizing: "border-box",
+                            display: "block",
+                            overflow: "hidden",
+                            width: "initial",
+                            height: "initial",
+                            background: "none",
+                            opacity: 1,
+                            border: "0px",
+                            margin: "0px",
+                            padding: "0px",
+                            position: "absolute",
+                            inset: "0px",
+                          }}
+                        >
+                          <img
+                            alt="check mark icon image"
+                            sizes="100vw"
+                            srcSet="
+                            /auditCheckMark.5e251c34.svg  640w,
+                            /auditCheckMark.5e251c34.svg  750w,
+                            /auditCheckMark.5e251c34.svg  828w,
+                            /auditCheckMark.5e251c34.svg 1080w,
+                            /auditCheckMark.5e251c34.svg 1200w,
+                            /auditCheckMark.5e251c34.svg 1920w,
+                            /auditCheckMark.5e251c34.svg 2048w,
+                            /auditCheckMark.5e251c34.svg 3840w
+                        "
+                            src="/auditCheckMark.5e251c34.svg"
+                            decoding="async"
+                            data-nimg="fill"
+                            style={{
+                              position: "absolute",
+                              inset: "0px",
+                              boxSizing: "border-box",
+                              padding: "0px",
+                              border: "none",
+                              margin: "auto",
+                              display: "block",
+                              width: "0px",
+                              height: "0px",
+                              minWidth: "100%",
+                              maxWidth: "100%",
+                              minHeight: "100%",
+                              maxHeight: "100%",
+                              objectFit: "contain",
+                            }}
+                          />
+                        </span>
+                      </div>
+                      <div className="sc-33c3e01-8 eHMsUd mobileAudit">
+                        <span>Launching the app</span>
+                      </div>
+                      <div className="sc-33c3e01-9 bQlvrx"></div>
+                    </div>
+                    <div className="sc-33c3e01-6 VCKAC mobileAudit">
+                      <div className="sc-33c3e01-7 iBSbdI">
+                        <span
+                          style={{
+                            boxSizing: "border-box",
+                            display: "block",
+                            overflow: "hidden",
+                            width: "initial",
+                            height: "initial",
+                            background: "none",
+                            opacity: 1,
+                            border: "0px",
+                            margin: "0px",
+                            padding: "0px",
+                            position: "absolute",
+                            inset: "0px",
+                          }}
+                        >
+                          <img
+                            alt="check mark icon image"
+                            sizes="100vw"
+                            srcSet="
+                            /auditCheckMark.5e251c34.svg  640w,
+                            /auditCheckMark.5e251c34.svg  750w,
+                            /auditCheckMark.5e251c34.svg  828w,
+                            /auditCheckMark.5e251c34.svg 1080w,
+                            /auditCheckMark.5e251c34.svg 1200w,
+                            /auditCheckMark.5e251c34.svg 1920w,
+                            /auditCheckMark.5e251c34.svg 2048w,
+                            /auditCheckMark.5e251c34.svg 3840w
+                        "
+                            src="/auditCheckMark.5e251c34.svg"
+                            decoding="async"
+                            data-nimg="fill"
+                            style={{
+                              position: "absolute",
+                              inset: "0px",
+                              boxSizing: "border-box",
+                              padding: "0px",
+                              border: "none",
+                              margin: "auto",
+                              display: "block",
+                              width: "0px",
+                              height: "0px",
+                              minWidth: "100%",
+                              maxWidth: "100%",
+                              minHeight: "100%",
+                              maxHeight: "100%",
+                              objectFit: "contain",
+                            }}
+                          />
+                        </span>
+                      </div>
+                      <div className="sc-33c3e01-8 eHMsUd mobileAudit">
+                        <span>Website architecture analysis</span>
+                      </div>
+                      <div className="sc-33c3e01-9 bQlvrx"></div>
+                    </div>
+                    <div className="sc-33c3e01-6 VCKAC mobileAudit">
+                      <div className="sc-33c3e01-7 iBSbdI">
+                        <span
+                          style={{
+                            boxSizing: "border-box",
+                            display: "block",
+                            overflow: "hidden",
+                            width: "initial",
+                            height: "initial",
+                            background: "none",
+                            opacity: 1,
+                            border: "0px",
+                            margin: "0px",
+                            padding: "0px",
+                            position: "absolute",
+                            inset: "0px",
+                          }}
+                        >
+                          <img
+                            alt="check mark icon image"
+                            sizes="100vw"
+                            srcSet="
+                            /auditCheckMark.5e251c34.svg  640w,
+                            /auditCheckMark.5e251c34.svg  750w,
+                            /auditCheckMark.5e251c34.svg  828w,
+                            /auditCheckMark.5e251c34.svg 1080w,
+                            /auditCheckMark.5e251c34.svg 1200w,
+                            /auditCheckMark.5e251c34.svg 1920w,
+                            /auditCheckMark.5e251c34.svg 2048w,
+                            /auditCheckMark.5e251c34.svg 3840w
+                        "
+                            src="/auditCheckMark.5e251c34.svg"
+                            decoding="async"
+                            data-nimg="fill"
+                            style={{
+                              position: "absolute",
+                              inset: "0px",
+                              boxSizing: "border-box",
+                              padding: "0px",
+                              border: "none",
+                              margin: "auto",
+                              display: "block",
+                              width: "0px",
+                              height: "0px",
+                              minWidth: "100%",
+                              maxWidth: "100%",
+                              minHeight: "100%",
+                              maxHeight: "100%",
+                              objectFit: "contain",
+                            }}
+                          />
+                        </span>
+                      </div>
+                      <div className="sc-33c3e01-8 eHMsUd mobileAudit">
+                        <span>Technical check</span>
+                      </div>
+                      <div className="sc-33c3e01-9 bQlvrx"></div>
+                    </div>
+                    <div className="sc-33c3e01-6 VCKAC mobileAudit">
+                      <div className="sc-33c3e01-7 iBSbdI">
+                        <span
+                          style={{
+                            boxSizing: "border-box",
+                            display: "block",
+                            overflow: "hidden",
+                            width: "initial",
+                            height: "initial",
+                            background: "none",
+                            opacity: 1,
+                            border: "0px",
+                            margin: "0px",
+                            padding: "0px",
+                            position: "absolute",
+                            inset: "0px",
+                          }}
+                        >
+                          <img
+                            alt="check mark icon image"
+                            sizes="100vw"
+                            srcSet="
+                            /auditCheckMark.5e251c34.svg  640w,
+                            /auditCheckMark.5e251c34.svg  750w,
+                            /auditCheckMark.5e251c34.svg  828w,
+                            /auditCheckMark.5e251c34.svg 1080w,
+                            /auditCheckMark.5e251c34.svg 1200w,
+                            /auditCheckMark.5e251c34.svg 1920w,
+                            /auditCheckMark.5e251c34.svg 2048w,
+                            /auditCheckMark.5e251c34.svg 3840w
+                        "
+                            src="/auditCheckMark.5e251c34.svg"
+                            decoding="async"
+                            data-nimg="fill"
+                            style={{
+                              position: "absolute",
+                              inset: "0px",
+                              boxSizing: "border-box",
+                              padding: "0px",
+                              border: "none",
+                              margin: "auto",
+                              display: "block",
+                              width: "0px",
+                              height: "0px",
+                              minWidth: "100%",
+                              maxWidth: "100%",
+                              minHeight: "100%",
+                              maxHeight: "100%",
+                              objectFit: "contain",
+                            }}
+                          />
+                        </span>
+                      </div>
+                      <div className="sc-33c3e01-8 eHMsUd mobileAudit">
+                        <span>Code review</span>
+                      </div>
+                      <div className="sc-33c3e01-9 bQlvrx"></div>
+                    </div>
+                    <div className="sc-33c3e01-6 VCKAC mobileAudit">
+                      <div className="sc-33c3e01-7 iBSbdI">
+                        <span
+                          style={{
+                            boxSizing: "border-box",
+                            display: "block",
+                            overflow: "hidden",
+                            width: "initial",
+                            height: "initial",
+                            background: "none",
+                            opacity: 1,
+                            border: "0px",
+                            margin: "0px",
+                            padding: "0px",
+                            position: "absolute",
+                            inset: "0px",
+                          }}
+                        >
+                          <img
+                            alt="check mark icon image"
+                            sizes="100vw"
+                            srcSet="
+                            /auditCheckMark.5e251c34.svg  640w,
+                            /auditCheckMark.5e251c34.svg  750w,
+                            /auditCheckMark.5e251c34.svg  828w,
+                            /auditCheckMark.5e251c34.svg 1080w,
+                            /auditCheckMark.5e251c34.svg 1200w,
+                            /auditCheckMark.5e251c34.svg 1920w,
+                            /auditCheckMark.5e251c34.svg 2048w,
+                            /auditCheckMark.5e251c34.svg 3840w
+                        "
+                            src="/auditCheckMark.5e251c34.svg"
+                            decoding="async"
+                            data-nimg="fill"
+                            style={{
+                              position: "absolute",
+                              inset: "0px",
+                              boxSizing: "border-box",
+                              padding: "0px",
+                              border: "none",
+                              margin: "auto",
+                              display: "block",
+                              width: "0px",
+                              height: "0px",
+                              minWidth: "100%",
+                              maxWidth: "100%",
+                              minHeight: "100%",
+                              maxHeight: "100%",
+                              objectFit: "contain",
+                            }}
+                          />
+                        </span>
+                      </div>
+                      <div className="sc-33c3e01-8 eHMsUd mobileAudit">
+                        <span>Performance audit</span>
+                      </div>
+                      <div className="sc-33c3e01-9 bQlvrx"></div>
+                    </div>
+                    <div className="sc-33c3e01-6 VCKAC mobileAudit">
+                      <div className="sc-33c3e01-7 iBSbdI">
+                        <span
+                          style={{
+                            boxSizing: "border-box",
+                            display: "block",
+                            overflow: "hidden",
+                            width: "initial",
+                            height: "initial",
+                            background: "none",
+                            opacity: 1,
+                            border: "0px",
+                            margin: "0px",
+                            padding: "0px",
+                            position: "absolute",
+                            inset: "0px",
+                          }}
+                        >
+                          <img
+                            alt="check mark icon image"
+                            sizes="100vw"
+                            srcSet="
+                            /auditCheckMark.5e251c34.svg  640w,
+                            /auditCheckMark.5e251c34.svg  750w,
+                            /auditCheckMark.5e251c34.svg  828w,
+                            /auditCheckMark.5e251c34.svg 1080w,
+                            /auditCheckMark.5e251c34.svg 1200w,
+                            /auditCheckMark.5e251c34.svg 1920w,
+                            /auditCheckMark.5e251c34.svg 2048w,
+                            /auditCheckMark.5e251c34.svg 3840w
+                        "
+                            src="/auditCheckMark.5e251c34.svg"
+                            decoding="async"
+                            data-nimg="fill"
+                            style={{
+                              position: "absolute",
+                              inset: "0px",
+                              boxSizing: "border-box",
+                              padding: "0px",
+                              border: "none",
+                              margin: "auto",
+                              display: "block",
+                              width: "0px",
+                              height: "0px",
+                              minWidth: "100%",
+                              maxWidth: "100%",
+                              minHeight: "100%",
+                              maxHeight: "100%",
+                              objectFit: "contain",
+                            }}
+                          />
+                        </span>
+                      </div>
+                      <div className="sc-33c3e01-8 eHMsUd mobileAudit">
+                        <span>Setting testing tools</span>
+                      </div>
+                      <div className="sc-33c3e01-9 bQlvrx"></div>
+                    </div>
+                    <div className="sc-33c3e01-6 VCKAC mobileAudit">
+                      <div className="sc-33c3e01-7 iBSbdI">
+                        <span
+                          style={{
+                            boxSizing: "border-box",
+                            display: "block",
+                            overflow: "hidden",
+                            width: "initial",
+                            height: "initial",
+                            background: "none",
+                            opacity: 1,
+                            border: "0px",
+                            margin: "0px",
+                            padding: "0px",
+                            position: "absolute",
+                            inset: "0px",
+                          }}
+                        >
+                          <img
+                            alt="check mark icon image"
+                            sizes="100vw"
+                            srcSet="
+                            /auditCheckMark.5e251c34.svg  640w,
+                            /auditCheckMark.5e251c34.svg  750w,
+                            /auditCheckMark.5e251c34.svg  828w,
+                            /auditCheckMark.5e251c34.svg 1080w,
+                            /auditCheckMark.5e251c34.svg 1200w,
+                            /auditCheckMark.5e251c34.svg 1920w,
+                            /auditCheckMark.5e251c34.svg 2048w,
+                            /auditCheckMark.5e251c34.svg 3840w
+                        "
+                            src="/auditCheckMark.5e251c34.svg"
+                            decoding="async"
+                            data-nimg="fill"
+                            style={{
+                              position: "absolute",
+                              inset: "0px",
+                              boxSizing: "border-box",
+                              padding: "0px",
+                              border: "none",
+                              margin: "auto",
+                              display: "block",
+                              width: "0px",
+                              height: "0px",
+                              minWidth: "100%",
+                              maxWidth: "100%",
+                              minHeight: "100%",
+                              maxHeight: "100%",
+                              objectFit: "contain",
+                            }}
+                          />
+                        </span>
+                      </div>
+                      <div className="sc-33c3e01-8 eHMsUd mobileAudit">
+                        <span>Analytics audit</span>
+                      </div>
+                      <div className="sc-33c3e01-9 bQlvrx"></div>
+                    </div>
+                    <div className="sc-33c3e01-6 VCKAC mobileAudit">
+                      <div className="sc-33c3e01-7 iBSbdI">
+                        <span
+                          style={{
+                            boxSizing: "border-box",
+                            display: "block",
+                            overflow: "hidden",
+                            width: "initial",
+                            height: "initial",
+                            background: "none",
+                            opacity: 1,
+                            border: "0px",
+                            margin: "0px",
+                            padding: "0px",
+                            position: "absolute",
+                            inset: "0px",
+                          }}
+                        >
+                          <img
+                            alt="check mark icon image"
+                            sizes="100vw"
+                            srcSet="
+                            /auditCheckMark.5e251c34.svg  640w,
+                            /auditCheckMark.5e251c34.svg  750w,
+                            /auditCheckMark.5e251c34.svg  828w,
+                            /auditCheckMark.5e251c34.svg 1080w,
+                            /auditCheckMark.5e251c34.svg 1200w,
+                            /auditCheckMark.5e251c34.svg 1920w,
+                            /auditCheckMark.5e251c34.svg 2048w,
+                            /auditCheckMark.5e251c34.svg 3840w
+                        "
+                            src="/auditCheckMark.5e251c34.svg"
+                            decoding="async"
+                            data-nimg="fill"
+                            style={{
+                              position: "absolute",
+                              inset: "0px",
+                              boxSizing: "border-box",
+                              padding: "0px",
+                              border: "none",
+                              margin: "auto",
+                              display: "block",
+                              width: "0px",
+                              height: "0px",
+                              minWidth: "100%",
+                              maxWidth: "100%",
+                              minHeight: "100%",
+                              maxHeight: "100%",
+                              objectFit: "contain",
+                            }}
+                          />
+                        </span>
+                      </div>
+                      <div className="sc-33c3e01-8 eHMsUd mobileAudit">
+                        <span>UI/UX audit</span>
+                      </div>
+                      <div className="sc-33c3e01-9 bQlvrx"></div>
+                    </div>
+                    <div className="sc-33c3e01-6 VCKAC mobileAudit">
+                      <div className="sc-33c3e01-7 iBSbdI">
+                        <span
+                          style={{
+                            boxSizing: "border-box",
+                            display: "block",
+                            overflow: "hidden",
+                            width: "initial",
+                            height: "initial",
+                            background: "none",
+                            opacity: 1,
+                            border: "0px",
+                            margin: "0px",
+                            padding: "0px",
+                            position: "absolute",
+                            inset: "0px",
+                          }}
+                        >
+                          <img
+                            alt="check mark icon image"
+                            sizes="100vw"
+                            srcSet="
+                            /auditCheckMark.5e251c34.svg  640w,
+                            /auditCheckMark.5e251c34.svg  750w,
+                            /auditCheckMark.5e251c34.svg  828w,
+                            /auditCheckMark.5e251c34.svg 1080w,
+                            /auditCheckMark.5e251c34.svg 1200w,
+                            /auditCheckMark.5e251c34.svg 1920w,
+                            /auditCheckMark.5e251c34.svg 2048w,
+                            /auditCheckMark.5e251c34.svg 3840w
+                        "
+                            src="/auditCheckMark.5e251c34.svg"
+                            decoding="async"
+                            data-nimg="fill"
+                            style={{
+                              position: "absolute",
+                              inset: "0px",
+                              boxSizing: "border-box",
+                              padding: "0px",
+                              border: "none",
+                              margin: "auto",
+                              display: "block",
+                              width: "0px",
+                              height: "0px",
+                              minWidth: "100%",
+                              maxWidth: "100%",
+                              minHeight: "100%",
+                              maxHeight: "100%",
+                              objectFit: "contain",
+                            }}
+                          />
+                        </span>
+                      </div>
+                      <div className="sc-33c3e01-8 eHMsUd mobileAudit">
+                        <span>SEO optimization audit</span>
+                      </div>
+                      <div className="sc-33c3e01-9 bQlvrx"></div>
+                    </div>
+                    <div className="sc-33c3e01-6 VCKAC mobileAudit">
+                      <div className="sc-33c3e01-7 iBSbdI">
+                        <span
+                          style={{
+                            boxSizing: "border-box",
+                            display: "block",
+                            overflow: "hidden",
+                            width: "initial",
+                            height: "initial",
+                            background: "none",
+                            opacity: 1,
+                            border: "0px",
+                            margin: "0px",
+                            padding: "0px",
+                            position: "absolute",
+                            inset: "0px",
+                          }}
+                        >
+                          <img
+                            alt="check mark icon image"
+                            sizes="100vw"
+                            srcSet="
+                            /auditCheckMark.5e251c34.svg  640w,
+                            /auditCheckMark.5e251c34.svg  750w,
+                            /auditCheckMark.5e251c34.svg  828w,
+                            /auditCheckMark.5e251c34.svg 1080w,
+                            /auditCheckMark.5e251c34.svg 1200w,
+                            /auditCheckMark.5e251c34.svg 1920w,
+                            /auditCheckMark.5e251c34.svg 2048w,
+                            /auditCheckMark.5e251c34.svg 3840w
+                        "
+                            src="/auditCheckMark.5e251c34.svg"
+                            decoding="async"
+                            data-nimg="fill"
+                            style={{
+                              position: "absolute",
+                              inset: "0px",
+                              boxSizing: "border-box",
+                              padding: "0px",
+                              border: "none",
+                              margin: "auto",
+                              display: "block",
+                              width: "0px",
+                              height: "0px",
+                              minWidth: "100%",
+                              maxWidth: "100%",
+                              minHeight: "100%",
+                              maxHeight: "100%",
+                              objectFit: "contain",
+                            }}
+                          />
+                        </span>
+                      </div>
+                      <div className="sc-33c3e01-8 eHMsUd mobileAudit">
+                        <span>Analyzing competitors </span>
+                      </div>
+                      <div className="sc-33c3e01-9 bQlvrx"></div>
+                    </div>
+                    <div className="sc-33c3e01-6 VCKAC mobileAudit">
+                      <div className="sc-33c3e01-7 iBSbdI">
+                        <span
+                          style={{
+                            boxSizing: "border-box",
+                            display: "block",
+                            overflow: "hidden",
+                            width: "initial",
+                            height: "initial",
+                            background: "none",
+                            opacity: 1,
+                            border: "0px",
+                            margin: "0px",
+                            padding: "0px",
+                            position: "absolute",
+                            inset: "0px",
+                          }}
+                        >
+                          <img
+                            alt="check mark icon image"
+                            sizes="100vw"
+                            srcSet="
+                            /auditCheckMark.5e251c34.svg  640w,
+                            /auditCheckMark.5e251c34.svg  750w,
+                            /auditCheckMark.5e251c34.svg  828w,
+                            /auditCheckMark.5e251c34.svg 1080w,
+                            /auditCheckMark.5e251c34.svg 1200w,
+                            /auditCheckMark.5e251c34.svg 1920w,
+                            /auditCheckMark.5e251c34.svg 2048w,
+                            /auditCheckMark.5e251c34.svg 3840w
+                        "
+                            src="/auditCheckMark.5e251c34.svg"
+                            decoding="async"
+                            data-nimg="fill"
+                            style={{
+                              position: "absolute",
+                              inset: "0px",
+                              boxSizing: "border-box",
+                              padding: "0px",
+                              border: "none",
+                              margin: "auto",
+                              display: "block",
+                              width: "0px",
+                              height: "0px",
+                              minWidth: "100%",
+                              maxWidth: "100%",
+                              minHeight: "100%",
+                              maxHeight: "100%",
+                              objectFit: "contain",
+                            }}
+                          />
+                        </span>
+                      </div>
+                      <div className="sc-33c3e01-8 eHMsUd mobileAudit">
+                        <span>Business logic test</span>
+                      </div>
+                      <div className="sc-33c3e01-9 bQlvrx"></div>
+                    </div>
+                    <div className="sc-33c3e01-6 VCKAC mobileAudit">
+                      <div className="sc-33c3e01-7 iBSbdI">
+                        <span
+                          style={{
+                            boxSizing: "border-box",
+                            display: "block",
+                            overflow: "hidden",
+                            width: "initial",
+                            height: "initial",
+                            background: "none",
+                            opacity: 1,
+                            border: "0px",
+                            margin: "0px",
+                            padding: "0px",
+                            position: "absolute",
+                            inset: "0px",
+                          }}
+                        >
+                          <img
+                            alt="check mark icon image"
+                            sizes="100vw"
+                            srcSet="
+                            /auditCheckMark.5e251c34.svg  640w,
+                            /auditCheckMark.5e251c34.svg  750w,
+                            /auditCheckMark.5e251c34.svg  828w,
+                            /auditCheckMark.5e251c34.svg 1080w,
+                            /auditCheckMark.5e251c34.svg 1200w,
+                            /auditCheckMark.5e251c34.svg 1920w,
+                            /auditCheckMark.5e251c34.svg 2048w,
+                            /auditCheckMark.5e251c34.svg 3840w
+                        "
+                            src="/auditCheckMark.5e251c34.svg"
+                            decoding="async"
+                            data-nimg="fill"
+                            style={{
+                              position: "absolute",
+                              inset: "0px",
+                              boxSizing: "border-box",
+                              padding: "0px",
+                              border: "none",
+                              margin: "auto",
+                              display: "block",
+                              width: "0px",
+                              height: "0px",
+                              minWidth: "100%",
+                              maxWidth: "100%",
+                              minHeight: "100%",
+                              maxHeight: "100%",
+                              objectFit: "contain",
+                            }}
+                          />
+                        </span>
+                      </div>
+                      <div className="sc-33c3e01-8 eHMsUd mobileAudit">
+                        <span>Creating a fixes checklist</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="sc-33c3e01-10 flxQkF webAudit"></div>
+                </div>
+              </>
+            )}
           </div>
         </section>
         <section className="sc-cdce5055-0 birpZJ">
