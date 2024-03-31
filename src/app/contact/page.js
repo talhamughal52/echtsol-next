@@ -119,13 +119,13 @@ function page() {
           <div className="sc-1710d0b8-7 fkAssI">
             <div className="sc-1710d0b8-8 lnmubT">
               <button
-                className="sc-165bd23e-0 jRtjBX calendly contactPage"
+                className="sc-85b3b82f-0 iVwapP calendly contactPage"
                 type="submit"
               >
-                <a rel="noopener noreferrer" className="sc-165bd23e-1 pdCwc">
+                <a rel="noopener noreferrer" className="sc-165bd23e-1 brnIre">
                   Schedule a call
                 </a>
-                <div className="sc-3d333781-14 eyTgtD calendly contactPage">
+                <div className="sc-c8e937f7-14 eaEwWv calendly contactPage">
                   <svg
                     viewBox="5 5 25 25"
                     fill="none"
@@ -161,7 +161,7 @@ function page() {
               <div className="sc-eecae842-3 cwTSdX">
                 <a
                   className="sc-6a8e2364-0 yWLoh email-button"
-                  href="mailto: hr@cgsteam.io"
+                  href="#"
                   target="_self"
                   rel="noreferrer noopener"
                 >
@@ -255,7 +255,7 @@ function page() {
               <div className="sc-eecae842-3 cwTSdX">
                 <a
                   className="sc-6a8e2364-0 yWLoh email-button"
-                  href="mailto: contact@cgsteam.io"
+                  href="#"
                   target="_self"
                   rel="noreferrer noopener"
                 >
