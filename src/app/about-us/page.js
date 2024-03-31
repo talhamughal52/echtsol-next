@@ -515,19 +515,8 @@ function page() {
                         minHeight: "100%",
                         maxHeight: "100%",
                         objectFit: "cover",
-                        objectPosition: "right center",
+                        objectPosition: "right",
                       }}
-                      sizes="100vw"
-                      srcSet="
-                  /right-arrow.56c2b5d6.svg  640w,
-                  /right-arrow.56c2b5d6.svg  750w,
-                  /right-arrow.56c2b5d6.svg  828w,
-                  /right-arrow.56c2b5d6.svg 1080w,
-                  /right-arrow.56c2b5d6.svg 1200w,
-                  /right-arrow.56c2b5d6.svg 1920w,
-                  /right-arrow.56c2b5d6.svg 2048w,
-                  /right-arrow.56c2b5d6.svg 3840w
-                "
                     />
                   </span>
                 </span>
@@ -559,7 +548,7 @@ function page() {
                     </div>
                   </div>
                 </span>
-                you've just made it.
+                you&#x27;ve just made it.
                 <span className="sc-1df7ff24-4 bROsnt">
                   <span
                     style={{
@@ -597,19 +586,8 @@ function page() {
                         minHeight: "100%",
                         maxHeight: "100%",
                         objectFit: "cover",
-                        objectPosition: "left center",
+                        objectPosition: "left",
                       }}
-                      sizes="100vw"
-                      srcSet="
-                  /left-arrow.1c2ba8ce.svg  640w,
-                  /left-arrow.1c2ba8ce.svg  750w,
-                  /left-arrow.1c2ba8ce.svg  828w,
-                  /left-arrow.1c2ba8ce.svg 1080w,
-                  /left-arrow.1c2ba8ce.svg 1200w,
-                  /left-arrow.1c2ba8ce.svg 1920w,
-                  /left-arrow.1c2ba8ce.svg 2048w,
-                  /left-arrow.1c2ba8ce.svg 3840w
-                "
                     />
                   </span>
                 </span>
@@ -618,11 +596,11 @@ function page() {
             <div className="sc-1df7ff24-8 YTCOs">
               <a
                 rel="noopener noreferrer"
-                className="sc-3d333781-1 ceyPTl about-us"
-                href="/"
+                className="sc-c8e937f7-1 bgQEYS about-us"
+                href="index.html"
               >
                 Schedule a call
-                <div className="sc-3d333781-14 eyTgtD">
+                <div className="sc-c8e937f7-14 eaEwWv">
                   <svg
                     viewBox="5 5 25 25"
                     fill="none"
@@ -646,15 +624,14 @@ function page() {
                   </svg>
                 </div>
               </a>
-              <div className="sc-3d333781-16 fyjhWJ about-us">
+              <div className="sc-c8e937f7-16 bHtvoe about-us">
                 <a
-                  href="/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="sc-3d333781-17 CgEtZ"
+                  className="sc-c8e937f7-17 epAzYV"
                 >
-                  <div className="sc-3d333781-18 krVNqH about-us">
-                    <div className="sc-3d333781-21 iWBCGZ">
+                  <div className="sc-c8e937f7-18 bbplka about-us">
+                    <div className="sc-c8e937f7-21 fnaqeE">
                       <span
                         style={{
                           boxSizing: "border-box",
@@ -673,17 +650,6 @@ function page() {
                       >
                         <img
                           alt="Icon"
-                          sizes="100vw"
-                          srcSet="
-                      /whatsUp.2b815c02.svg  640w,
-                      /whatsUp.2b815c02.svg  750w,
-                      /whatsUp.2b815c02.svg  828w,
-                      /whatsUp.2b815c02.svg 1080w,
-                      /whatsUp.2b815c02.svg 1200w,
-                      /whatsUp.2b815c02.svg 1920w,
-                      /whatsUp.2b815c02.svg 2048w,
-                      /whatsUp.2b815c02.svg 3840w
-                    "
                           src="/whatsUp.2b815c02.svg"
                           decoding="async"
                           data-nimg="fill"
@@ -710,13 +676,12 @@ function page() {
                   </div>
                 </a>
                 <a
-                  href="/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="sc-3d333781-17 CgEtZ"
+                  className="sc-c8e937f7-17 epAzYV"
                 >
-                  <div className="sc-3d333781-19 byqtnE about-us">
-                    <div className="sc-3d333781-20 zRNUR about-us">
+                  <div className="sc-c8e937f7-19 eQaJuB about-us">
+                    <div className="sc-c8e937f7-20 gaMrCo about-us">
                       <span
                         style={{
                           boxSizing: "border-box",
@@ -735,17 +700,6 @@ function page() {
                       >
                         <img
                           alt="Icon"
-                          sizes="100vw"
-                          srcSet="
-                      /telegram.3bbd1a2f.svg  640w,
-                      /telegram.3bbd1a2f.svg  750w,
-                      /telegram.3bbd1a2f.svg  828w,
-                      /telegram.3bbd1a2f.svg 1080w,
-                      /telegram.3bbd1a2f.svg 1200w,
-                      /telegram.3bbd1a2f.svg 1920w,
-                      /telegram.3bbd1a2f.svg 2048w,
-                      /telegram.3bbd1a2f.svg 3840w
-                    "
                           src="/telegram.3bbd1a2f.svg"
                           decoding="async"
                           data-nimg="fill"

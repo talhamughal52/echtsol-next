@@ -969,17 +969,6 @@ data-styled.g19[id="sc-942ab72b-4"] {
   margin-bottom: 1.375rem;
 }
 
-@keyframes buJYSL {
-  0% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(-30px);
-  }
-}
-
 .byAPvr {
   margin-top: 1.375rem;
   font-size: 0.875rem;
@@ -1005,6 +994,17 @@ data-styled.g19[id="sc-942ab72b-4"] {
   font-weight: 900;
   animation: 300ms ease-in 180ms 1 normal forwards running buJYSL;
   transition: all 0.3s ease 0s;
+}
+
+@keyframes buJYSL {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
 }
 
 .gsELwD:last-of-type {
