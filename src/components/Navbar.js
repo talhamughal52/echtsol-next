@@ -4,18 +4,23 @@ import "../css/navbar.css";
 import Company from "./Company";
 import Services from "./Services";
 import MobileNavbar from "./MobileNavbar";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMobileMenu = () => {
     setIsOpen(!isOpen);
   };
+
   return (
     <nav className="sc-1c6e7200-0 hYEXCu navbar">
       <div className="sc-1c6e7200-1 ccyimB">
         <div className="sc-1c6e7200-2 koXNTb">
-          <Link href="/" className="sc-1c6e7200-3 gJUEHi">
+          <Link
+            href="/"
+            className="sc-1c6e7200-3 gJUEHi"
+            onClick={() => setIsOpen(false)}
+          >
             <div className="sc-feb788d7-0 gmCnzC header">
               <div className="sc-feb788d7-1 erzWvU">
                 <span
@@ -90,7 +95,7 @@ function Navbar() {
             </button>
           </div>
         </div>
-        <MobileNavbar open={isOpen} />
+        <MobileNavbar open={isOpen} setIsOpen={setIsOpen} />
         <menu className="sc-1c6e7200-5 fXeVZC">
           <Link href="/portfolio" className="sc-1c6e7200-4 IziRp">
             <span className="sc-1c6e7200-6 eGMqUE">Portfolio</span>

@@ -1,101 +1,32 @@
-const MobileNavbar = ({ open }) => {
+import Link from "next/link";
+import MobileServices from "./MobileServices";
+import MobileCompany from "./MobileCompany";
+
+const MobileNavbar = ({ open, setIsOpen }) => {
   return (
     <div className={`sc-942ab72b-0 WvLWV ${open ? "open" : "hide"}`}>
       <nav className="sc-942ab72b-2 dYutob">
         <div className="sc-942ab72b-1 gLYONc">
-          <p href="/portfolio" className="sc-1c6e7200-7 bqDyJy">
+          <Link
+            href="/portfolio"
+            className="sc-1c6e7200-7 bqDyJy"
+            style={{ display: "block" }}
+            onClick={() => setIsOpen(false)}
+          >
             Portfolio
-          </p>
+          </Link>
         </div>
+        <MobileServices setMobileIsOpen={setIsOpen} />
+        <MobileCompany setMobileIsOpen={setIsOpen} />
         <div className="sc-942ab72b-1 gLYONc">
-          <div tabIndex="0" className="sc-a2c2b163-0 fpxhRf">
-            <div className="sc-a2c2b163-1 gHveg">
-              Services
-              <svg
-                className="sc-a2c2b163-5 eFmkhy"
-                width="9"
-                height="5"
-                viewBox="0 0 9 5"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M4.49999 5C4.33869 5 4.17741 4.93998 4.05443 4.82018L0.184628 1.0486C-0.0615425 0.808678 -0.0615425 0.419689 0.184628 0.179867C0.430698 -0.0599556 0.829741 -0.0599556 1.07593 0.179867L4.49999 3.51717L7.92406 0.179983C8.17023 -0.0598391 8.56923 -0.0598391 8.81528 0.179983C9.06157 0.419806 9.06157 0.808794 8.81528 1.04871L4.94554 4.8203C4.8225 4.94011 4.66122 5 4.49999 5Z"></path>
-              </svg>
-            </div>
-            <div className="sc-a2c2b163-2 ctluyH">
-              <div className="sc-a2c2b163-3 cHkinH">
-                <a
-                  href="/services/web-development"
-                  className="sc-a2c2b163-4 fzwbGJ"
-                >
-                  Web // Desktop Development
-                </a>
-              </div>
-              <div className="sc-a2c2b163-3 iDWptz">
-                <a href="/services/it-support" className="sc-a2c2b163-4 fzwbGJ">
-                  IT Support Services
-                </a>
-              </div>
-              <div className="sc-a2c2b163-3 eDteL">
-                <a
-                  href="/services/database-and-server-solutions"
-                  className="sc-a2c2b163-4 fzwbGJ"
-                >
-                  Server // Databases
-                </a>
-              </div>
-              <div className="sc-a2c2b163-3 lesWWL">
-                <a
-                  href="/services/ux-ui-design"
-                  className="sc-a2c2b163-4 fzwbGJ"
-                >
-                  UX/UI Design
-                </a>
-              </div>
-              <div className="sc-a2c2b163-3 dpLSZj">
-                <a href="/services/web-audit" className="sc-a2c2b163-4 fzwbGJ">
-                  Web Audit
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="sc-942ab72b-1 gLYONc">
-          <div tabIndex="0" className="sc-a2c2b163-0 fpxhRf">
-            <div className="sc-a2c2b163-1 gHveg">
-              Company
-              <svg
-                className="sc-a2c2b163-5 eFmkhy"
-                width="9"
-                height="5"
-                viewBox="0 0 9 5"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M4.49999 5C4.33869 5 4.17741 4.93998 4.05443 4.82018L0.184628 1.0486C-0.0615425 0.808678 -0.0615425 0.419689 0.184628 0.179867C0.430698 -0.0599556 0.829741 -0.0599556 1.07593 0.179867L4.49999 3.51717L7.92406 0.179983C8.17023 -0.0598391 8.56923 -0.0598391 8.81528 0.179983C9.06157 0.419806 9.06157 0.808794 8.81528 1.04871L4.94554 4.8203C4.8225 4.94011 4.66122 5 4.49999 5Z"></path>
-              </svg>
-            </div>
-            <div className="sc-a2c2b163-2 ctluyH">
-              <div className="sc-a2c2b163-3 byAPvr">
-                <a href="/about-us" className="sc-a2c2b163-4 fzwbGJ">
-                  About us
-                </a>
-              </div>
-              <div className="sc-a2c2b163-3 fhGlCf">
-                <a href="/contact" className="sc-a2c2b163-4 fzwbGJ">
-                  Contact
-                </a>
-              </div>
-              <div className="sc-a2c2b163-3 gsELwD">
-                <a href="/faq" className="sc-a2c2b163-4 fzwbGJ">
-                  FAQ
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="sc-942ab72b-1 gLYONc">
-          <p href="/blog" className="sc-1c6e7200-7 bqDyJy">
+          <Link
+            href="/blog"
+            className="sc-1c6e7200-7 bqDyJy"
+            style={{ display: "block" }}
+            onClick={() => setIsOpen(false)}
+          >
             Blog
-          </p>
+          </Link>
         </div>
       </nav>
       <div className="sc-942ab72b-6 cfcCjD">
@@ -356,9 +287,13 @@ const MobileNavbar = ({ open }) => {
             </a>
           </div>
           <div className="sc-942ab72b-14 cQMWFn">
-            <a href="/privacy-policy" className="sc-942ab72b-15 ggYDPI">
+            <Link
+              href="/privacy-policy"
+              className="sc-942ab72b-15 ggYDPI"
+              onClick={() => setIsOpen(false)}
+            >
               Privacy Policy
-            </a>
+            </Link>
           </div>
         </div>
       </div>
