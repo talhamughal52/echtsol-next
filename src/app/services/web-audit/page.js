@@ -11,12 +11,15 @@ const page = () => {
   };
 
   useEffect(() => {
-    checkWindowSize();
-    window.addEventListener("resize", checkWindowSize);
-    return () => {
-      window.removeEventListener("resize", checkWindowSize);
-    };
+    if (typeof window !== "undefined") {
+      checkWindowSize();
+      window.addEventListener("resize", checkWindowSize);
+      return () => {
+        window.removeEventListener("resize", checkWindowSize);
+      };
+    }
   }, []);
+
   return (
     <article className="sc-35eecbae-1 idkLAj">
       <article className="sc-35eecbae-0 ePlPpE">
@@ -1547,7 +1550,7 @@ const page = () => {
             </section>
           </h3>
           <div className="sc-35277c1c-2 lgcONT">
-            {window.innerWidth > 768 ? (
+            {typeof window !== "undefined" && window.innerWidth > 768 ? (
               <>
                 <div className="sc-71d3aadb-0 ddTMLI">
                   <div className="sc-71d3aadb-1 inzsTJ">
