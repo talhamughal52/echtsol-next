@@ -1,6 +1,23 @@
+"use client";
 import "@/css/ui-ux-design.css";
+import { useState, useEffect } from "react";
 
 const page = () => {
+  const [render, setRender] = useState(false);
+  const checkWindowSize = () => {
+    setRender(Math.random());
+  };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      checkWindowSize();
+      window.addEventListener("resize", checkWindowSize);
+      return () => {
+        window.removeEventListener("resize", checkWindowSize);
+      };
+    }
+  }, []);
+
   return (
     <>
       <article className="sc-35eecbae-1 idkLAj">
@@ -215,9 +232,130 @@ const page = () => {
             </section>
             <section className="sc-eb74008c-0 eSkqrJ">
               <h2 className="sc-eb74008c-1 jNXiyB">What do we do?</h2>
-              <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined"></div>
+              <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined">
+                <div
+                  className="rfm-marquee-container"
+                  style={{
+                    "--pause-on-hover": "running",
+                    "--pause-on-click": "running",
+                    "--width": "100%",
+                    "--transform": "none",
+                  }}
+                >
+                  <div
+                    className="rfm-marquee"
+                    style={{
+                      "--play": "running",
+                      "--direction": "reverse",
+                      "--duration": "195.88875s",
+                      "--delay": "0s",
+                      "--iteration-count": "infinite",
+                      "--min-width": "100%",
+                    }}
+                  >
+                    <div className="rfm-initial-child-container">
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                          What do we do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we do?&nbsp;&nbsp;&nbsp;
+                        </span>
+                      </div>
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                          What do we do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we do?&nbsp;&nbsp;&nbsp;
+                        </span>
+                      </div>
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                          What do we do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we
+                          do?&nbsp;&nbsp;&nbsp;What do we do?&nbsp;&nbsp;&nbsp;
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="rfm-marquee"
+                    style={{
+                      "--play": "running",
+                      "--direction": "reverse",
+                      "--duration": "195.88875s",
+                      "--delay": "0s",
+                      "--iteration-count": "infinite",
+                      "--min-width": "100%",
+                    }}
+                  >
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        What do we do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we do?&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        What do we do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we do?&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        What do we do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we do?&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="sc-eb74008c-2 bGPXLZ">
-                <div className="sc-eb74008c-6 oVfRU">
+                <div className="sc-eb74008c-6 oVfRU scrolled">
                   <div className="sc-eb74008c-3 ktBSDi">
                     <img
                       src="/cd.02c3282f.svg"
@@ -236,7 +374,7 @@ const page = () => {
                     </section>
                   </div>
                 </div>
-                <div className="sc-eb74008c-6 dOBPIa">
+                <div className="sc-eb74008c-6 dOBPIa scrolled">
                   <div className="sc-eb74008c-3 ktBSDi">
                     <img
                       src="/tree.a83eac78.svg"
@@ -254,7 +392,7 @@ const page = () => {
                     </section>
                   </div>
                 </div>
-                <div className="sc-eb74008c-6 JmoM">
+                <div className="sc-eb74008c-6 JmoM scrolled">
                   <div className="sc-eb74008c-3 ktBSDi">
                     <img
                       src="/window.f58ef68b.svg"
@@ -1652,7 +1790,23 @@ const page = () => {
                 </svg>
               </div>
               <div className="sc-fed4419e-4 jpXdvu">
-                <h2 className="sc-fed4419e-5 dnhJTw"></h2>
+                <h2 className="sc-fed4419e-5 dnhJTw">
+                  <span class="sc-208d0e2a-0 gLpTFF">
+                    <span class="sc-208d0e2a-2 btjlwk">
+                      <span>Why </span>
+                      <br />
+                      <span class="sc-208d0e2a-4 eKJAac last-part">
+                        <span>is it product-essential?</span>
+                        <span class="sc-208d0e2a-1 jhMAsE"></span>
+                      </span>
+                    </span>
+                    <span class="sc-208d0e2a-3 hhUzVm">
+                      <span class="sc-208d0e2a-4 eKJAac last-part">
+                        <span> </span>{" "}
+                      </span>
+                    </span>
+                  </span>
+                </h2>
                 <div className="sc-fed4419e-6 eEERpE">
                   <section>
                     <span>
@@ -1675,7 +1829,18 @@ const page = () => {
             <section className="sc-3c4db4f8-0 ffOzqX">
               <h2 className="sc-3c4db4f8-1 eeogeB">Design process</h2>
               <div className="sc-3c4db4f8-2 gVxzEv">
-                <div className="sc-3c4db4f8-5 jyuWfA scrolled"></div>
+                {typeof window !== "undefined" && window.innerWidth > 768 ? (
+                  <>
+                    <div className="sc-3c4db4f8-5 jyuWfA scrolled"></div>
+                  </>
+                ) : (
+                  <>
+                    <div class="sc-3c4db4f8-5 itxBbq scrolled"></div>
+                    <div class="sc-3c4db4f8-5 kdqhEM scrolled"></div>
+                    <div class="sc-3c4db4f8-5 gJuAXD scrolled"></div>
+                  </>
+                )}
+
                 <div className="sc-3c4db4f8-3 edSxKO">
                   <div height="70" className="sc-696b5511-0 jazmzO scrolled">
                     <div className="sc-696b5511-1 kHDmzB"></div>
@@ -1709,7 +1874,128 @@ const page = () => {
         <article className="sc-ca5c6924-0 hNDyFi">
           <div className="sc-ca5c6924-2 ggHFTZ">
             <div className="sc-414beb2f-3 kuXCgN">
-              <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined"></div>
+              <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined">
+                <div
+                  className="rfm-marquee-container"
+                  style={{
+                    "--pause-on-hover": "running",
+                    "--pause-on-click": "running",
+                    "--width": "100%",
+                    "--transform": "none",
+                  }}
+                >
+                  <div
+                    className="rfm-marquee"
+                    style={{
+                      "--play": "running",
+                      "--direction": "reverse",
+                      "--duration": "195.88875s",
+                      "--delay": "0s",
+                      "--iteration-count": "infinite",
+                      "--min-width": "100%",
+                    }}
+                  >
+                    <div className="rfm-initial-child-container">
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                        MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;
+                      </span>
+                      </div>
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                        MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;
+                      </span>
+                      </div>
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                        MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;
+                      </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="rfm-marquee"
+                    style={{
+                      "--play": "running",
+                      "--direction": "reverse",
+                      "--duration": "195.88875s",
+                      "--delay": "0s",
+                      "--iteration-count": "infinite",
+                      "--min-width": "100%",
+                    }}
+                  >
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="sc-414beb2f-0 bKutcs">
               <div className="sc-414beb2f-1 lfXoCJ">
