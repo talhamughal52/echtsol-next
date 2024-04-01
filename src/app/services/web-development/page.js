@@ -262,7 +262,92 @@ function page() {
                   className="sc-7df3f3df-2 idBBDq"
                 />
                 <h3 className="sc-7df3f3df-3 jwzvcA">DESKTOP</h3>
-                <div className="sc-c8f2fdbc-0 hqeQTU undefined webDev"></div>
+                <div className="sc-c8f2fdbc-0 hqeQTU undefined webDev">
+                  <div
+                    className="rfm-marquee-container"
+                    style={{
+                      "--pause-on-hover": "running",
+                      "--pause-on-click": "running",
+                      "--width": "100%",
+                      "--transform": "none",
+                    }}
+                  >
+                    <div
+                      className="rfm-marquee"
+                      style={{
+                        "--play": "running",
+                        "--direction": "reverse",
+                        "--duration": "39.855s",
+                        "--delay": "0s",
+                        "--iteration-count": "infinite",
+                        "--min-width": "100%",
+                      }}
+                    >
+                      <div className="rfm-initial-child-container">
+                        <div
+                          className="rfm-child"
+                          style={{ "--transform": "none" }}
+                        >
+                          <span>
+                            DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;
+                          </span>
+                        </div>
+                        <div
+                          className="rfm-child"
+                          style={{ "--transform": "none" }}
+                        >
+                          <span>
+                            DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;
+                          </span>
+                        </div>
+                        <div
+                          className="rfm-child"
+                          style={{ "--transform": "none" }}
+                        >
+                          <span>
+                            DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="rfm-marquee"
+                      style={{
+                        "--play": "running",
+                        "--direction": "reverse",
+                        "--duration": "39.855s",
+                        "--delay": "0s",
+                        "--iteration-count": "infinite",
+                        "--min-width": "100%",
+                      }}
+                    >
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                          DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;
+                        </span>
+                      </div>
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                          DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;
+                        </span>
+                      </div>
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                          DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;DESKTOP&nbsp;&nbsp;&nbsp;
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <p className="sc-7df3f3df-4 gfVOlO scrolled first-item">
                   Needs computer installation
                 </p>
@@ -289,7 +374,92 @@ function page() {
                   className="sc-7df3f3df-2 idBBDq"
                 />
                 <h3 className="sc-7df3f3df-3 jwzvcA">WEB</h3>
-                <div className="sc-c8f2fdbc-0 hqeQTU undefined webDev"></div>
+                <div className="sc-c8f2fdbc-0 hqeQTU undefined webDev">
+                  <div
+                    className="rfm-marquee-container"
+                    style={{
+                      "--pause-on-hover": "running",
+                      "--pause-on-click": "running",
+                      "--width": "100%",
+                      "--transform": "none",
+                    }}
+                  >
+                    <div
+                      className="rfm-marquee"
+                      style={{
+                        "--play": "running",
+                        "--direction": "reverse",
+                        "--duration": "39.855s",
+                        "--delay": "0s",
+                        "--iteration-count": "infinite",
+                        "--min-width": "100%",
+                      }}
+                    >
+                      <div className="rfm-initial-child-container">
+                        <div
+                          className="rfm-child"
+                          style={{ "--transform": "none" }}
+                        >
+                          <span>
+                            WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;
+                          </span>
+                        </div>
+                        <div
+                          className="rfm-child"
+                          style={{ "--transform": "none" }}
+                        >
+                          <span>
+                            WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;
+                          </span>
+                        </div>
+                        <div
+                          className="rfm-child"
+                          style={{ "--transform": "none" }}
+                        >
+                          <span>
+                            WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="rfm-marquee"
+                      style={{
+                        "--play": "running",
+                        "--direction": "reverse",
+                        "--duration": "39.855s",
+                        "--delay": "0s",
+                        "--iteration-count": "infinite",
+                        "--min-width": "100%",
+                      }}
+                    >
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                          WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;
+                        </span>
+                      </div>
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                          WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;
+                        </span>
+                      </div>
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                          WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;WEB&nbsp;&nbsp;&nbsp;
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <p className="sc-7df3f3df-4 gfVOlO scrolled first-item">
                   Opens in browser
                 </p>
@@ -371,7 +541,116 @@ function page() {
       <article className="sc-35eecbae-0 ePlPpE">
         <div style={{ marginTop: "-10px" }}>
           <div className="sc-414beb2f-3 kuXCgN webDev">
-            <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined"></div>
+            <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined">
+              <div
+                className="rfm-marquee-container"
+                style={{
+                  "--pause-on-hover": "running",
+                  "--pause-on-click": "running",
+                  "--width": "100%",
+                  "--transform": "none",
+                }}
+              >
+                <div
+                  className="rfm-marquee"
+                  style={{
+                    "--play": "running",
+                    "--direction": "reverse",
+                    "--duration": "39.855s",
+                    "--delay": "0s",
+                    "--iteration-count": "infinite",
+                    "--min-width": "100%",
+                  }}
+                >
+                  <div className="rfm-initial-child-container">
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                        TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="rfm-marquee"
+                  style={{
+                    "--play": "running",
+                    "--direction": "reverse",
+                    "--duration": "39.855s",
+                    "--delay": "0s",
+                    "--iteration-count": "infinite",
+                    "--min-width": "100%",
+                  }}
+                >
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                      YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                      YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                      YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                      YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                      YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                      YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="sc-414beb2f-0 bKutcs webDev">
             <div className="sc-414beb2f-1 lfXoCJ">
@@ -413,7 +692,140 @@ function page() {
           </div>
           <div className="sc-1e87f4a-0 dTlvaQ webDev">
             <div>
-              <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined"></div>
+              <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined">
+                <div
+                  className="rfm-marquee-container"
+                  style={{
+                    "--pause-on-hover": "running",
+                    "--pause-on-click": "running",
+                    "--width": "100%",
+                    "--transform": "none",
+                  }}
+                >
+                  <div
+                    className="rfm-marquee"
+                    style={{
+                      "--play": "running",
+                      "--direction": "reverse",
+                      "--duration": "39.855s",
+                      "--delay": "0s",
+                      "--iteration-count": "infinite",
+                      "--min-width": "100%",
+                    }}
+                  >
+                    <div className="rfm-initial-child-container">
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                          Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;
+                        </span>
+                      </div>
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                          Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;
+                        </span>
+                      </div>
+                      <div
+                        className="rfm-child"
+                        style={{ "--transform": "none" }}
+                      >
+                        <span>
+                          Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                          gift&nbsp;&nbsp;&nbsp;
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="rfm-marquee"
+                    style={{
+                      "--play": "running",
+                      "--direction": "reverse",
+                      "--duration": "39.855s",
+                      "--delay": "0s",
+                      "--iteration-count": "infinite",
+                      "--min-width": "100%",
+                    }}
+                  >
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;Bonuses you’ll receive as a
+                        gift&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div>
               <h2 className="sc-1e87f4a-1 cPQMXd webDev">
