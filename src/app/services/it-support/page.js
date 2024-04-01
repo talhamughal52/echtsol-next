@@ -1,6 +1,23 @@
-import "@/css/it-services.css";
+"use client";
+import "@/css/it-support.css";
+import { useState, useEffect } from "react";
+import ItSupportListExpandCollapseSection from "@/components/ItSupportListExpandCollapseSection";
 
 const page = () => {
+  const [render, setRender] = useState(false);
+  const checkWindowSize = () => {
+    setRender(Math.random());
+  };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      checkWindowSize();
+      window.addEventListener("resize", checkWindowSize);
+      return () => {
+        window.removeEventListener("resize", checkWindowSize);
+      };
+    }
+  }, []);
   return (
     <>
       <article className="sc-35eecbae-0 ePlPpE">
@@ -213,9 +230,118 @@ const page = () => {
           </section>
           <section className="sc-894cd513-0 gArXtw">
             <h2 className="sc-894cd513-1 dIBkrU">What do we do?</h2>
-            <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined"></div>
+            <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined">
+              <div
+                className="rfm-marquee-container"
+                style={{
+                  "--pause-on-hover": "running",
+                  "--pause-on-click": "running",
+                  "--width": "100%",
+                  "--transform": "none",
+                }}
+              >
+                <div
+                  className="rfm-marquee"
+                  style={{
+                    "--play": "running",
+                    "--direction": "reverse",
+                    "--duration": "195.88875s",
+                    "--delay": "0s",
+                    "--iteration-count": "infinite",
+                    "--min-width": "100%",
+                  }}
+                >
+                  <div className="rfm-initial-child-container">
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        What do we do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we do?&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        What do we do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we do?&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        What do we do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we
+                        do?&nbsp;&nbsp;&nbsp;What do we do?&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="rfm-marquee"
+                  style={{
+                    "--play": "running",
+                    "--direction": "reverse",
+                    "--duration": "195.88875s",
+                    "--delay": "0s",
+                    "--iteration-count": "infinite",
+                    "--min-width": "100%",
+                  }}
+                >
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      What do we do?&nbsp;&nbsp;&nbsp;What do we
+                      do?&nbsp;&nbsp;&nbsp;What do we do?&nbsp;&nbsp;&nbsp;What
+                      do we do?&nbsp;&nbsp;&nbsp;What do we
+                      do?&nbsp;&nbsp;&nbsp;What do we do?&nbsp;&nbsp;&nbsp;What
+                      do we do?&nbsp;&nbsp;&nbsp;What do we
+                      do?&nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      What do we do?&nbsp;&nbsp;&nbsp;What do we
+                      do?&nbsp;&nbsp;&nbsp;What do we do?&nbsp;&nbsp;&nbsp;What
+                      do we do?&nbsp;&nbsp;&nbsp;What do we
+                      do?&nbsp;&nbsp;&nbsp;What do we do?&nbsp;&nbsp;&nbsp;What
+                      do we do?&nbsp;&nbsp;&nbsp;What do we
+                      do?&nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      What do we do?&nbsp;&nbsp;&nbsp;What do we
+                      do?&nbsp;&nbsp;&nbsp;What do we do?&nbsp;&nbsp;&nbsp;What
+                      do we do?&nbsp;&nbsp;&nbsp;What do we
+                      do?&nbsp;&nbsp;&nbsp;What do we do?&nbsp;&nbsp;&nbsp;What
+                      do we do?&nbsp;&nbsp;&nbsp;What do we
+                      do?&nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="sc-894cd513-2 jqnbpD">
-              <div className="sc-894cd513-6 cABPjI">
+              <div className="sc-894cd513-6 cABPjI scrolled">
                 <p className="sc-894cd513-3 gRrwkH">
                   <img
                     src="/cd.02c3282f.svg"
@@ -229,7 +355,7 @@ const page = () => {
                   product work, and security.
                 </p>
               </div>
-              <div className="sc-894cd513-6 INJSK">
+              <div className="sc-894cd513-6 INJSK scrolled">
                 <p className="sc-894cd513-3 gRrwkH">
                   <img
                     src="/tree.a83eac78.svg"
@@ -243,7 +369,7 @@ const page = () => {
                   work effectively.
                 </p>
               </div>
-              <div className="sc-894cd513-6 kIwcdg">
+              <div className="sc-894cd513-6 kIwcdg scrolled">
                 <p className="sc-894cd513-3 gRrwkH">
                   <img
                     src="/window.f58ef68b.svg"
@@ -261,7 +387,125 @@ const page = () => {
           </section>
           <section className="sc-58d9d2ec-0 ioUDnW">
             <h2 className="sc-58d9d2ec-3 loOham">CGS-team provides</h2>
-            <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined"></div>
+            <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined">
+              <div
+                className="rfm-marquee-container"
+                style={{
+                  "--pause-on-hover": "running",
+                  "--pause-on-click": "running",
+                  "--width": "100%",
+                  "--transform": "none",
+                }}
+              >
+                <div
+                  className="rfm-marquee"
+                  style={{
+                    "--play": "running",
+                    "--direction": "reverse",
+                    "--duration": "195.88875s",
+                    "--delay": "0s",
+                    "--iteration-count": "infinite",
+                    "--min-width": "100%",
+                  }}
+                >
+                  <div className="rfm-initial-child-container">
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        CGS-team provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        CGS-team provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                    <div
+                      className="rfm-child"
+                      style={{ "--transform": "none" }}
+                    >
+                      <span>
+                        CGS-team provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;CGS-team
+                        provides&nbsp;&nbsp;&nbsp;
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="rfm-marquee"
+                  style={{
+                    "--play": "running",
+                    "--direction": "reverse",
+                    "--duration": "195.88875s",
+                    "--delay": "0s",
+                    "--iteration-count": "infinite",
+                    "--min-width": "100%",
+                  }}
+                >
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      CGS-team provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      CGS-team provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      CGS-team provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;CGS-team
+                      provides&nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="sc-58d9d2ec-7 iKLQNW">
               <div className="sc-58d9d2ec-1 lmAHLG">
                 <div>
@@ -430,7 +674,116 @@ const page = () => {
           </section>
         </div>
         <div className="sc-5a7692cf-5 cCxVsS">
-          <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined"></div>
+          <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined">
+            <div
+              className="rfm-marquee-container"
+              style={{
+                "--pause-on-hover": "running",
+                "--pause-on-click": "running",
+                "--width": "100%",
+                "--transform": "none",
+              }}
+            >
+              <div
+                className="rfm-marquee"
+                style={{
+                  "--play": "running",
+                  "--direction": "reverse",
+                  "--duration": "195.88875s",
+                  "--delay": "0s",
+                  "--iteration-count": "infinite",
+                  "--min-width": "100%",
+                }}
+              >
+                <div className="rfm-initial-child-container">
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      Why you'll enjoy our cooperation &nbsp;&nbsp;&nbsp;Why
+                      you'll enjoy our cooperation &nbsp;&nbsp;&nbsp;Why you'll
+                      enjoy our cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy
+                      our cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                      cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                      cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                      cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                      cooperation &nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      Why you'll enjoy our cooperation &nbsp;&nbsp;&nbsp;Why
+                      you'll enjoy our cooperation &nbsp;&nbsp;&nbsp;Why you'll
+                      enjoy our cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy
+                      our cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                      cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                      cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                      cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                      cooperation &nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      Why you'll enjoy our cooperation &nbsp;&nbsp;&nbsp;Why
+                      you'll enjoy our cooperation &nbsp;&nbsp;&nbsp;Why you'll
+                      enjoy our cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy
+                      our cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                      cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                      cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                      cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                      cooperation &nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="rfm-marquee"
+                style={{
+                  "--play": "running",
+                  "--direction": "reverse",
+                  "--duration": "195.88875s",
+                  "--delay": "0s",
+                  "--iteration-count": "infinite",
+                  "--min-width": "100%",
+                }}
+              >
+                <div className="rfm-child" style={{ "--transform": "none" }}>
+                  <span>
+                    Why you'll enjoy our cooperation &nbsp;&nbsp;&nbsp;Why
+                    you'll enjoy our cooperation &nbsp;&nbsp;&nbsp;Why you'll
+                    enjoy our cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                    cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                    cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                    cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                    cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                    cooperation &nbsp;&nbsp;&nbsp;
+                  </span>
+                </div>
+                <div className="rfm-child" style={{ "--transform": "none" }}>
+                  <span>
+                    Why you'll enjoy our cooperation &nbsp;&nbsp;&nbsp;Why
+                    you'll enjoy our cooperation &nbsp;&nbsp;&nbsp;Why you'll
+                    enjoy our cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                    cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                    cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                    cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                    cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                    cooperation &nbsp;&nbsp;&nbsp;
+                  </span>
+                </div>
+                <div className="rfm-child" style={{ "--transform": "none" }}>
+                  <span>
+                    Why you'll enjoy our cooperation &nbsp;&nbsp;&nbsp;Why
+                    you'll enjoy our cooperation &nbsp;&nbsp;&nbsp;Why you'll
+                    enjoy our cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                    cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                    cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                    cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                    cooperation &nbsp;&nbsp;&nbsp;Why you'll enjoy our
+                    cooperation &nbsp;&nbsp;&nbsp;
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="sc-5a7692cf-0 vhnOC">
           <h2 className="sc-5a7692cf-1 gIbzGb">
@@ -438,185 +791,61 @@ const page = () => {
           </h2>
           <div className="sc-5a7692cf-2 kuREUo">
             <div className="sc-5a7692cf-3 lcvwtP">
-              <ul className="sc-5a7692cf-4 gvLImH">
-                <li className="sc-4ce44efc-0 ZgUaG">
-                  <div className="sc-4ce44efc-1 hQfXWC card-content">
-                    <div
-                      id="react-collapsed-toggle-"
-                      aria-controls="react-collapsed-panel-"
-                      aria-expanded="false"
-                      type="button"
-                      role="button"
-                      tabIndex="0"
-                      className="sc-4ce44efc-2 jezTAc"
-                    >
-                      <p className="sc-4ce44efc-3 eAYeUm">Everything covered</p>
-                      <div className="sc-4ce44efc-4 jbyEwf arrowContainer">
-                        <svg
-                          width="36"
-                          height="36"
-                          viewBox="0 0 36 36"
-                          fill="currentColor"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            clipRule="evenodd"
-                            d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
-                          ></path>
-                          <path
-                            fillRule="evenodd"
-                            clipRule="evenodd"
-                            d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </div>
-                    <div
-                      id="react-collapsed-panel-"
-                      aria-hidden="true"
-                      role="region"
-                      style={{
-                        boxSizing: "border-box",
-                        display: "none",
-                        height: "0px",
-                        overflow: "hidden",
-                      }}
-                    >
-                      <p className="sc-4ce44efc-5 iQHYYZ">
-                        <section>
-                          <span>
-                            Our team leads you from the idea to the business
+              {typeof window !== "undefined" && window.innerWidth > 768 ? (
+                <>
+                  <ul className="sc-5a7692cf-4 gvLImH">
+                    <ItSupportListExpandCollapseSection
+                      heading="Everything covered"
+                      description="Our team leads you from the idea to the business
                             results. CGS-team provides all you need for success,
                             from deep research, analytics, and business logic to
-                            design, development, and testing.
-                          </span>
-                        </section>
-                      </p>
-                    </div>
-                  </div>
-                </li>
-                <li className="sc-4ce44efc-0 ZgUaG">
-                  <div className="sc-4ce44efc-1 hQfXWC card-content">
-                    <div
-                      id="react-collapsed-toggle-"
-                      aria-controls="react-collapsed-panel-"
-                      aria-expanded="false"
-                      type="button"
-                      role="button"
-                      tabIndex="0"
-                      className="sc-4ce44efc-2 jezTAc"
-                    >
-                      <p className="sc-4ce44efc-3 eAYeUm">
-                        Selected profs among profs
-                      </p>
-                      <div className="sc-4ce44efc-4 jbyEwf arrowContainer">
-                        <svg
-                          width="36"
-                          height="36"
-                          viewBox="0 0 36 36"
-                          fill="currentColor"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            clipRule="evenodd"
-                            d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
-                          ></path>
-                          <path
-                            fillRule="evenodd"
-                            clipRule="evenodd"
-                            d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </div>
-                    <div
-                      id="react-collapsed-panel-"
-                      aria-hidden="true"
-                      role="region"
-                      style={{
-                        boxSizing: "border-box",
-                        display: "none",
-                        height: "0px",
-                        overflow: "hidden",
-                      }}
-                    >
-                      <p className="sc-4ce44efc-5 iQHYYZ">
-                        <section>
-                          <span>
-                            We are highly selective when it comes to choosing
+                            design, development, and testing."
+                    />
+                    <ItSupportListExpandCollapseSection
+                      heading="Selected profs among profs"
+                      description="We are highly selective when it comes to choosing
                             candidates. Every specialist properly passed our
                             complex 5-step hiring process and a success vibe
-                            check.
-                          </span>
-                        </section>
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-              <ul className="sc-5a7692cf-4 gvLImH">
-                <li className="sc-4ce44efc-0 ZgUaG">
-                  <div className="sc-4ce44efc-1 hQfXWC card-content">
-                    <div
-                      id="react-collapsed-toggle-"
-                      aria-controls="react-collapsed-panel-"
-                      aria-expanded="false"
-                      type="button"
-                      role="button"
-                      tabIndex="0"
-                      className="sc-4ce44efc-2 jezTAc"
-                    >
-                      <p className="sc-4ce44efc-3 eAYeUm">
-                        Communication as a key
-                      </p>
-                      <div className="sc-4ce44efc-4 jbyEwf arrowContainer">
-                        <svg
-                          width="36"
-                          height="36"
-                          viewBox="0 0 36 36"
-                          fill="currentColor"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            clipRule="evenodd"
-                            d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
-                          ></path>
-                          <path
-                            fillRule="evenodd"
-                            clipRule="evenodd"
-                            d="M24.4151 11.53L24.6177 26.1001L24.5995 26.1003L24.5997 26.1185L9.35174 26.2827L9.32314 24.1957L21.0288 24.0697L9.79799 13.1179L11.2537 11.626L22.4806 22.574L22.3275 11.5529L24.4151 11.53Z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </div>
-                    <div
-                      id="react-collapsed-panel-"
-                      aria-hidden="true"
-                      role="region"
-                      style={{
-                        boxSizing: "border-box",
-                        display: "none",
-                        height: "0px",
-                        overflow: "hidden",
-                      }}
-                    >
-                      <p className="sc-4ce44efc-5 iQHYYZ">
-                        <section>
-                          <span>
-                            We value effective communication and timely
-                            feedback. Our team achieves it via regular meetings,
-                            which include check-ins, team calls, demos, and
-                            retrospectives.
-                          </span>
-                        </section>
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
+                            check."
+                    />
+                  </ul>
+                  <ul className="sc-5a7692cf-4 gvLImH">
+                    <ItSupportListExpandCollapseSection
+                      heading="Communication as a key"
+                      description="We value effective communication and timely
+                  feedback. Our team achieves it via regular meetings,
+                  which include check-ins, team calls, demos, and
+                  retrospectives."
+                    />
+                  </ul>
+                </>
+              ) : (
+                <>
+                  <ul className="sc-5a7692cf-4 gvLImH">
+                    <ItSupportListExpandCollapseSection
+                      heading="Everything covered"
+                      description="Our team leads you from the idea to the business
+                            results. CGS-team provides all you need for success,
+                            from deep research, analytics, and business logic to
+                            design, development, and testing."
+                    />
+                    <ItSupportListExpandCollapseSection
+                      heading="Communication as a key"
+                      description="We value effective communication and timely
+                  feedback. Our team achieves it via regular meetings,
+                  which include check-ins, team calls, demos, and
+                  retrospectives."
+                    />
+                    <ItSupportListExpandCollapseSection
+                      heading="Selected profs among profs"
+                      description="We are highly selective when it comes to choosing
+                            candidates. Every specialist properly passed our
+                            complex 5-step hiring process and a success vibe
+                            check."
+                    />
+                  </ul>
+                </>
+              )}
             </div>
           </div>
         </div>
@@ -624,7 +853,101 @@ const page = () => {
 
       <article className="sc-35eecbae-0 ePlPpE">
         <div className="sc-414beb2f-3 kuXCgN supportTeam">
-          <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined"></div>
+          <div className="sc-c8f2fdbc-0 hqeQTU undefined undefined">
+            <div
+              className="rfm-marquee-container"
+              style={{
+                "--pause-on-hover": "running",
+                "--pause-on-click": "running",
+                "--width": "100%",
+                "--transform": "none",
+              }}
+            >
+              <div
+                className="rfm-marquee"
+                style={{
+                  "--play": "running",
+                  "--direction": "reverse",
+                  "--duration": "195.88875s",
+                  "--delay": "0s",
+                  "--iteration-count": "infinite",
+                  "--min-width": "100%",
+                }}
+              >
+                <div className="rfm-initial-child-container">
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                      YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                      YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                      YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                      YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                  <div className="rfm-child" style={{ "--transform": "none" }}>
+                    <span>
+                      MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                      YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                      YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                      TEAM&nbsp;&nbsp;&nbsp;
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="rfm-marquee"
+                style={{
+                  "--play": "running",
+                  "--direction": "reverse",
+                  "--duration": "195.88875s",
+                  "--delay": "0s",
+                  "--iteration-count": "infinite",
+                  "--min-width": "100%",
+                }}
+              >
+                <div className="rfm-child" style={{ "--transform": "none" }}>
+                  <span>
+                    MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                    TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                    YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                    TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                    YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;
+                  </span>
+                </div>
+                <div className="rfm-child" style={{ "--transform": "none" }}>
+                  <span>
+                    MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                    TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                    YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                    TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                    YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;
+                  </span>
+                </div>
+                <div className="rfm-child" style={{ "--transform": "none" }}>
+                  <span>
+                    MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                    TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                    YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR
+                    TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;MEET
+                    YOUR TEAM&nbsp;&nbsp;&nbsp;MEET YOUR TEAM&nbsp;&nbsp;&nbsp;
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="sc-414beb2f-0 bKutcs supportTeam">
           <div className="sc-414beb2f-1 lfXoCJ">
