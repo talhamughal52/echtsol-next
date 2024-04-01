@@ -277,7 +277,7 @@ function page() {
                       style={{
                         "--play": "running",
                         "--direction": "reverse",
-                        "--duration": "39.855s",
+                        "--duration": "68.85s",
                         "--delay": "0s",
                         "--iteration-count": "infinite",
                         "--min-width": "100%",
@@ -315,7 +315,7 @@ function page() {
                       style={{
                         "--play": "running",
                         "--direction": "reverse",
-                        "--duration": "39.855s",
+                        "--duration": "68.85s",
                         "--delay": "0s",
                         "--iteration-count": "infinite",
                         "--min-width": "100%",
@@ -556,7 +556,7 @@ function page() {
                   style={{
                     "--play": "running",
                     "--direction": "reverse",
-                    "--duration": "39.855s",
+                    "--duration": "125.4375s",
                     "--delay": "0s",
                     "--iteration-count": "infinite",
                     "--min-width": "100%",
@@ -612,7 +612,7 @@ function page() {
                   style={{
                     "--play": "running",
                     "--direction": "reverse",
-                    "--duration": "39.855s",
+                    "--duration": "125.4375s",
                     "--delay": "0s",
                     "--iteration-count": "infinite",
                     "--min-width": "100%",
@@ -707,7 +707,7 @@ function page() {
                     style={{
                       "--play": "running",
                       "--direction": "reverse",
-                      "--duration": "39.855s",
+                      "--duration": "240.88875s",
                       "--delay": "0s",
                       "--iteration-count": "infinite",
                       "--min-width": "100%",
@@ -769,7 +769,7 @@ function page() {
                     style={{
                       "--play": "running",
                       "--direction": "reverse",
-                      "--duration": "39.855s",
+                      "--duration": "240.88875s",
                       "--delay": "0s",
                       "--iteration-count": "infinite",
                       "--min-width": "100%",
