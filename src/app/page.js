@@ -1,5 +1,5 @@
 import Technologies from "@/components/Technologies";
-import "@/css/custom.css";
+import "@/css/home.css";
 
 export default function page() {
   return (
