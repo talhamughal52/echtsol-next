@@ -1,7 +1,23 @@
+"use client";
+import { useState, useEffect } from "react";
 import Technologies from "@/components/Technologies";
 import "@/css/home.css";
 
 export default function page() {
+  const [render, setRender] = useState(false);
+  const checkWindowSize = () => {
+    setRender(Math.random());
+  };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      checkWindowSize();
+      window.addEventListener("resize", checkWindowSize);
+      return () => {
+        window.removeEventListener("resize", checkWindowSize);
+      };
+    }
+  }, []);
   return (
     <article className="sc-6b8ccf62-1 ficMTi">
       <article className="sc-6b8ccf62-0 gSVfZX">
@@ -15,119 +31,130 @@ export default function page() {
                     SOFTWARE DEVELOPMENT PARTNER 
                   </span>
                   <span className="sc-b04aac69-0 cUWUCn">
-                    <span className="sc-b04aac69-1 bUKRQY">
-                      <span
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          overflow: "hidden",
-                          width: "initial",
-                          height: "initial",
-                          background: "none",
-                          opacity: 1,
-                          border: 0,
-                          margin: 0,
-                          padding: 0,
-                          position: "absolute",
-                          top: 0,
-                          left: 0,
-                          bottom: 0,
-                          right: 0,
-                        }}
-                      >
-                        <img
-                          alt="wide tech long arrow"
-                          sizes="100vw"
-                          srcSet="/larr.22e192cd.svg 640w, /larr.22e192cd.svg 750w, /larr.22e192cd.svg 828w, /larr.22e192cd.svg 1080w, /larr.22e192cd.svg 1200w, /larr.22e192cd.svg 1920w, /larr.22e192cd.svg 2048w, /larr.22e192cd.svg 3840w"
-                          src="/larr.22e192cd.svg"
-                          decoding="async"
-                          data-nimg="fill"
-                          style={{
-                            position: "absolute",
-                            top: 0,
-                            left: 0,
-                            bottom: 0,
-                            right: 0,
-                            boxSizing: "border-box",
-                            padding: 0,
-                            border: "none",
-                            margin: "auto",
-                            display: "block",
-                            width: 0,
-                            height: 0,
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
-                            objectFit: "cover",
-                            objectPosition: "left",
-                          }}
-                        />
-                      </span>
-                    </span>
-                    <span className="sc-b04aac69-2 fJkMgE"></span>
+                    {typeof window !== "undefined" &&
+                    window.innerWidth > 393 ? (
+                      <>
+                        <span className="sc-b04aac69-1 bUKRQY">
+                          <span
+                            style={{
+                              boxSizing: "border-box",
+                              display: "block",
+                              overflow: "hidden",
+                              width: "initial",
+                              height: "initial",
+                              background: "none",
+                              opacity: 1,
+                              border: 0,
+                              margin: 0,
+                              padding: 0,
+                              position: "absolute",
+                              top: 0,
+                              left: 0,
+                              bottom: 0,
+                              right: 0,
+                            }}
+                          >
+                            <img
+                              alt="wide tech long arrow"
+                              sizes="100vw"
+                              srcSet="/larr.22e192cd.svg 640w, /larr.22e192cd.svg 750w, /larr.22e192cd.svg 828w, /larr.22e192cd.svg 1080w, /larr.22e192cd.svg 1200w, /larr.22e192cd.svg 1920w, /larr.22e192cd.svg 2048w, /larr.22e192cd.svg 3840w"
+                              src="/larr.22e192cd.svg"
+                              decoding="async"
+                              data-nimg="fill"
+                              style={{
+                                position: "absolute",
+                                top: 0,
+                                left: 0,
+                                bottom: 0,
+                                right: 0,
+                                boxSizing: "border-box",
+                                padding: 0,
+                                border: "none",
+                                margin: "auto",
+                                display: "block",
+                                width: 0,
+                                height: 0,
+                                minWidth: "100%",
+                                maxWidth: "100%",
+                                minHeight: "100%",
+                                maxHeight: "100%",
+                                objectFit: "cover",
+                                objectPosition: "left",
+                              }}
+                            />
+                          </span>
+                        </span>
+                        <span className="sc-b04aac69-2 fJkMgE"></span>
+                      </>
+                    ) : null}
                   </span>
                   <br />
                 </p>
+
                 <p>
                   <span style={{ backgroundColor: "rgb(239, 238, 238)" }}>
-                    TODAY BRIEFED 
+                    TODAY BRIEFED&nbsp;
                   </span>
                   <span className="sc-b04aac69-0 cUWUCn">
-                    <span className="sc-b04aac69-1 gkXHdM">
-                      <span
-                        style={{
-                          boxSizing: "border-box",
-                          display: "block",
-                          overflow: "hidden",
-                          width: "initial",
-                          height: "initial",
-                          background: "none",
-                          opacity: 1,
-                          border: 0,
-                          margin: 0,
-                          padding: 0,
-                          position: "absolute",
-                          top: 0,
-                          left: 0,
-                          bottom: 0,
-                          right: 0,
-                        }}
-                      >
-                        <img
-                          alt="wide tech long arrow"
-                          sizes="100vw"
-                          srcSet="/rarr.72b1c879.svg 640w, /rarr.72b1c879.svg 750w, /rarr.72b1c879.svg 828w, /rarr.72b1c879.svg 1080w, /rarr.72b1c879.svg 1200w, /rarr.72b1c879.svg 1920w, /rarr.72b1c879.svg 2048w, /rarr.72b1c879.svg 3840w"
-                          src="/rarr.72b1c879.svg"
-                          decoding="async"
-                          data-nimg="fill"
-                          style={{
-                            position: "absolute",
-                            top: 0,
-                            left: 0,
-                            bottom: 0,
-                            right: 0,
-                            boxSizing: "border-box",
-                            padding: 0,
-                            border: "none",
-                            margin: "auto",
-                            display: "block",
-                            width: 0,
-                            height: 0,
-                            minWidth: "100%",
-                            maxWidth: "100%",
-                            minHeight: "100%",
-                            maxHeight: "100%",
-                            objectFit: "cover",
-                            objectPosition: "left",
-                          }}
-                        />
-                      </span>
-                    </span>
-                    <span className="sc-b04aac69-2 bwbyxc"></span>
+                    {typeof window !== "undefined" &&
+                    window.innerWidth > 370 ? (
+                      <>
+                        <span className="sc-b04aac69-1 gkXHdM">
+                          <span
+                            style={{
+                              boxSizing: "border-box",
+                              display: "block",
+                              overflow: "hidden",
+                              width: "initial",
+                              height: "initial",
+                              background: "none",
+                              opacity: 1,
+                              border: 0,
+                              margin: 0,
+                              padding: 0,
+                              position: "absolute",
+                              top: 0,
+                              left: 0,
+                              bottom: 0,
+                              right: 0,
+                            }}
+                          >
+                            <img
+                              alt="wide tech long arrow"
+                              sizes="100vw"
+                              srcSet="/rarr.72b1c879.svg  640w, /rarr.72b1c879.svg  750w, /rarr.72b1c879.svg  828w, /rarr.72b1c879.svg 1080w, /rarr.72b1c879.svg 1200w, /rarr.72b1c879.svg 1920w, /rarr.72b1c879.svg 2048w, /rarr.72b1c879.svg 3840w "
+                              src="/rarr.72b1c879.svg"
+                              decoding="async"
+                              data-nimg="fill"
+                              style={{
+                                position: "absolute",
+                                top: 0,
+                                left: 0,
+                                bottom: 0,
+                                right: 0,
+                                boxSizing: "border-box",
+                                padding: 0,
+                                border: "none",
+                                margin: "auto",
+                                display: "block",
+                                width: 0,
+                                height: 0,
+                                minWidth: "100%",
+                                maxWidth: "100%",
+                                minHeight: "100%",
+                                maxHeight: "100%",
+                                objectFit: "cover",
+                                objectPosition: "right",
+                              }}
+                            />
+                          </span>
+                        </span>
+                        <span className="sc-b04aac69-2 bwbyxc"></span>
+                      </>
+                    ) : null}
                   </span>
                   <span style={{ backgroundColor: "rgb(239, 238, 238)" }}>
-                     
+                    &nbsp;
                     <span style={{ backgroundColor: "rgb(239, 238, 238)" }}>
                       YESTERDAY
                     </span>{" "}
@@ -1208,43 +1235,146 @@ export default function page() {
               </svg>
             </div>
           </section>
-          <section className="sc-c8e937f7-10 dXXSoT">
-            <div className="sc-c8e937f7-9 ijLnTh nextTech">
-              <p>
-                THE NEXT-GEN <u>DEVELOPMENT:</u> WEB, MOBILE, 
-                <span className="blue">
-                  <span>BLOCKCHAIN</span>
-                </span>
-                <span style={{ backgroundColor: "transparent" }}>​</span>
-              </p>
-            </div>
-            <div className="sc-6a61fad8-0 deIzlZ">
-              <div className="sc-6a61fad8-1 eaxnHa visibleText">
-                <img
-                  src="/projectorIcon.bac14f94.svg"
-                  className="sc-6a61fad8-5 kFbZvb visibleText"
-                  alt="camera"
-                />
-                <div className="sc-6a61fad8-9 JaHhS newScreen">
-                  <img
-                    src="/light.549f61f6.svg"
-                    alt="light"
-                    className="sc-6a61fad8-10 iCdLbE addOpacity"
-                  />
-                  <div className="sc-6a61fad8-6 jOXXhc screenNew">
-                    <div className="sc-6a61fad8-2 jnJlgn">
-                      <div className="sc-6a61fad8-3 KyWQs">
+
+          {typeof window !== "undefined" && window.innerWidth > 768 ? (
+            <>
+              <section className="sc-c8e937f7-10 dXXSoT">
+                <div className="sc-c8e937f7-9 ijLnTh nextTech">
+                  <p>
+                    THE NEXT-GEN <u>DEVELOPMENT:</u> WEB, MOBILE, 
+                    <span className="blue">
+                      <span>BLOCKCHAIN</span>
+                    </span>
+                    <span style={{ backgroundColor: "transparent" }}>​</span>
+                  </p>
+                </div>
+                <div className="sc-6a61fad8-0 deIzlZ">
+                  <div className="sc-6a61fad8-1 eaxnHa visibleText">
+                    <img
+                      src="/projectorIcon.bac14f94.svg"
+                      className="sc-6a61fad8-5 kFbZvb visibleText"
+                      alt="camera"
+                    />
+                    <div className="sc-6a61fad8-9 JaHhS newScreen">
+                      <img
+                        src="/light.549f61f6.svg"
+                        alt="light"
+                        className="sc-6a61fad8-10 iCdLbE addOpacity"
+                      />
+                      <div className="sc-6a61fad8-6 jOXXhc screenNew">
+                        <div className="sc-6a61fad8-2 jnJlgn">
+                          <div className="sc-6a61fad8-3 KyWQs">
+                            Boosting startups at all stages of growth.
+                          </div>
+                          <div className="sc-6a61fad8-4 gATyma">
+                            Partners that specifically handle blockchain and
+                            classic development for startups’ MVPs and
+                            production versions.
+                          </div>
+                          <img
+                            src="/cliperOpen.637a3580.svg"
+                            alt="clipper"
+                            className="sc-6a61fad8-14 dOWrEb hide"
+                          />
+                          <a
+                            rel="noopener noreferrer"
+                            className="sc-c8e937f7-1 bgQEYS homePage homePageProject projectorBtn"
+                            href="/"
+                            style={{ textTransform: "uppercase" }}
+                          >
+                            Develop with us
+                            <div className="sc-c8e937f7-14 eaEwWv">
+                              <svg
+                                viewBox="5 5 25 25"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                aria-label="an arrow"
+                                style={{ pointerEvents: "none" }}
+                              >
+                                <path
+                                  fillRule="evenodd"
+                                  clipRule="evenodd"
+                                  d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
+                                  fill="black"
+                                ></path>
+                                <path
+                                  fillRule="evenodd"
+                                  clipRule="evenodd"
+                                  d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
+                                  fill="black"
+                                ></path>
+                                <title>an arrow</title>
+                              </svg>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="sc-c8e937f7-11 hIrTPH">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="sc-c8e937f7-1 iLGVvc seeAll"
+                    href="/"
+                  >
+                    SEE ALL WORK
+                    <div className="sc-c8e937f7-14 eaEwWv">
+                      <svg
+                        viewBox="5 5 25 25"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        aria-label="an arrow"
+                        style={{ pointerEvents: "none" }}
+                      >
+                        <path
+                          fillRule="evenodd"
+                          clipRule="evenodd"
+                          d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
+                          fill="black"
+                        ></path>
+                        <path
+                          fillRule="evenodd"
+                          clipRule="evenodd"
+                          d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
+                          fill="black"
+                        ></path>
+                        <title>an arrow</title>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </section>
+            </>
+          ) : (
+            <>
+              <section className="sc-1bbf9545-2 jXwOsd">
+                <div className="sc-1bbf9545-1 esJTzT techMobile">
+                  <p>
+                    THE NEXT-GEN <u>DEVELOPMENT:</u> WEB, MOBILE,&nbsp;
+                    <span className="blue nextTechMobile">
+                      <span>BLOCKCHAIN</span>
+                    </span>
+                    <span style={{ backgroundColor: "transparent" }}>​</span>
+                  </p>
+                </div>
+                {/* <div className="sc-a52f28fe-0 hnrMyD">
+                  <div className="sc-a52f28fe-11 iWMpVD">
+                    <div className="sc-a52f28fe-2 dWnMyx">
+                      <div className="sc-a52f28fe-3 eHZmga">
                         Boosting startups at all stages of growth.
                       </div>
-                      <div className="sc-6a61fad8-4 gATyma">
+                      <div className="sc-a52f28fe-4 hqltmY">
                         Partners that specifically handle blockchain and classic
                         development for startups’ MVPs and production versions.
                       </div>
                       <img
                         src="/cliperOpen.637a3580.svg"
                         alt="clipper"
-                        className="sc-6a61fad8-14 dOWrEb hide"
+                        className="sc-a52f28fe-14 eLZZzh hide"
                       />
+
                       <a
                         rel="noopener noreferrer"
                         className="sc-c8e937f7-1 bgQEYS homePage homePageProject projectorBtn"
@@ -1261,14 +1391,14 @@ export default function page() {
                             style={{ pointerEvents: "none" }}
                           >
                             <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
+                              fillRule="evenodd"
+                              clipRule="evenodd"
                               d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
                               fill="black"
                             ></path>
                             <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
+                              fillRule="evenodd"
+                              clipRule="evenodd"
                               d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
                               fill="black"
                             ></path>
@@ -1277,44 +1407,108 @@ export default function page() {
                         </div>
                       </a>
                     </div>
+                    <img
+                      src="/projectorIcon.bac14f94.svg"
+                      alt="mobile camera"
+                      className="sc-a52f28fe-12 tolbU"
+                    />
+                  </div>
+                </div> */}
+
+                <div className="sc-1bbf9545-3 esCVdI">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="sc-1bbf9545-0 kTVORI seeAll"
+                    href="/portfolio"
+                  >
+                    SEE ALL WORK
+                    <span className="sc-bc438cb0-14 hBPKMq">
+                      <svg
+                        viewBox="5 5 25 25"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        aria-label="an arrow"
+                        style={{ pointerEvents: "none" }}
+                      >
+                        <path
+                          fillRule="evenodd"
+                          clipRule="evenodd"
+                          d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
+                          fill="black"
+                        ></path>
+                        <path
+                          fillRule="evenodd"
+                          clipRule="evenodd"
+                          d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
+                          fill="black"
+                        ></path>
+                        <title>an arrow</title>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+
+                <div className="sc-6a61fad8-0 deIzlZ">
+                  <div className="sc-6a61fad8-1 iWMpVD">
+                    <div className="sc-6a61fad8-9 dWnMyx ">
+                      <div className="sc-6a61fad8-3 eHZmga">
+                        Boosting startups at all stages of growth.
+                      </div>
+
+                      <div className="sc-6a61fad8-4 hqltmY">
+                        Partners that specifically handle blockchain and classic
+                        development for startups’ MVPs and production versions.
+                      </div>
+
+                      <img
+                        src="/cliperOpen.637a3580.svg"
+                        alt="clipper"
+                        className="sc-6a61fad8-14 dOWrEb hide"
+                      />
+
+                      <a
+                        rel="noopener noreferrer"
+                        className="sc-c8e937f7-1 bgQEYS homePage homePageProject projectorBtn"
+                        href="/"
+                        style={{ textTransform: "uppercase" }}
+                      >
+                        Develop with us
+                        <div className="sc-c8e937f7-14 eaEwWv">
+                          <svg
+                            viewBox="5 5 25 25"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-label="an arrow"
+                            style={{ pointerEvents: "none" }}
+                          >
+                            <path
+                              fillRule="evenodd"
+                              clipRule="evenodd"
+                              d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
+                              fill="black"
+                            ></path>
+                            <path
+                              fillRule="evenodd"
+                              clipRule="evenodd"
+                              d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
+                              fill="black"
+                            ></path>
+                            <title>an arrow</title>
+                          </svg>
+                        </div>
+                      </a>
+                    </div>
+                    <img
+                      src="/mobileCamera.d2d9a643.svg"
+                      className="tolbU"
+                      alt="camera"
+                    />
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="sc-c8e937f7-11 hIrTPH">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                className="sc-c8e937f7-1 iLGVvc seeAll"
-                href="/"
-              >
-                SEE ALL WORK
-                <div className="sc-c8e937f7-14 eaEwWv">
-                  <svg
-                    viewBox="5 5 25 25"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-label="an arrow"
-                    style={{ pointerEvents: "none" }}
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
-                      fill="black"
-                    ></path>
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M12.4984 13.1572L22.6922 13.0305L22.6924 13.0432L22.7051 13.0431L22.8356 23.7076L21.3754 23.7255L21.2753 15.5384L13.6243 23.3821L12.579 22.3624L20.2273 14.5215L12.5166 14.6174L12.4984 13.1572Z"
-                      fill="black"
-                    ></path>
-                    <title>an arrow</title>
-                  </svg>
-                </div>
-              </a>
-            </div>
-          </section>
+              </section>
+            </>
+          )}
         </div>
       </article>
       <article className="sc-6b8ccf62-0 gSVfZX">
